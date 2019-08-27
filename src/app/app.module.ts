@@ -11,6 +11,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
+import { MatTableModule } from '@angular/material/table';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
@@ -28,6 +29,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     MatCardModule,
     MatSelectModule,
     MatRadioModule,
+    MatTableModule,
     AppRoutingModule
   ],
   providers: [],

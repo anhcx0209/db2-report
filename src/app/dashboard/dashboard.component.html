@@ -34,7 +34,7 @@
                         </div>
                     </mat-card>
                     <!-- End of Text Filtering Area -->
-                    <div class="flex-spacer"></div>
+                    
                     <!-- Additional filtering
                     - Ratio of reads/writes -->
                     <mat-card class="mat-elevation-z3" fxFlex="50%">
@@ -50,9 +50,18 @@
                     <mat-card class="mat-elevation-z3" fxFlex="50%">
                         <h3>Graph</h3>
                     </mat-card>
-
+                    
                     <mat-card class="mat-elevation-z3" fxFlex="50%">
                         <h3>Table</h3>
+                        <table mat-table [dataSource]="dataArray">
+                            <ng-container matColumnDef="col1">
+                                <th mat-header-cell *matHeaderCellRef> Col 1 </th>
+                                <td mat-cell *matCellRef="let obj"> {{ obj.col1 }} </td>
+                            </ng-container>
+
+                            <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+                            <tr mat-row *matRowDef="let row; columns: columnsToDisplay"></tr>
+                        </table>
                     </mat-card>
                 </div>
                 <div>info</div>
