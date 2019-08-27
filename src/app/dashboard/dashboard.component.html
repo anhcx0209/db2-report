@@ -1,0 +1,62 @@
+<mat-tab-group>
+    <mat-tab label="Dashboard name">
+        <div class="dashboard">
+            <div fxLayout="column" fxLayoutGap="24px">
+                <div fxLayout="row">
+                    <div>
+                        <h3>Placeholder Title for Dashboard</h3>
+                        <p>This is placeholder text for an overall page description or information highlight.</p>
+                    </div>
+                    <div>timepicker</div>
+                </div>
+                <div fxLayout="row" fxLayoutGap="24px">
+                    <!-- Text Filtering area
+                    Uniqueness of tables is defined by:
+                    server_id.ssid.schema.table
+                    So text based filtering should be able to select 1 or more server_id, then ssid, then schema.  
+                    Ideally from multiselect dropdowns
+                    Table name shoud be text filterable with wild cards -->
+                    <mat-card class="mat-elevation-z3" fxFlex="50%">
+                        <h3>Text Filtering area</h3>
+                        <div fxLayout="row" fxLayoutGap="20px">
+                            <mat-form-field>
+                                <mat-select placeholder="Filter title" multiple>
+                                    <mat-option *ngFor="let number of [1, 2, 3, 4, 5]" [value]="number">{{number}}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                            <mat-form-field>
+                                <mat-select placeholder="Filter title" multiple>
+                                    <mat-option *ngFor="let number of [1, 2, 3, 4, 5]" [value]="number">{{number}}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                    </mat-card>
+                    <!-- End of Text Filtering Area -->
+                    <div class="flex-spacer"></div>
+                    <!-- Additional filtering
+                    - Ratio of reads/writes -->
+                    <mat-card class="mat-elevation-z3" fxFlex="50%">
+                        <h3>Additional filtering</h3>
+                        <mat-radio-group fxLayout="column" fxLayoutGap="15px">
+                            <mat-radio-button class="example-radio-button" *ngFor="let season of [1, 2, 3]" [value]="season">
+                                {{season}}
+                            </mat-radio-button>
+                        </mat-radio-group>
+                    </mat-card>
+                </div>
+                <div fxLayout="row" fxLayoutGap="24px">
+                    <mat-card class="mat-elevation-z3" fxFlex="50%">
+                        <h3>Graph</h3>
+                    </mat-card>
+
+                    <mat-card class="mat-elevation-z3" fxFlex="50%">
+                        <h3>Table</h3>
+                    </mat-card>
+                </div>
+                <div>info</div>
+            </div>
+        </div>
+    </mat-tab>
+</mat-tab-group>
