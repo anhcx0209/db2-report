@@ -1,2 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.flex-spacer {
+  flex-grow: 1;
+}
+
+.dashboard {
+  padding: 0px 10px;
+}
+
+.navbar-header {
+  padding: 8px 16px;
+  background-color: #000;
+}
+
+.navbar-logo {
+  height: 18px;
+  margin-right: 10px;
+}
