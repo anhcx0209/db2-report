@@ -1,3 +1,4 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -13,12 +14,15 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatTableModule } from '@angular/material/table';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { OwlDateTimeModule, OwlNativeDateTimeModule } from 'ng-pick-datetime';
+import { SuperDatePickerComponent } from './super-date-picker/super-date-picker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    DashboardComponent
+    DashboardComponent,
+    SuperDatePickerComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +34,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     MatSelectModule,
     MatRadioModule,
     MatTableModule,
+    OwlDateTimeModule,
+    OwlNativeDateTimeModule,
     AppRoutingModule
   ],
   providers: [],
