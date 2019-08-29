@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { IbmService } from '../ibm.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-dashboard',
@@ -18,9 +20,16 @@ export class DashboardComponent implements OnInit {
 
   columnsToDisplay = ['col1', 'col2', 'col3'];
 
-  constructor() { }
+  $servernames: Observable<string[]>;
+  $ssids: Observable<string[]>;
+  $databases: Observable<string[]>;
+
+  constructor(private imbService: IbmService) { }
 
   ngOnInit() {
+    this.$servernames = this.imbService.getDB2ServerName();
+    this.$ssids = this.imbService.getDB2SSIDS();
+    this.$databases = this.imbService.getDB2Schemas();
   }
 
 }

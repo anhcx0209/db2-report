@@ -32,14 +32,20 @@
                         <h3>Text Filtering area</h3>
                         <div fxLayout="row" fxLayoutGap="20px">
                             <mat-form-field>
-                                <mat-select placeholder="Filter title" multiple>
-                                    <mat-option *ngFor="let number of [1, 2, 3, 4, 5]" [value]="number">{{number}}
+                                <mat-select placeholder="Server Name" multiple>
+                                    <mat-option *ngFor="let sn of $servernames | async" [value]="sn">{{sn}}
                                     </mat-option>
                                 </mat-select>
                             </mat-form-field>
                             <mat-form-field>
-                                <mat-select placeholder="Filter title" multiple>
-                                    <mat-option *ngFor="let number of [1, 2, 3, 4, 5]" [value]="number">{{number}}
+                                <mat-select placeholder="SSID" multiple>
+                                    <mat-option *ngFor="let ssid of $ssids | async" [value]="ssid">{{ssid}}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                            <mat-form-field>
+                                <mat-select placeholder="Database" multiple>
+                                    <mat-option *ngFor="let db of $databases | async" [value]="db">{{db}}
                                     </mat-option>
                                 </mat-select>
                             </mat-form-field>
