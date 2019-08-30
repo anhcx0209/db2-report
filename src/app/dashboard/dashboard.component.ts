@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { IbmService } from '../ibm.service';
 import { Observable } from 'rxjs';
+import * as moment from 'moment';
+declare var $: any;
+declare var daterangepicker: any;
 
 @Component({
   selector: 'app-dashboard',
@@ -30,6 +33,19 @@ export class DashboardComponent implements OnInit {
     this.$servernames = this.imbService.getDB2ServerName();
     this.$ssids = this.imbService.getDB2SSIDS();
     this.$databases = this.imbService.getDB2Schemas();
+    $(document).ready(() => {
+      $('input[name="dates"]').daterangepicker({
+        "timePicker": true,
+        ranges: {
+          '15 min ago': [moment().subtract(15, 'minutes'), moment()],
+          '1 hour ago': [moment().subtract(1, 'hours'), moment()],
+          'Yesterday to now': [moment().subtract(1, 'days'), moment()],
+        },
+        locale: {
+          format: 'YYYY-MM-DD-hh.mm.ss'
+        }    
+      });
+    });
   }
 
 }

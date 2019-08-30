@@ -7,29 +7,16 @@
                         <h3>Placeholder Title for Dashboard</h3>
                         <p>This is placeholder text for an overall page description or information highlight.</p>
                     </div>
-                    <div fxFlex="50%">
-                        <label>
-                            From:
-                            <input [owlDateTimeTrigger]="dtfrom" [owlDateTime]="dtfrom">
-                            <owl-date-time #dtfrom></owl-date-time>
-                        </label>
-
-                        <label>
-                            To:
-                            <input [owlDateTimeTrigger]="dtto" [owlDateTime]="dtto">
-                            <owl-date-time #dtto></owl-date-time>
-                        </label>
+                    <div fxFlex="50%" fxLayout="column">
+                        <mat-form-field fxFlex="50%">
+                            <input matInput placeholder="Time range" name="dates">
+                        </mat-form-field>
+                        <div class="flex-spacer"></div>
                     </div>
                 </div>
-                <div fxLayout="row" fxLayoutGap="24px">
-                    <!-- Text Filtering area
-                    Uniqueness of tables is defined by:
-                    server_id.ssid.schema.table
-                    So text based filtering should be able to select 1 or more server_id, then ssid, then schema.  
-                    Ideally from multiselect dropdowns
-                    Table name shoud be text filterable with wild cards -->
+                <div fxLayout="row" fxLayoutGap="24px">                    
                     <mat-card class="mat-elevation-z3" fxFlex="50%">
-                        <h3>Text Filtering area</h3>
+                        <h3>Database</h3>
                         <div fxLayout="row" fxLayoutGap="20px">
                             <mat-form-field>
                                 <mat-select placeholder="Server Name" multiple>

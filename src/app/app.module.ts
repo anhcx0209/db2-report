@@ -14,8 +14,9 @@ import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatTableModule } from '@angular/material/table';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { OwlDateTimeModule, OwlNativeDateTimeModule } from 'ng-pick-datetime';
+import { MatInputModule } from '@angular/material/input';
 import { SuperDatePickerComponent } from './super-date-picker/super-date-picker.component';
 
 @NgModule({
@@ -30,13 +31,13 @@ import { SuperDatePickerComponent } from './super-date-picker/super-date-picker.
     BrowserAnimationsModule,
     FlexLayoutModule,
     MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule,
     MatTabsModule,
     MatCardModule,
     MatSelectModule,
     MatRadioModule,
     MatTableModule,
-    OwlDateTimeModule,
-    OwlNativeDateTimeModule,
     HttpClientModule,
     AppRoutingModule
   ],
