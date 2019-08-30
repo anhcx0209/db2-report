@@ -1,0 +1,30 @@
+{
+    "_source": [
+        "SMF127Time",
+        "RateReadsPerMinute",
+        "RateWritesPerMinute",
+        "FullName",
+        "IntervalInSeconds",
+        "TimestampCurrent"
+    ],
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "term": {
+                        "FullName.keyword": "DALLASB.DBBG.DPTEST.EMP"
+                    }
+                },
+                {
+                    "range": {
+                        "TimestampCurrent": {
+                            "gte": "2019-07-25-03.00.00.000000",
+                            "lte": "2019-07-25-10.00.00.000000"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "size": 1000
+}
