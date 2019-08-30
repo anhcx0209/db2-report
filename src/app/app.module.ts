@@ -17,7 +17,9 @@ import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatInputModule } from '@angular/material/input';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 import { SuperDatePickerComponent } from './super-date-picker/super-date-picker.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,9 +29,11 @@ import { SuperDatePickerComponent } from './super-date-picker/super-date-picker.
     SuperDatePickerComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule,    
     BrowserAnimationsModule,
+    FormsModule,
     FlexLayoutModule,
+    MatCheckboxModule,
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,

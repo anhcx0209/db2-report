@@ -23,11 +23,25 @@ export class DashboardComponent implements OnInit {
 
   dataArray: Array<Document> = [];
 
-  columnsToDisplay = ['server', 'ssid', 'schema', 'tablename', 'rps', 'wps'];
+  columnsToDisplay = [
+    'server',
+    'ssid',
+    'schema',
+    'tablename',
+    'rps',
+    'wps',
+    'rwRatio'
+  ];
+  showRwRatio: false;
+  modTimeFrame: false;
 
   $servernames: Observable<string[]>;
   $ssids: Observable<string[]>;
-  $databases: Observable<string[]>;
+  $schemas: Observable<string[]>;
+
+  selectedServers = [];
+  selectedSsids = [];
+  selectedSchemas = [];
 
   @ViewChild(MatTable, { static: true }) table0: MatTable<any>;
   @ViewChild('canvas0', { static: true }) canvas0: ElementRef;
@@ -87,6 +101,14 @@ export class DashboardComponent implements OnInit {
         y: value.write_per_min
       }
     });
+
+    const lineRatio = docs.map((value, index) => {
+      return {
+        x: value.x_time,
+        y: value.rwRatio
+      }
+    });
+    
     const chartData: any = {
       labels: labels,
       datasets: [
@@ -118,7 +140,21 @@ export class DashboardComponent implements OnInit {
           pointRadius: 1,
           pointHitRadius: 10,
           data: lineWrite,
-        }
+        },
+        {
+          label: 'Reads/Write Ratio',
+          fill: false,
+          lineTension: 0,
+          borderColor: '#ffea00',
+          pointBorderWidth: 1,
+          pointHoverRadius: 5,
+          pointHoverBackgroundColor: 'rgba(75,192,192,1)',
+          pointHoverBorderColor: 'rgba(220,220,220,1)',
+          pointHoverBorderWidth: 2,
+          pointRadius: 1,
+          pointHitRadius: 10,
+          data: lineRatio,
+        }    
       ]
     };
 
@@ -132,9 +168,20 @@ export class DashboardComponent implements OnInit {
   }
 
   fetchData() {
+    this.dataArray = [];
     var drp = $('#dtrange').data('daterangepicker');
     const tstart = drp.startDate.format('YYYY-MM-DD-hh.mm.0000');
     const tend = drp.endDate.format('YYYY-MM-DD-hh.mm.0000');
+    const tablesFarmily = [];
+    for (var i = 0; i < this.selectedServers.length; ++i) {
+      for (var j = 0; j < this.selectedSsids.length; ++j) {
+        for (var k = 0; k < this.selectedSchemas.length; ++k) {
+          const faimly = this.selectedServers[i] + this.selectedSsids[j] + this.selectedSchemas[k];
+          console.log(faimly);
+          tablesFarmily.push(faimly)
+        }
+      }
+    }
     // assume that we call function for each indentified table (1 fullname)
     this.imbService.fakeSearch().subscribe(
       val => {
@@ -159,7 +206,6 @@ export class DashboardComponent implements OnInit {
         });
         const tableSummary = new Document(tbName, sumRead, sumWrite);
         this.dataArray.push(tableSummary);
-
         this.table0.renderRows();
       }
     );

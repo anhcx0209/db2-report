@@ -35,4 +35,8 @@ export class Document {
     get wps() {
         return this.write_per_min / 60;
     }
+
+    get rwRatio() {
+        return this.read_per_min / this.write_per_min;
+    }
 }
