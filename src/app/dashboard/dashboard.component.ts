@@ -68,7 +68,7 @@ export class DashboardComponent implements OnInit {
   ngOnInit() {
     this.$servernames = this.imbService.getDB2ServerName();
     this.$ssids = this.imbService.getDB2SSIDS();
-    this.$databases = this.imbService.getDB2Schemas();
+    this.$schemas = this.imbService.getDB2Schemas();
     $(document).ready(() => {
       $('input[name="dates"]').daterangepicker({
         "timePicker": true,
