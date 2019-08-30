@@ -9,6 +9,11 @@ import Chart from 'chart.js';
 declare var $: any;
 declare var daterangepicker: any;
 
+interface Bucket {
+  name: string;
+  docs: Array<Document>;
+}
+
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -68,7 +73,7 @@ export class DashboardComponent implements OnInit {
   drawRaw(docs: Array<Document>) {
     const labels = docs.sort((a, b) => {
       return a.time_current.localeCompare(b.time_current);
-    }).map(value => {return value.time_current});
+    }).map(value => { return value.time_current });
 
     const lineRead = docs.map((value, index) => {
       return {
@@ -130,19 +135,31 @@ export class DashboardComponent implements OnInit {
     var drp = $('#dtrange').data('daterangepicker');
     const tstart = drp.startDate.format('YYYY-MM-DD-hh.mm.0000');
     const tend = drp.endDate.format('YYYY-MM-DD-hh.mm.0000');
-
+    // assume that we call function for each indentified table (1 fullname)
     this.imbService.fakeSearch().subscribe(
       val => {
-        val.forEach(item => {
-          console.log(item._source.TimestampCurrent);
-          const obj = new Document(item._source.FullName,
+        let tbName = '';
+        const tableLogs = val.map(item => {
+          tbName = item._source.FullName;
+          return new Document(item._source.FullName,
             parseFloat(item._source.RateReadsPerMinute),
             parseFloat(item._source.RateWritesPerMinute),
             item._source.TimestampCurrent
           );
-          this.dataArray.push(obj);
         });
-        this.drawRaw(this.dataArray);
+        this.drawRaw(tableLogs);
+
+        // cal
+
+        let sumRead = 0;
+        let sumWrite = 0;
+        tableLogs.forEach(element => {
+          sumRead += element.read_per_min;
+          sumWrite += element.write_per_min;
+        });
+        const tableSummary = new Document(tbName, sumRead, sumWrite);
+        this.dataArray.push(tableSummary);
+
         this.table0.renderRows();
       }
     );
