@@ -39,9 +39,9 @@ export class DashboardComponent implements OnInit {
   $ssids: Observable<string[]>;
   $schemas: Observable<string[]>;
 
-  selectedServers = [];
-  selectedSsids = [];
-  selectedSchemas = [];
+  selectedServers: Array<string> = [];
+  selectedSsids: Array<string> = [];
+  selectedSchemas: Array<string> = [];
 
   bucketArr: Array<Bucket> = [];
   selectedBucket = 0;
@@ -239,7 +239,13 @@ export class DashboardComponent implements OnInit {
             item._source.TimestampCurrent
           );
           return newItem;
+        }).filter(item2 => {
+          const ix1 = this.selectedServers.findIndex(item3 => item3 === item2.server);
+          const ix2 = this.selectedSsids.findIndex(item3 => item3 === item2.ssid);
+          const ix3 = this.selectedSchemas.findIndex(item3 => item3 === item2.schema);
+          return ix1 !== -1 && ix2 !== -1 && ix3 !== -1;
         });
+
         for (const tableLog of tableLogs) {
           const idx = this.bucketArr.findIndex((item) => item.name === tableLog.fullname);
           if (idx !== -1) {
@@ -252,19 +258,29 @@ export class DashboardComponent implements OnInit {
             this.bucketArr.push(bck);
           }
         }
-        this.drawRaw(this.bucketArr[0].docs);
-        this.bucketArr.forEach(item => {
-          let sumRead = 0;
-          let sumWrite = 0;
-          item.docs.forEach(element => {
-            sumRead += element.readPerMin;
-            sumWrite += element.writePerMin;
+
+        if (this.bucketArr.length > 0) {
+          this.drawRaw(this.bucketArr[0].docs);
+          this.bucketArr.forEach(item => {
+            let sumRead = 0;
+            let sumWrite = 0;
+            item.docs.forEach(element => {
+              sumRead += element.readPerMin;
+              sumWrite += element.writePerMin;
+            });
+            const splited = item.name.split('.');
+            const tableSummary = new Document(splited[0], splited[1], splited[2], splited[3], sumRead, sumWrite);
+            this.dataArray.push(tableSummary);
           });
-          const splited = item.name.split('.');
-          const tableSummary = new Document(splited[0], splited[1], splited[2], splited[3], sumRead, sumWrite);
-          this.dataArray.push(tableSummary);
-        });
-        this.table0.renderRows();
+          this.table0.renderRows();
+        } else {
+          this.chart.destroy();
+          const ctx0 = this.canvas0.nativeElement.getContext('2d');
+          ctx0.clearRect(0, 0, this.canvas0.nativeElement.width, this.canvas0.nativeElement.height);
+          this.dataArray = [];
+          this.table0.renderRows();
+        }
+
       }
     );
   }
