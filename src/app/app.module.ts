@@ -29,7 +29,7 @@ import { FormsModule } from '@angular/forms';
     SuperDatePickerComponent
   ],
   imports: [
-    BrowserModule,    
+    BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
     FlexLayoutModule,

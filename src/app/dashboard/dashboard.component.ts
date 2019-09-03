@@ -43,6 +43,8 @@ export class DashboardComponent implements OnInit {
   selectedSsids = [];
   selectedSchemas = [];
 
+  bucketArr: Array<Bucket> = [];
+
   @ViewChild(MatTable, { static: true }) table0: MatTable<any>;
   @ViewChild('canvas0', { static: true }) canvas0: ElementRef;
 
@@ -71,7 +73,7 @@ export class DashboardComponent implements OnInit {
     this.$schemas = this.imbService.getDB2Schemas();
     $(document).ready(() => {
       $('input[name="dates"]').daterangepicker({
-        "timePicker": true,
+        timePicker: true,
         ranges: {
           '15 min ago': [moment().subtract(15, 'minutes'), moment()],
           '1 hour ago': [moment().subtract(1, 'hours'), moment()],
@@ -86,27 +88,27 @@ export class DashboardComponent implements OnInit {
 
   drawRaw(docs: Array<Document>) {
     const labels = docs.sort((a, b) => {
-      return a.time_current.localeCompare(b.time_current);
-    }).map(value => { return value.time_current });
+      return a.timeCurrent.localeCompare(b.timeCurrent);
+    }).map(value => value.timeCurrent);
 
     const lineRead = docs.map((value, index) => {
       return {
-        x: value.x_time,
-        y: value.read_per_min
-      }
+        x: value.xTime,
+        y: value.readPerMin
+      };
     });
     const lineWrite = docs.map((value, index) => {
       return {
-        x: value.x_time,
-        y: value.write_per_min
-      }
+        x: value.xTime,
+        y: value.writePerMin
+      };
     });
 
     const lineRatio = docs.map((value, index) => {
       return {
-        x: value.x_time,
+        x: value.xTime,
         y: value.rwRatio
-      }
+      };
     });
 
     const chartData: any = {
@@ -167,23 +169,26 @@ export class DashboardComponent implements OnInit {
     return chart;
   }
 
+
+
   fetchData() {
     this.dataArray = [];
-    var drp = $('#dtrange').data('daterangepicker');
-    const tstart = drp.startDate.format('YYYY-MM-DD-hh.mm.000000');
-    const tend = drp.endDate.format('YYYY-MM-DD-hh.mm.000000');
+    const drp = $('#dtrange').data('daterangepicker');
+    const tstart = drp.startDate.format('YYYY-MM-DD-hh.mm.ss0000');
+    const tend = drp.endDate.format('YYYY-MM-DD-hh.mm.ss0000');
     console.log(tstart);
     console.log(tend);
-    const tablesFarmily = [];
-    for (var i = 0; i < this.selectedServers.length; ++i) {
-      for (var j = 0; j < this.selectedSsids.length; ++j) {
-        for (var k = 0; k < this.selectedSchemas.length; ++k) {
-          const faimly = this.selectedServers[i] + this.selectedSsids[j] + this.selectedSchemas[k];
-          console.log(faimly);
-          tablesFarmily.push(faimly)
+    let tablesFarmily = [];
+    for (const server of this.selectedServers) {
+      for (const ssid of this.selectedSsids) {
+        for (const schema of this.selectedSchemas) {
+          const family = server + '.' + ssid + '.' + schema;
+          console.log(family);
+          tablesFarmily.push(family);
         }
       }
     }
+
     const testJsonData = {
       "_source": [
         "SMF127Time",
@@ -213,41 +218,53 @@ export class DashboardComponent implements OnInit {
         }
       },
       "size": 1000
-    };    
-    this.imbService.isAvailable().then(
-      () => {
-        console.log('OK, connected')
-      }, error => {        
-        console.error('Server is down', error);
+    };
+    // assume that we call function for each indentified table (1 fullname)
+    this.imbService.search(testJsonData).subscribe(
+      val => {
+        this.bucketArr = [];
+        const tableLogs = val.filter((item) => {
+          const t1 = moment(item._source.TimestampCurrent, 'YYYY-MM-DD-hh.mm.ss0000');
+          return t1.isSameOrAfter(drp.startDate) && t1.isSameOrBefore(drp.endDate);
+        }).map(item => {
+          const newItem = new Document(
+            item._source.DB2ServerName,
+            item._source.DB2SSID,
+            item._source.DataBaseName,
+            item._source.TableName,
+            parseFloat(item._source.RateReadsPerMinute),
+            parseFloat(item._source.RateWritesPerMinute),
+            item._source.TimestampCurrent
+          );
+          return newItem;
+        });
+        for (const tableLog of tableLogs) {
+          const idx = this.bucketArr.findIndex((item) => item.name === tableLog.fullname);
+          if (idx !== -1) {
+            this.bucketArr[idx].docs.push(tableLog);
+          } else {
+            const bck = {
+              name: tableLog.fullname,
+              docs: [tableLog]
+            };
+            this.bucketArr.push(bck);
+          }
+        }
+        console.log(this.bucketArr);
+        this.drawRaw(this.bucketArr[1].docs);
+
+        // cal
+        // let sumRead = 0;
+        // let sumWrite = 0;
+        // tableLogs.forEach(element => {
+        //   sumRead += element.readPerMin;
+        //   sumWrite += element.writePerMin;
+        // });
+        // const tableSummary = new Document(tbName, sumRead, sumWrite);
+        // this.dataArray.push(tableSummary);
+        // this.table0.renderRows();
       }
     );
-    // assume that we call function for each indentified table (1 fullname)
-    // this.imbService.search(testJsonData).subscribe(
-    //   val => {
-    //     let tbName = '';
-    //     const tableLogs = val.map(item => {
-    //       tbName = item._source.FullName;
-    //       return new Document(item._source.FullName,
-    //         parseFloat(item._source.RateReadsPerMinute),
-    //         parseFloat(item._source.RateWritesPerMinute),
-    //         item._source.TimestampCurrent
-    //       );
-    //     });
-    //     this.drawRaw(tableLogs);
-
-    //     // cal
-
-    //     let sumRead = 0;
-    //     let sumWrite = 0;
-    //     tableLogs.forEach(element => {
-    //       sumRead += element.read_per_min;
-    //       sumWrite += element.write_per_min;
-    //     });
-    //     const tableSummary = new Document(tbName, sumRead, sumWrite);
-    //     this.dataArray.push(tableSummary);
-    //     this.table0.renderRows();
-    //   }
-    // );
   }
 
 }

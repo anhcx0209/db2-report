@@ -6,6 +6,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "75.433",
       "IntervalInSeconds" : "1,800",
@@ -23,6 +24,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "81.133",
       "IntervalInSeconds" : "1,800",
@@ -40,6 +42,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "66.933",
       "IntervalInSeconds" : "1,800",
@@ -57,6 +60,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "70.733",
       "IntervalInSeconds" : "1,800",
@@ -74,6 +78,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "77.967",
       "IntervalInSeconds" : "1,800",
@@ -91,6 +96,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "76.1",
       "IntervalInSeconds" : "1,800",
@@ -108,6 +114,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.567",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -125,6 +132,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "15.633",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -142,6 +150,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "21.333",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -159,6 +168,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.9",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -176,6 +186,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.033",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -193,6 +204,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.2",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -210,6 +222,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.367",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -227,6 +240,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.567",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -244,6 +258,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.5",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -261,6 +276,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.633",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -278,6 +294,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.267",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -295,6 +312,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.767",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -312,6 +330,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.733",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -329,6 +348,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.333",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -346,6 +366,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.067",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -363,6 +384,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.733",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -380,6 +402,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "15.1",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -397,6 +420,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.7",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -414,6 +438,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "79.2",
       "IntervalInSeconds" : "1,800",
@@ -431,6 +456,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "69",
       "IntervalInSeconds" : "1,800",
@@ -448,6 +474,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "69.2",
       "IntervalInSeconds" : "1,800",
@@ -465,6 +492,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "67.867",
       "IntervalInSeconds" : "1,800",
@@ -482,6 +510,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "82.267",
       "IntervalInSeconds" : "1,800",
@@ -499,6 +528,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "81.3",
       "IntervalInSeconds" : "1,800",
@@ -516,6 +546,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "74.433",
       "IntervalInSeconds" : "1,800",
@@ -533,6 +564,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "79.933",
       "IntervalInSeconds" : "1,800",
@@ -550,6 +582,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "81",
       "IntervalInSeconds" : "1,800",
@@ -567,6 +600,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "69.333",
       "IntervalInSeconds" : "1,800",
@@ -584,6 +618,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "68.567",
       "IntervalInSeconds" : "1,800",
@@ -601,6 +636,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "80.133",
       "IntervalInSeconds" : "1,800",
@@ -618,6 +654,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.667",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -635,6 +672,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.6",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -652,6 +690,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.833",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -669,6 +708,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21.867",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -686,6 +726,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "23.967",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -703,6 +744,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "23.1",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -720,6 +762,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.633",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -737,6 +780,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.7",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -754,6 +798,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.233",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -771,6 +816,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.9",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -788,6 +834,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "23.4",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -805,6 +852,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.9",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -822,6 +870,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.367",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -839,6 +888,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.3",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -856,6 +906,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.933",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -873,6 +924,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.333",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -890,6 +942,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.5",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -907,6 +960,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.6",
       "RateReadsPerMinute" : "83.333",
       "IntervalInSeconds" : "1,800",
@@ -924,6 +978,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "70.133",
       "IntervalInSeconds" : "1,800",
@@ -941,6 +996,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "77.2",
       "IntervalInSeconds" : "1,800",
@@ -958,6 +1014,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "78.7",
       "IntervalInSeconds" : "1,800",
@@ -975,6 +1032,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "78.167",
       "IntervalInSeconds" : "1,800",
@@ -992,6 +1050,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "81.733",
       "IntervalInSeconds" : "1,800",
@@ -1009,6 +1068,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "77.7",
       "IntervalInSeconds" : "1,800",
@@ -1026,6 +1086,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "80.133",
       "IntervalInSeconds" : "1,800",
@@ -1043,6 +1104,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "68.567",
       "IntervalInSeconds" : "1,800",
@@ -1060,6 +1122,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "79.433",
       "IntervalInSeconds" : "1,800",
@@ -1077,6 +1140,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "72.3",
       "IntervalInSeconds" : "1,800",
@@ -1094,6 +1158,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "69.733",
       "IntervalInSeconds" : "1,800",
@@ -1111,6 +1176,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "82.967",
       "IntervalInSeconds" : "1,800",
@@ -1128,6 +1194,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.4",
       "RateReadsPerMinute" : "76.6",
       "IntervalInSeconds" : "1,800",
@@ -1145,6 +1212,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "73.9",
       "IntervalInSeconds" : "1,800",
@@ -1162,6 +1230,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.567",
       "RateReadsPerMinute" : "66.7",
       "IntervalInSeconds" : "1,800",
@@ -1179,6 +1248,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "68.133",
       "IntervalInSeconds" : "1,800",
@@ -1196,6 +1266,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "76.8",
       "IntervalInSeconds" : "1,800",
@@ -1213,6 +1284,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "83.1",
       "IntervalInSeconds" : "1,800",
@@ -1230,6 +1302,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "77.433",
       "IntervalInSeconds" : "1,800",
@@ -1247,6 +1320,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.867",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -1264,6 +1338,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.8",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -1281,6 +1356,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21.667",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -1298,6 +1374,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "17.567",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -1315,6 +1392,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.6",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -1332,6 +1410,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.1",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -1349,6 +1428,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.733",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -1366,6 +1446,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "21.933",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -1383,6 +1464,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.633",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -1400,6 +1482,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.5",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -1417,6 +1500,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "23.067",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -1434,6 +1518,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "71.633",
       "IntervalInSeconds" : "1,800",
@@ -1451,6 +1536,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "75.733",
       "IntervalInSeconds" : "1,800",
@@ -1468,6 +1554,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "69.033",
       "IntervalInSeconds" : "1,800",
@@ -1485,6 +1572,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "74.167",
       "IntervalInSeconds" : "1,800",
@@ -1502,6 +1590,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "69.067",
       "IntervalInSeconds" : "1,800",
@@ -1519,6 +1608,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.4",
       "RateReadsPerMinute" : "71.667",
       "IntervalInSeconds" : "1,800",
@@ -1536,6 +1626,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "76.033",
       "IntervalInSeconds" : "1,800",
@@ -1553,6 +1644,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "67.967",
       "IntervalInSeconds" : "1,800",
@@ -1570,6 +1662,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "79.7",
       "IntervalInSeconds" : "1,800",
@@ -1587,6 +1680,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "76.5",
       "IntervalInSeconds" : "1,800",
@@ -1604,6 +1698,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "71.667",
       "IntervalInSeconds" : "1,800",
@@ -1621,6 +1716,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "66.9",
       "IntervalInSeconds" : "1,800",
@@ -1638,6 +1734,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "81.667",
       "IntervalInSeconds" : "1,800",
@@ -1655,6 +1752,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "80.567",
       "IntervalInSeconds" : "1,800",
@@ -1672,6 +1770,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "72.767",
       "IntervalInSeconds" : "1,800",
@@ -1689,6 +1788,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "72.767",
       "IntervalInSeconds" : "1,800",
@@ -1706,6 +1806,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "66.867",
       "IntervalInSeconds" : "1,800",
@@ -1723,6 +1824,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "79",
       "IntervalInSeconds" : "1,800",
@@ -1740,6 +1842,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -1757,6 +1860,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "4.958",
       "RateReadsPerMinute" : "42.637",
       "IntervalInSeconds" : "2,965",
@@ -1774,6 +1878,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.975",
       "RateReadsPerMinute" : "127.912",
       "IntervalInSeconds" : "2,965",
@@ -1791,6 +1896,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "3.966",
       "RateReadsPerMinute" : "85.275",
       "IntervalInSeconds" : "2,965",
@@ -1808,6 +1914,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -1825,6 +1932,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -1842,6 +1950,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -1859,6 +1968,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -1876,6 +1986,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -1893,6 +2004,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -1910,6 +2022,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -1927,6 +2040,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "0.267",
       "RateReadsPerMinute" : "8.6",
       "IntervalInSeconds" : "1,800",
@@ -1944,6 +2058,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "0.2",
       "RateReadsPerMinute" : "12.9",
       "IntervalInSeconds" : "1,800",
@@ -1961,6 +2076,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -1978,6 +2094,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -1995,6 +2112,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -2012,6 +2130,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -2029,6 +2148,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -2046,6 +2166,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "-0.049",
       "RateReadsPerMinute" : "-25.325",
       "IntervalInSeconds" : "3,696",
@@ -2063,6 +2184,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "0",
       "RateReadsPerMinute" : "0",
       "IntervalInSeconds" : "0",
@@ -2080,6 +2202,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "0.139",
       "RateReadsPerMinute" : "1.194",
       "IntervalInSeconds" : "10,800",
@@ -2097,6 +2220,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "79.8",
       "IntervalInSeconds" : "1,800",
@@ -2114,6 +2238,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.4",
       "RateReadsPerMinute" : "80.633",
       "IntervalInSeconds" : "1,800",
@@ -2131,6 +2256,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "75.433",
       "IntervalInSeconds" : "1,800",
@@ -2148,6 +2274,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "67",
       "IntervalInSeconds" : "1,800",
@@ -2165,6 +2292,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.4",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -2182,6 +2310,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.9",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -2199,6 +2328,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.6",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -2216,6 +2346,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.1",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -2233,6 +2364,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.767",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -2250,6 +2382,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.3",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -2267,6 +2400,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "22",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -2284,6 +2418,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.133",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -2301,6 +2436,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.567",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -2318,6 +2454,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.167",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -2335,6 +2472,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.833",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -2352,6 +2490,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.3",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -2369,6 +2508,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.6",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -2386,6 +2526,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "75.233",
       "IntervalInSeconds" : "1,800",
@@ -2403,6 +2544,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "82.367",
       "IntervalInSeconds" : "1,800",
@@ -2420,6 +2562,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "80.2",
       "IntervalInSeconds" : "1,800",
@@ -2437,6 +2580,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "76.867",
       "IntervalInSeconds" : "1,800",
@@ -2454,6 +2598,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "77.867",
       "IntervalInSeconds" : "1,800",
@@ -2471,6 +2616,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "73.1",
       "IntervalInSeconds" : "1,800",
@@ -2488,6 +2634,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "79",
       "IntervalInSeconds" : "1,800",
@@ -2505,6 +2652,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "72.5",
       "IntervalInSeconds" : "1,800",
@@ -2522,6 +2670,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "79.533",
       "IntervalInSeconds" : "1,800",
@@ -2539,6 +2688,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "79.867",
       "IntervalInSeconds" : "1,800",
@@ -2556,6 +2706,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "74.433",
       "IntervalInSeconds" : "1,800",
@@ -2573,6 +2724,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "68.333",
       "IntervalInSeconds" : "1,800",
@@ -2590,6 +2742,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "73.367",
       "IntervalInSeconds" : "1,800",
@@ -2607,6 +2760,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "78.633",
       "IntervalInSeconds" : "1,800",
@@ -2624,6 +2778,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "72.1",
       "IntervalInSeconds" : "1,800",
@@ -2641,6 +2796,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "83.133",
       "IntervalInSeconds" : "1,800",
@@ -2658,6 +2814,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "74.167",
       "IntervalInSeconds" : "1,800",
@@ -2675,6 +2832,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "68.933",
       "IntervalInSeconds" : "1,800",
@@ -2692,6 +2850,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "69.333",
       "IntervalInSeconds" : "1,800",
@@ -2709,6 +2868,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "68.567",
       "IntervalInSeconds" : "1,800",
@@ -2726,6 +2886,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "81.233",
       "IntervalInSeconds" : "1,800",
@@ -2743,6 +2904,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.9",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -2760,6 +2922,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.067",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -2777,6 +2940,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.8",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -2794,6 +2958,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.233",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -2811,6 +2976,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.733",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -2828,6 +2994,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.6",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -2845,6 +3012,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.467",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -2862,6 +3030,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.833",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -2879,6 +3048,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "14.5",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -2896,6 +3066,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.867",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -2913,6 +3084,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "23.967",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -2930,6 +3102,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.7",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -2947,6 +3120,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "75.667",
       "IntervalInSeconds" : "1,800",
@@ -2964,6 +3138,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "73.233",
       "IntervalInSeconds" : "1,800",
@@ -2981,6 +3156,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "77.167",
       "IntervalInSeconds" : "1,800",
@@ -2998,6 +3174,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "82.7",
       "IntervalInSeconds" : "1,800",
@@ -3015,6 +3192,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "70.133",
       "IntervalInSeconds" : "1,800",
@@ -3032,6 +3210,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "67.9",
       "IntervalInSeconds" : "1,800",
@@ -3049,6 +3228,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "77.2",
       "IntervalInSeconds" : "1,800",
@@ -3066,6 +3246,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "78.7",
       "IntervalInSeconds" : "1,800",
@@ -3083,6 +3264,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "81.333",
       "IntervalInSeconds" : "1,800",
@@ -3100,6 +3282,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.6",
       "RateReadsPerMinute" : "69.267",
       "IntervalInSeconds" : "1,800",
@@ -3117,6 +3300,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "74",
       "IntervalInSeconds" : "1,800",
@@ -3134,6 +3318,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "68.333",
       "IntervalInSeconds" : "1,800",
@@ -3151,6 +3336,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "73.967",
       "IntervalInSeconds" : "1,800",
@@ -3168,6 +3354,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "74.367",
       "IntervalInSeconds" : "1,800",
@@ -3185,6 +3372,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "70.9",
       "IntervalInSeconds" : "1,800",
@@ -3202,6 +3390,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "72.3",
       "IntervalInSeconds" : "1,800",
@@ -3219,6 +3408,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "74.967",
       "IntervalInSeconds" : "1,800",
@@ -3236,6 +3426,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.4",
       "RateReadsPerMinute" : "76.6",
       "IntervalInSeconds" : "1,800",
@@ -3253,6 +3444,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "75.067",
       "IntervalInSeconds" : "1,800",
@@ -3270,6 +3462,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "71.2",
       "IntervalInSeconds" : "1,800",
@@ -3287,6 +3480,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "74",
       "IntervalInSeconds" : "1,800",
@@ -3304,6 +3498,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "69.567",
       "IntervalInSeconds" : "1,800",
@@ -3321,6 +3516,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "71.633",
       "IntervalInSeconds" : "1,800",
@@ -3338,6 +3534,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.533",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -3355,6 +3552,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.967",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -3372,6 +3570,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.933",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -3389,6 +3588,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.633",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -3406,6 +3606,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "14.767",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -3423,6 +3624,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.8",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -3440,6 +3642,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.067",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -3457,6 +3660,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -3474,6 +3678,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.233",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -3491,6 +3696,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "22.167",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -3508,6 +3714,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.1",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -3525,6 +3732,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.3",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -3542,6 +3750,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "66.8",
       "IntervalInSeconds" : "1,800",
@@ -3559,6 +3768,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "82.7",
       "IntervalInSeconds" : "1,800",
@@ -3576,6 +3786,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "78.267",
       "IntervalInSeconds" : "1,800",
@@ -3593,6 +3804,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "69.9",
       "IntervalInSeconds" : "1,800",
@@ -3610,6 +3822,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "75.133",
       "IntervalInSeconds" : "1,800",
@@ -3627,6 +3840,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "75.033",
       "IntervalInSeconds" : "1,800",
@@ -3644,6 +3858,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "75.433",
       "IntervalInSeconds" : "1,800",
@@ -3661,6 +3876,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "72.633",
       "IntervalInSeconds" : "1,800",
@@ -3678,6 +3894,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "76.5",
       "IntervalInSeconds" : "1,800",
@@ -3695,6 +3912,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "79.467",
       "IntervalInSeconds" : "1,800",
@@ -3712,6 +3930,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "75.233",
       "IntervalInSeconds" : "1,800",
@@ -3729,6 +3948,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "80.767",
       "IntervalInSeconds" : "1,800",
@@ -3746,6 +3966,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "71.867",
       "IntervalInSeconds" : "1,800",
@@ -3763,6 +3984,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "78.533",
       "IntervalInSeconds" : "1,800",
@@ -3780,6 +4002,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "79",
       "IntervalInSeconds" : "1,800",
@@ -3797,6 +4020,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "80.567",
       "IntervalInSeconds" : "1,800",
@@ -3814,6 +4038,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "79.8",
       "IntervalInSeconds" : "1,800",
@@ -3831,6 +4056,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.4",
       "RateReadsPerMinute" : "80.633",
       "IntervalInSeconds" : "1,800",
@@ -3848,6 +4074,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "75.433",
       "IntervalInSeconds" : "1,800",
@@ -3865,6 +4092,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.6",
       "RateReadsPerMinute" : "82.2",
       "IntervalInSeconds" : "1,800",
@@ -3882,6 +4110,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "76.1",
       "IntervalInSeconds" : "1,800",
@@ -3899,6 +4128,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "77.967",
       "IntervalInSeconds" : "1,800",
@@ -3916,6 +4146,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "74.9",
       "IntervalInSeconds" : "1,800",
@@ -3933,6 +4164,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "68",
       "IntervalInSeconds" : "1,800",
@@ -3950,6 +4182,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "77.867",
       "IntervalInSeconds" : "1,800",
@@ -3967,6 +4200,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "79.2",
       "IntervalInSeconds" : "1,800",
@@ -3984,6 +4218,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.3",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -4001,6 +4236,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -4018,6 +4254,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.433",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -4035,6 +4272,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.9",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -4052,6 +4290,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "23.033",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -4069,6 +4308,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.333",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -4086,6 +4326,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.567",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -4103,6 +4344,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.9",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -4120,6 +4362,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "23.6",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -4137,6 +4380,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.833",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -4154,6 +4398,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "74.433",
       "IntervalInSeconds" : "1,800",
@@ -4171,6 +4416,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "71.733",
       "IntervalInSeconds" : "1,800",
@@ -4188,6 +4434,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "75.333",
       "IntervalInSeconds" : "1,800",
@@ -4205,6 +4452,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "83.133",
       "IntervalInSeconds" : "1,800",
@@ -4222,6 +4470,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "67.2",
       "IntervalInSeconds" : "1,800",
@@ -4239,6 +4488,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "71.733",
       "IntervalInSeconds" : "1,800",
@@ -4256,6 +4506,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "69.333",
       "IntervalInSeconds" : "1,800",
@@ -4273,6 +4524,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "78.8",
       "IntervalInSeconds" : "1,800",
@@ -4290,6 +4542,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "67.067",
       "IntervalInSeconds" : "1,800",
@@ -4307,6 +4560,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "81.133",
       "IntervalInSeconds" : "1,800",
@@ -4324,6 +4578,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "82.967",
       "IntervalInSeconds" : "1,800",
@@ -4341,6 +4596,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "72.6",
       "IntervalInSeconds" : "1,800",
@@ -4358,6 +4614,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.567",
       "RateReadsPerMinute" : "76.467",
       "IntervalInSeconds" : "1,800",
@@ -4375,6 +4632,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "82.2",
       "IntervalInSeconds" : "1,800",
@@ -4392,6 +4650,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "80.3",
       "IntervalInSeconds" : "1,800",
@@ -4409,6 +4668,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "68.767",
       "IntervalInSeconds" : "1,800",
@@ -4426,6 +4686,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "76.633",
       "IntervalInSeconds" : "1,800",
@@ -4443,6 +4704,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "67.7",
       "IntervalInSeconds" : "1,800",
@@ -4460,6 +4722,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "70.8",
       "IntervalInSeconds" : "1,800",
@@ -4477,6 +4740,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.6",
       "RateReadsPerMinute" : "83.333",
       "IntervalInSeconds" : "1,800",
@@ -4494,6 +4758,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "78.7",
       "IntervalInSeconds" : "1,800",
@@ -4511,6 +4776,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "79.1",
       "IntervalInSeconds" : "1,800",
@@ -4528,6 +4794,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.8",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -4545,6 +4812,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.567",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -4562,6 +4830,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.367",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -4579,6 +4848,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.567",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -4596,6 +4866,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.1",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -4613,6 +4884,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.2",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -4630,6 +4902,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.433",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -4647,6 +4920,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.733",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -4664,6 +4938,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.133",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -4681,6 +4956,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "22.4",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -4698,6 +4974,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.833",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -4715,6 +4992,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.267",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -4732,6 +5010,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "68.267",
       "IntervalInSeconds" : "1,800",
@@ -4749,6 +5028,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.467",
       "RateReadsPerMinute" : "73.067",
       "IntervalInSeconds" : "1,800",
@@ -4766,6 +5046,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "81.367",
       "IntervalInSeconds" : "1,800",
@@ -4783,6 +5064,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "78",
       "IntervalInSeconds" : "1,800",
@@ -4800,6 +5082,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "81.7",
       "IntervalInSeconds" : "1,800",
@@ -4817,6 +5100,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "81",
       "IntervalInSeconds" : "1,800",
@@ -4834,6 +5118,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "71.233",
       "IntervalInSeconds" : "1,800",
@@ -4851,6 +5136,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "69.133",
       "IntervalInSeconds" : "1,800",
@@ -4868,6 +5154,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "72.633",
       "IntervalInSeconds" : "1,800",
@@ -4885,6 +5172,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.467",
       "RateReadsPerMinute" : "70.8",
       "IntervalInSeconds" : "1,800",
@@ -4902,6 +5190,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "73.633",
       "IntervalInSeconds" : "1,800",
@@ -4919,6 +5208,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "78.267",
       "IntervalInSeconds" : "1,800",
@@ -4936,6 +5226,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "76.133",
       "IntervalInSeconds" : "1,800",
@@ -4953,6 +5244,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "75.7",
       "IntervalInSeconds" : "1,800",
@@ -4970,6 +5262,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "71.633",
       "IntervalInSeconds" : "1,800",
@@ -4987,6 +5280,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "75.733",
       "IntervalInSeconds" : "1,800",
@@ -5004,6 +5298,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "74.167",
       "IntervalInSeconds" : "1,800",
@@ -5021,6 +5316,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.167",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -5038,6 +5334,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.333",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -5055,6 +5352,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.467",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -5072,6 +5370,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.233",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -5089,6 +5388,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.433",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -5106,6 +5406,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.133",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -5123,6 +5424,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.733",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -5140,6 +5442,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -5157,6 +5460,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.667",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -5174,6 +5478,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.1",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -5191,6 +5496,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.033",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -5208,6 +5514,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -5225,6 +5532,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.367",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -5242,6 +5550,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "81.667",
       "IntervalInSeconds" : "1,800",
@@ -5259,6 +5568,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "74.933",
       "IntervalInSeconds" : "1,800",
@@ -5276,6 +5586,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "78.767",
       "IntervalInSeconds" : "1,800",
@@ -5293,6 +5604,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "78.5",
       "IntervalInSeconds" : "1,800",
@@ -5310,6 +5622,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "71.867",
       "IntervalInSeconds" : "1,800",
@@ -5327,6 +5640,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "79",
       "IntervalInSeconds" : "1,800",
@@ -5344,6 +5658,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "79.8",
       "IntervalInSeconds" : "1,800",
@@ -5361,6 +5676,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "74.167",
       "IntervalInSeconds" : "1,800",
@@ -5378,6 +5694,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "23.767",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -5395,6 +5712,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.633",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -5412,6 +5730,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.367",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -5429,6 +5748,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.233",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -5446,6 +5766,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.1",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -5463,6 +5784,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.433",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -5480,6 +5802,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.667",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -5497,6 +5820,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.333",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -5514,6 +5838,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.4",
       "RateReadsPerMinute" : "74.733",
       "IntervalInSeconds" : "1,800",
@@ -5531,6 +5856,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "77.767",
       "IntervalInSeconds" : "1,800",
@@ -5548,6 +5874,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "70.067",
       "IntervalInSeconds" : "1,800",
@@ -5565,6 +5892,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "66.8",
       "IntervalInSeconds" : "1,800",
@@ -5582,6 +5910,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "73.1",
       "IntervalInSeconds" : "1,800",
@@ -5599,6 +5928,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "72.9",
       "IntervalInSeconds" : "1,800",
@@ -5616,6 +5946,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "81.333",
       "IntervalInSeconds" : "1,800",
@@ -5633,6 +5964,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "78.933",
       "IntervalInSeconds" : "1,800",
@@ -5650,6 +5982,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "67.667",
       "IntervalInSeconds" : "1,800",
@@ -5667,6 +6000,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "82.667",
       "IntervalInSeconds" : "1,800",
@@ -5684,6 +6018,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "67.667",
       "IntervalInSeconds" : "1,800",
@@ -5701,6 +6036,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "78.633",
       "IntervalInSeconds" : "1,800",
@@ -5718,6 +6054,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "74.433",
       "IntervalInSeconds" : "1,800",
@@ -5735,6 +6072,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "68.567",
       "IntervalInSeconds" : "1,800",
@@ -5752,6 +6090,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "74.167",
       "IntervalInSeconds" : "1,800",
@@ -5769,6 +6108,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "69.033",
       "IntervalInSeconds" : "1,800",
@@ -5786,6 +6126,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "79.833",
       "IntervalInSeconds" : "1,800",
@@ -5803,6 +6144,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "74.767",
       "IntervalInSeconds" : "1,800",
@@ -5820,6 +6162,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "69.1",
       "IntervalInSeconds" : "1,800",
@@ -5837,6 +6180,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "69.4",
       "IntervalInSeconds" : "1,800",
@@ -5854,6 +6198,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.9",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -5871,6 +6216,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "14.5",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -5888,6 +6234,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "23.3",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -5905,6 +6252,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "70.8",
       "IntervalInSeconds" : "1,800",
@@ -5922,6 +6270,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "67.9",
       "IntervalInSeconds" : "1,800",
@@ -5939,6 +6288,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "82.467",
       "IntervalInSeconds" : "1,800",
@@ -5956,6 +6306,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "74.733",
       "IntervalInSeconds" : "1,800",
@@ -5973,6 +6324,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "81.333",
       "IntervalInSeconds" : "1,800",
@@ -5990,6 +6342,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "74",
       "IntervalInSeconds" : "1,800",
@@ -6007,6 +6360,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.6",
       "RateReadsPerMinute" : "69.267",
       "IntervalInSeconds" : "1,800",
@@ -6024,6 +6378,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "68.333",
       "IntervalInSeconds" : "1,800",
@@ -6041,6 +6396,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "70.9",
       "IntervalInSeconds" : "1,800",
@@ -6058,6 +6414,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "74.967",
       "IntervalInSeconds" : "1,800",
@@ -6075,6 +6432,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "69.833",
       "IntervalInSeconds" : "1,800",
@@ -6092,6 +6450,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "79.433",
       "IntervalInSeconds" : "1,800",
@@ -6109,6 +6468,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "75.967",
       "IntervalInSeconds" : "1,800",
@@ -6126,6 +6486,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "67.633",
       "IntervalInSeconds" : "1,800",
@@ -6143,6 +6504,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "71.633",
       "IntervalInSeconds" : "1,800",
@@ -6160,6 +6522,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "82.1",
       "IntervalInSeconds" : "1,800",
@@ -6177,6 +6540,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "71.267",
       "IntervalInSeconds" : "1,800",
@@ -6194,6 +6558,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "82.8",
       "IntervalInSeconds" : "1,800",
@@ -6211,6 +6576,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "70.267",
       "IntervalInSeconds" : "1,800",
@@ -6228,6 +6594,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.867",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -6245,6 +6612,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.267",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -6262,6 +6630,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.633",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -6279,6 +6648,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.667",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -6296,6 +6666,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.9",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -6313,6 +6684,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.833",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -6330,6 +6702,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "14.267",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -6347,6 +6720,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.733",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -6364,6 +6738,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.2",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -6381,6 +6756,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.7",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -6398,6 +6774,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.5",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -6415,6 +6792,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "83.1",
       "IntervalInSeconds" : "1,800",
@@ -6432,6 +6810,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "69.9",
       "IntervalInSeconds" : "1,800",
@@ -6449,6 +6828,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "79.567",
       "IntervalInSeconds" : "1,800",
@@ -6466,6 +6846,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "76.967",
       "IntervalInSeconds" : "1,800",
@@ -6483,6 +6864,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "80.6",
       "IntervalInSeconds" : "1,800",
@@ -6500,6 +6882,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "76.267",
       "IntervalInSeconds" : "1,800",
@@ -6517,6 +6900,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "70.533",
       "IntervalInSeconds" : "1,800",
@@ -6534,6 +6918,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "78.333",
       "IntervalInSeconds" : "1,800",
@@ -6551,6 +6936,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "80.767",
       "IntervalInSeconds" : "1,800",
@@ -6568,6 +6954,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "69.4",
       "IntervalInSeconds" : "1,800",
@@ -6585,6 +6972,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "78.767",
       "IntervalInSeconds" : "1,800",
@@ -6602,6 +6990,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "79",
       "IntervalInSeconds" : "1,800",
@@ -6619,6 +7008,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "75.433",
       "IntervalInSeconds" : "1,800",
@@ -6636,6 +7026,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "79",
       "IntervalInSeconds" : "1,800",
@@ -6653,6 +7044,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "71.867",
       "IntervalInSeconds" : "1,800",
@@ -6670,6 +7062,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "75.433",
       "IntervalInSeconds" : "1,800",
@@ -6687,6 +7080,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "67.133",
       "IntervalInSeconds" : "1,800",
@@ -6704,6 +7098,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "72.767",
       "IntervalInSeconds" : "1,800",
@@ -6721,6 +7116,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "4.958",
       "RateReadsPerMinute" : "42.637",
       "IntervalInSeconds" : "2,965",
@@ -6738,6 +7134,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -6755,6 +7152,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -6772,6 +7170,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -6789,6 +7188,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -6806,6 +7206,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -6823,6 +7224,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -6840,6 +7242,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -6857,6 +7260,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "0.333",
       "RateReadsPerMinute" : "4.3",
       "IntervalInSeconds" : "1,800",
@@ -6874,6 +7278,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -6891,6 +7296,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -6908,6 +7314,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -6925,6 +7332,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "0",
       "RateReadsPerMinute" : "0",
       "IntervalInSeconds" : "0",
@@ -6942,6 +7350,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "0.111",
       "RateReadsPerMinute" : "2.389",
       "IntervalInSeconds" : "10,800",
@@ -6959,6 +7368,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -6976,6 +7386,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -6993,6 +7404,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -7010,6 +7422,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -7027,6 +7440,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3.085",
       "RateReadsPerMinute" : "128.085",
       "IntervalInSeconds" : "1,692",
@@ -7044,6 +7458,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5.142",
       "RateReadsPerMinute" : "42.695",
       "IntervalInSeconds" : "1,692",
@@ -7061,6 +7476,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3.085",
       "RateReadsPerMinute" : "128.085",
       "IntervalInSeconds" : "1,692",
@@ -7078,6 +7494,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.333",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -7095,6 +7512,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.433",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -7112,6 +7530,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.433",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -7129,6 +7548,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.467",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -7146,6 +7566,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.5",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -7163,6 +7584,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.967",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -7180,6 +7602,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "15.633",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -7197,6 +7620,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.4",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -7214,6 +7638,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.133",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -7231,6 +7656,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.433",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -7248,6 +7674,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.367",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -7265,6 +7692,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.633",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -7282,6 +7710,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.033",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -7299,6 +7728,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.367",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -7316,6 +7746,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "73.1",
       "IntervalInSeconds" : "1,800",
@@ -7333,6 +7764,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "77.8",
       "IntervalInSeconds" : "1,800",
@@ -7350,6 +7782,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "73.8",
       "IntervalInSeconds" : "1,800",
@@ -7367,6 +7800,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "74.733",
       "IntervalInSeconds" : "1,800",
@@ -7384,6 +7818,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "66.8",
       "IntervalInSeconds" : "1,800",
@@ -7401,6 +7836,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "69.067",
       "IntervalInSeconds" : "1,800",
@@ -7418,6 +7854,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "72.2",
       "IntervalInSeconds" : "1,800",
@@ -7435,6 +7872,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "67.667",
       "IntervalInSeconds" : "1,800",
@@ -7452,6 +7890,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "79.933",
       "IntervalInSeconds" : "1,800",
@@ -7469,6 +7908,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "68.567",
       "IntervalInSeconds" : "1,800",
@@ -7486,6 +7926,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "74.167",
       "IntervalInSeconds" : "1,800",
@@ -7503,6 +7944,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "75.333",
       "IntervalInSeconds" : "1,800",
@@ -7520,6 +7962,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "68.567",
       "IntervalInSeconds" : "1,800",
@@ -7537,6 +7980,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "71.733",
       "IntervalInSeconds" : "1,800",
@@ -7554,6 +7998,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "69.033",
       "IntervalInSeconds" : "1,800",
@@ -7571,6 +8016,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.633",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -7588,6 +8034,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -7605,6 +8052,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.733",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -7622,6 +8070,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.433",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -7639,6 +8088,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.533",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -7656,6 +8106,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.167",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -7673,6 +8124,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.067",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -7690,6 +8142,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.167",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -7707,6 +8160,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.8",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -7724,6 +8178,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.3",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -7741,6 +8196,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.9",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -7758,6 +8214,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "73.567",
       "IntervalInSeconds" : "1,800",
@@ -7775,6 +8232,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "80.533",
       "IntervalInSeconds" : "1,800",
@@ -7792,6 +8250,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "67.933",
       "IntervalInSeconds" : "1,800",
@@ -7809,6 +8268,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "82.467",
       "IntervalInSeconds" : "1,800",
@@ -7826,6 +8286,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "79.3",
       "IntervalInSeconds" : "1,800",
@@ -7843,6 +8304,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "75.233",
       "IntervalInSeconds" : "1,800",
@@ -7860,6 +8322,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "74.4",
       "IntervalInSeconds" : "1,800",
@@ -7877,6 +8340,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "72.6",
       "IntervalInSeconds" : "1,800",
@@ -7894,6 +8358,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "82.167",
       "IntervalInSeconds" : "1,800",
@@ -7911,6 +8376,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "67.633",
       "IntervalInSeconds" : "1,800",
@@ -7928,6 +8394,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "82",
       "IntervalInSeconds" : "1,800",
@@ -7945,6 +8412,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "68.1",
       "IntervalInSeconds" : "1,800",
@@ -7962,6 +8430,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.333",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -7979,6 +8448,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "21.467",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -7996,6 +8466,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.533",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -8013,6 +8484,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.967",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -8030,6 +8502,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "17.267",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -8047,6 +8520,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.733",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -8064,6 +8538,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "23",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -8081,6 +8556,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21.667",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -8098,6 +8574,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.633",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -8115,6 +8592,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.033",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -8132,6 +8610,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.2",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -8149,6 +8628,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21.9",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -8166,6 +8646,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.867",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -8183,6 +8664,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.733",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -8200,6 +8682,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "77.4",
       "IntervalInSeconds" : "1,800",
@@ -8217,6 +8700,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.467",
       "RateReadsPerMinute" : "70.8",
       "IntervalInSeconds" : "1,800",
@@ -8234,6 +8718,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "76.967",
       "IntervalInSeconds" : "1,800",
@@ -8251,6 +8736,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "74.733",
       "IntervalInSeconds" : "1,800",
@@ -8268,6 +8754,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "76.967",
       "IntervalInSeconds" : "1,800",
@@ -8285,6 +8772,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "80.6",
       "IntervalInSeconds" : "1,800",
@@ -8302,6 +8790,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "76.267",
       "IntervalInSeconds" : "1,800",
@@ -8319,6 +8808,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "81.667",
       "IntervalInSeconds" : "1,800",
@@ -8336,6 +8826,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "78.5",
       "IntervalInSeconds" : "1,800",
@@ -8353,6 +8844,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "75.433",
       "IntervalInSeconds" : "1,800",
@@ -8370,6 +8862,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "76.033",
       "IntervalInSeconds" : "1,800",
@@ -8387,6 +8880,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "72.767",
       "IntervalInSeconds" : "1,800",
@@ -8404,6 +8898,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "66.933",
       "IntervalInSeconds" : "1,800",
@@ -8421,6 +8916,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "74.167",
       "IntervalInSeconds" : "1,800",
@@ -8438,6 +8934,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "71.733",
       "IntervalInSeconds" : "1,800",
@@ -8455,6 +8952,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "78.167",
       "IntervalInSeconds" : "1,800",
@@ -8472,6 +8970,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "71.267",
       "IntervalInSeconds" : "1,800",
@@ -8489,6 +8988,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.5",
       "RateReadsPerMinute" : "76.233",
       "IntervalInSeconds" : "1,800",
@@ -8506,6 +9006,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "81.1",
       "IntervalInSeconds" : "1,800",
@@ -8523,6 +9024,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "77.333",
       "IntervalInSeconds" : "1,800",
@@ -8540,6 +9042,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "70.8",
       "IntervalInSeconds" : "1,800",
@@ -8557,6 +9060,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "75.233",
       "IntervalInSeconds" : "1,800",
@@ -8574,6 +9078,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "69.933",
       "IntervalInSeconds" : "1,800",
@@ -8591,6 +9096,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "80.2",
       "IntervalInSeconds" : "1,800",
@@ -8608,6 +9114,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "67.333",
       "IntervalInSeconds" : "1,800",
@@ -8625,6 +9132,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "71.9",
       "IntervalInSeconds" : "1,800",
@@ -8642,6 +9150,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "70.067",
       "IntervalInSeconds" : "1,800",
@@ -8659,6 +9168,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.6",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -8676,6 +9186,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.033",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -8693,6 +9204,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.933",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -8710,6 +9222,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.067",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -8727,6 +9240,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.333",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -8744,6 +9258,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.633",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -8761,6 +9276,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.9",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -8778,6 +9294,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.833",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -8795,6 +9312,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -8812,6 +9330,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.233",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -8829,6 +9348,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "17.333",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -8846,6 +9366,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "73.367",
       "IntervalInSeconds" : "1,800",
@@ -8863,6 +9384,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "74.167",
       "IntervalInSeconds" : "1,800",
@@ -8880,6 +9402,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "81",
       "IntervalInSeconds" : "1,800",
@@ -8897,6 +9420,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.567",
       "RateReadsPerMinute" : "79.833",
       "IntervalInSeconds" : "1,800",
@@ -8914,6 +9438,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "81.233",
       "IntervalInSeconds" : "1,800",
@@ -8931,6 +9456,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "66.767",
       "IntervalInSeconds" : "1,800",
@@ -8948,6 +9474,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "76.933",
       "IntervalInSeconds" : "1,800",
@@ -8965,6 +9492,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.467",
       "RateReadsPerMinute" : "79.2",
       "IntervalInSeconds" : "1,800",
@@ -8982,6 +9510,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "67.567",
       "IntervalInSeconds" : "1,800",
@@ -8999,6 +9528,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "70.4",
       "IntervalInSeconds" : "1,800",
@@ -9016,6 +9546,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "72.2",
       "IntervalInSeconds" : "1,800",
@@ -9033,6 +9564,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "73.233",
       "IntervalInSeconds" : "1,800",
@@ -9050,6 +9582,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "68.5",
       "IntervalInSeconds" : "1,800",
@@ -9067,6 +9600,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "73.567",
       "IntervalInSeconds" : "1,800",
@@ -9084,6 +9618,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "78.167",
       "IntervalInSeconds" : "1,800",
@@ -9101,6 +9636,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.433",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -9118,6 +9654,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "17.267",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -9135,6 +9672,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.233",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -9152,6 +9690,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.933",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -9169,6 +9708,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.433",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -9186,6 +9726,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.8",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -9203,6 +9744,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -9220,6 +9762,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.467",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -9237,6 +9780,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.5",
       "RateReadsPerMinute" : "71.5",
       "IntervalInSeconds" : "1,800",
@@ -9254,6 +9798,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "82.967",
       "IntervalInSeconds" : "1,800",
@@ -9271,6 +9816,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "69.633",
       "IntervalInSeconds" : "1,800",
@@ -9288,6 +9834,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "75.833",
       "IntervalInSeconds" : "1,800",
@@ -9305,6 +9852,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "75.067",
       "IntervalInSeconds" : "1,800",
@@ -9322,6 +9870,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "72.6",
       "IntervalInSeconds" : "1,800",
@@ -9339,6 +9888,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "71.167",
       "IntervalInSeconds" : "1,800",
@@ -9356,6 +9906,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "77.033",
       "IntervalInSeconds" : "1,800",
@@ -9373,6 +9924,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "67.633",
       "IntervalInSeconds" : "1,800",
@@ -9390,6 +9942,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "68.1",
       "IntervalInSeconds" : "1,800",
@@ -9407,6 +9960,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "71.633",
       "IntervalInSeconds" : "1,800",
@@ -9424,6 +9978,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "77.433",
       "IntervalInSeconds" : "1,800",
@@ -9441,6 +9996,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "73.2",
       "IntervalInSeconds" : "1,800",
@@ -9458,6 +10014,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "76.533",
       "IntervalInSeconds" : "1,800",
@@ -9475,6 +10032,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "76.267",
       "IntervalInSeconds" : "1,800",
@@ -9492,6 +10050,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "67.933",
       "IntervalInSeconds" : "1,800",
@@ -9509,6 +10068,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "76.4",
       "IntervalInSeconds" : "1,800",
@@ -9526,6 +10086,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "69.033",
       "IntervalInSeconds" : "1,800",
@@ -9543,6 +10104,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "69.9",
       "IntervalInSeconds" : "1,800",
@@ -9560,6 +10122,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "74.733",
       "IntervalInSeconds" : "1,800",
@@ -9577,6 +10140,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.433",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -9594,6 +10158,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.767",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -9611,6 +10176,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "15.9",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -9628,6 +10194,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.167",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -9645,6 +10212,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "23.2",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -9662,6 +10230,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.7",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -9679,6 +10248,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21.133",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -9696,6 +10266,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.833",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -9713,6 +10284,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.467",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -9730,6 +10302,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.567",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -9747,6 +10320,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.133",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -9764,6 +10338,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.633",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -9781,6 +10356,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.467",
       "RateReadsPerMinute" : "75.1",
       "IntervalInSeconds" : "1,800",
@@ -9798,6 +10374,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "73.967",
       "IntervalInSeconds" : "1,800",
@@ -9815,6 +10392,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "69.4",
       "IntervalInSeconds" : "1,800",
@@ -9832,6 +10410,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "75.233",
       "IntervalInSeconds" : "1,800",
@@ -9849,6 +10428,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "70.6",
       "IntervalInSeconds" : "1,800",
@@ -9866,6 +10446,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "78",
       "IntervalInSeconds" : "1,800",
@@ -9883,6 +10464,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.567",
       "RateReadsPerMinute" : "75.433",
       "IntervalInSeconds" : "1,800",
@@ -9900,6 +10482,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "76.1",
       "IntervalInSeconds" : "1,800",
@@ -9917,6 +10500,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "70.1",
       "IntervalInSeconds" : "1,800",
@@ -9934,6 +10518,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "80.567",
       "IntervalInSeconds" : "1,800",
@@ -9951,6 +10536,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "68.3",
       "IntervalInSeconds" : "1,800",
@@ -9968,6 +10554,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "78.167",
       "IntervalInSeconds" : "1,800",
@@ -9985,6 +10572,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "81.267",
       "IntervalInSeconds" : "1,800",
@@ -10002,6 +10590,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.1",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -10019,6 +10608,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.133",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -10036,6 +10626,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.6",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -10053,6 +10644,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.933",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -10070,6 +10662,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.567",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -10087,6 +10680,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "21.033",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -10104,6 +10698,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "67.333",
       "IntervalInSeconds" : "1,800",
@@ -10121,6 +10716,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "78.167",
       "IntervalInSeconds" : "1,800",
@@ -10138,6 +10734,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "75.8",
       "IntervalInSeconds" : "1,800",
@@ -10155,6 +10752,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "73.8",
       "IntervalInSeconds" : "1,800",
@@ -10172,6 +10770,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "82.633",
       "IntervalInSeconds" : "1,800",
@@ -10189,6 +10788,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "79",
       "IntervalInSeconds" : "1,800",
@@ -10206,6 +10806,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "68.067",
       "IntervalInSeconds" : "1,800",
@@ -10223,6 +10824,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.4",
       "RateReadsPerMinute" : "81",
       "IntervalInSeconds" : "1,800",
@@ -10240,6 +10842,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "69.067",
       "IntervalInSeconds" : "1,800",
@@ -10257,6 +10860,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "72.6",
       "IntervalInSeconds" : "1,800",
@@ -10274,6 +10878,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "73.833",
       "IntervalInSeconds" : "1,800",
@@ -10291,6 +10896,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "79.533",
       "IntervalInSeconds" : "1,800",
@@ -10308,6 +10914,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "68.2",
       "IntervalInSeconds" : "1,800",
@@ -10325,6 +10932,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "66.967",
       "IntervalInSeconds" : "1,800",
@@ -10342,6 +10950,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "68.333",
       "IntervalInSeconds" : "1,800",
@@ -10359,6 +10968,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "71.733",
       "IntervalInSeconds" : "1,800",
@@ -10376,6 +10986,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "75.333",
       "IntervalInSeconds" : "1,800",
@@ -10393,6 +11004,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "80.167",
       "IntervalInSeconds" : "1,800",
@@ -10410,6 +11022,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "82.267",
       "IntervalInSeconds" : "1,800",
@@ -10427,6 +11040,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "68.567",
       "IntervalInSeconds" : "1,800",
@@ -10444,6 +11058,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "74.167",
       "IntervalInSeconds" : "1,800",
@@ -10461,6 +11076,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "80.533",
       "IntervalInSeconds" : "1,800",
@@ -10478,6 +11094,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "78.7",
       "IntervalInSeconds" : "1,800",
@@ -10495,6 +11112,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "67.067",
       "IntervalInSeconds" : "1,800",
@@ -10512,6 +11130,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.467",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -10529,6 +11148,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "22",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -10546,6 +11166,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.867",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -10563,6 +11184,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.9",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -10580,6 +11202,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.2",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -10597,6 +11220,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.2",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -10614,6 +11238,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "22.167",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -10631,6 +11256,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.367",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -10648,6 +11274,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.3",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -10665,6 +11292,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -10682,6 +11310,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "79.7",
       "IntervalInSeconds" : "1,800",
@@ -10699,6 +11328,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "69.333",
       "IntervalInSeconds" : "1,800",
@@ -10716,6 +11346,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "67.7",
       "IntervalInSeconds" : "1,800",
@@ -10733,6 +11364,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "79.1",
       "IntervalInSeconds" : "1,800",
@@ -10750,6 +11382,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "74.367",
       "IntervalInSeconds" : "1,800",
@@ -10767,6 +11400,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "71.933",
       "IntervalInSeconds" : "1,800",
@@ -10784,6 +11418,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "68.267",
       "IntervalInSeconds" : "1,800",
@@ -10801,6 +11436,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.5",
       "RateReadsPerMinute" : "71.5",
       "IntervalInSeconds" : "1,800",
@@ -10818,6 +11454,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "71.2",
       "IntervalInSeconds" : "1,800",
@@ -10835,6 +11472,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "71.167",
       "IntervalInSeconds" : "1,800",
@@ -10852,6 +11490,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "77.033",
       "IntervalInSeconds" : "1,800",
@@ -10869,6 +11508,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "82",
       "IntervalInSeconds" : "1,800",
@@ -10886,6 +11526,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.6",
       "RateReadsPerMinute" : "81.733",
       "IntervalInSeconds" : "1,800",
@@ -10903,6 +11544,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "73.3",
       "IntervalInSeconds" : "1,800",
@@ -10920,6 +11562,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "76.733",
       "IntervalInSeconds" : "1,800",
@@ -10937,6 +11580,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.067",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -10954,6 +11598,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.2",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -10971,6 +11616,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.033",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -10988,6 +11634,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21.9",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -11005,6 +11652,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.867",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -11022,6 +11670,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.3",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -11039,6 +11688,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.867",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -11056,6 +11706,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.933",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -11073,6 +11724,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.9",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -11090,6 +11742,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21.4",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -11107,6 +11760,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.8",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -11124,6 +11778,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "78.267",
       "IntervalInSeconds" : "1,800",
@@ -11141,6 +11796,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "75.433",
       "IntervalInSeconds" : "1,800",
@@ -11158,6 +11814,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "71.567",
       "IntervalInSeconds" : "1,800",
@@ -11175,6 +11832,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "72.633",
       "IntervalInSeconds" : "1,800",
@@ -11192,6 +11850,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "74",
       "IntervalInSeconds" : "1,800",
@@ -11209,6 +11868,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "66.933",
       "IntervalInSeconds" : "1,800",
@@ -11226,6 +11886,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "83.267",
       "IntervalInSeconds" : "1,800",
@@ -11243,6 +11904,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.467",
       "RateReadsPerMinute" : "75.1",
       "IntervalInSeconds" : "1,800",
@@ -11260,6 +11922,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "75.233",
       "IntervalInSeconds" : "1,800",
@@ -11277,6 +11940,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "74.933",
       "IntervalInSeconds" : "1,800",
@@ -11294,6 +11958,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "76.1",
       "IntervalInSeconds" : "1,800",
@@ -11311,6 +11976,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "70.1",
       "IntervalInSeconds" : "1,800",
@@ -11328,6 +11994,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "78.533",
       "IntervalInSeconds" : "1,800",
@@ -11345,6 +12012,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "76.033",
       "IntervalInSeconds" : "1,800",
@@ -11362,6 +12030,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "79",
       "IntervalInSeconds" : "1,800",
@@ -11379,6 +12048,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "66.867",
       "IntervalInSeconds" : "1,800",
@@ -11396,6 +12066,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "75.433",
       "IntervalInSeconds" : "1,800",
@@ -11413,6 +12084,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "78.5",
       "IntervalInSeconds" : "1,800",
@@ -11430,6 +12102,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "76.033",
       "IntervalInSeconds" : "1,800",
@@ -11447,6 +12120,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -11464,6 +12138,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -11481,6 +12156,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -11498,6 +12174,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -11515,6 +12192,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -11532,6 +12210,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -11549,6 +12228,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -11566,6 +12246,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "0.2",
       "RateReadsPerMinute" : "12.9",
       "IntervalInSeconds" : "1,800",
@@ -11583,6 +12264,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -11600,6 +12282,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -11617,6 +12300,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -11634,6 +12318,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -11651,6 +12336,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "0.139",
       "RateReadsPerMinute" : "1.194",
       "IntervalInSeconds" : "10,800",
@@ -11668,6 +12354,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "0.111",
       "RateReadsPerMinute" : "2.389",
       "IntervalInSeconds" : "10,800",
@@ -11685,6 +12372,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "0",
       "RateReadsPerMinute" : "0",
       "IntervalInSeconds" : "0",
@@ -11702,6 +12390,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.533",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -11719,6 +12408,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.867",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -11736,6 +12426,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.667",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -11753,6 +12444,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.6",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -11770,6 +12462,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.567",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -11787,6 +12480,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.467",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -11804,6 +12498,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.367",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -11821,6 +12516,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.633",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -11838,6 +12534,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.233",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -11855,6 +12552,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.6",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -11872,6 +12570,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.1",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -11889,6 +12588,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "78.167",
       "IntervalInSeconds" : "1,800",
@@ -11906,6 +12606,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "79.2",
       "IntervalInSeconds" : "1,800",
@@ -11923,6 +12624,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "77.767",
       "IntervalInSeconds" : "1,800",
@@ -11940,6 +12642,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "69.2",
       "IntervalInSeconds" : "1,800",
@@ -11957,6 +12660,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "69",
       "IntervalInSeconds" : "1,800",
@@ -11974,6 +12678,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "68.367",
       "IntervalInSeconds" : "1,800",
@@ -11991,6 +12696,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.4",
       "RateReadsPerMinute" : "81",
       "IntervalInSeconds" : "1,800",
@@ -12008,6 +12714,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "82.267",
       "IntervalInSeconds" : "1,800",
@@ -12025,6 +12732,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "76.167",
       "IntervalInSeconds" : "1,800",
@@ -12042,6 +12750,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "72.9",
       "IntervalInSeconds" : "1,800",
@@ -12059,6 +12768,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "68.2",
       "IntervalInSeconds" : "1,800",
@@ -12076,6 +12786,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "66.967",
       "IntervalInSeconds" : "1,800",
@@ -12093,6 +12804,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "81.3",
       "IntervalInSeconds" : "1,800",
@@ -12110,6 +12822,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "67.1",
       "IntervalInSeconds" : "1,800",
@@ -12127,6 +12840,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "67.667",
       "IntervalInSeconds" : "1,800",
@@ -12144,6 +12858,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "82.6",
       "IntervalInSeconds" : "1,800",
@@ -12161,6 +12876,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "67.2",
       "IntervalInSeconds" : "1,800",
@@ -12178,6 +12894,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "78.833",
       "IntervalInSeconds" : "1,800",
@@ -12195,6 +12912,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.367",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -12212,6 +12930,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "22.433",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -12229,6 +12948,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.6",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -12246,6 +12966,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "14.7",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -12263,6 +12984,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.3",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -12280,6 +13002,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.233",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -12297,6 +13020,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.233",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -12314,6 +13038,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.467",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -12331,6 +13056,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "23.3",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -12348,6 +13074,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "22.733",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -12365,6 +13092,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "22",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -12382,6 +13110,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.633",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -12399,6 +13128,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.367",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -12416,6 +13146,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "15.333",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -12433,6 +13164,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.5",
       "RateReadsPerMinute" : "79.067",
       "IntervalInSeconds" : "1,800",
@@ -12450,6 +13182,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "79.533",
       "IntervalInSeconds" : "1,800",
@@ -12467,6 +13200,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "68.767",
       "IntervalInSeconds" : "1,800",
@@ -12484,6 +13218,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "79.233",
       "IntervalInSeconds" : "1,800",
@@ -12501,6 +13236,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "73.467",
       "IntervalInSeconds" : "1,800",
@@ -12518,6 +13254,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "69.333",
       "IntervalInSeconds" : "1,800",
@@ -12535,6 +13272,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "79.7",
       "IntervalInSeconds" : "1,800",
@@ -12552,6 +13290,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "67.7",
       "IntervalInSeconds" : "1,800",
@@ -12569,6 +13308,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.6",
       "RateReadsPerMinute" : "83.333",
       "IntervalInSeconds" : "1,800",
@@ -12586,6 +13326,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "78.167",
       "IntervalInSeconds" : "1,800",
@@ -12603,6 +13344,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "75.167",
       "IntervalInSeconds" : "1,800",
@@ -12620,6 +13362,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "68.567",
       "IntervalInSeconds" : "1,800",
@@ -12637,6 +13380,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "77.1",
       "IntervalInSeconds" : "1,800",
@@ -12654,6 +13398,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "70.533",
       "IntervalInSeconds" : "1,800",
@@ -12671,6 +13416,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "71.167",
       "IntervalInSeconds" : "1,800",
@@ -12688,6 +13434,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "81",
       "IntervalInSeconds" : "1,800",
@@ -12705,6 +13452,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "15.167",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -12722,6 +13470,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.667",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -12739,6 +13488,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.367",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -12756,6 +13506,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -12773,6 +13524,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -12790,6 +13542,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "15.367",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -12807,6 +13560,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.867",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -12824,6 +13578,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.267",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -12841,6 +13596,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "15.833",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -12858,6 +13614,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.833",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -12875,6 +13632,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.6",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -12892,6 +13650,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.067",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -12909,6 +13668,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "21.933",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -12926,6 +13686,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.533",
       "RateReadsPerMinute" : "68.533",
       "IntervalInSeconds" : "1,800",
@@ -12943,6 +13704,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "67.8",
       "IntervalInSeconds" : "1,800",
@@ -12960,6 +13722,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "76.1",
       "IntervalInSeconds" : "1,800",
@@ -12977,6 +13740,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "71.633",
       "IntervalInSeconds" : "1,800",
@@ -12994,6 +13758,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "69.033",
       "IntervalInSeconds" : "1,800",
@@ -13011,6 +13776,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "69.067",
       "IntervalInSeconds" : "1,800",
@@ -13028,6 +13794,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "74.167",
       "IntervalInSeconds" : "1,800",
@@ -13045,6 +13812,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "71.567",
       "IntervalInSeconds" : "1,800",
@@ -13062,6 +13830,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "69.467",
       "IntervalInSeconds" : "1,800",
@@ -13079,6 +13848,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "66.933",
       "IntervalInSeconds" : "1,800",
@@ -13096,6 +13866,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "78.467",
       "IntervalInSeconds" : "1,800",
@@ -13113,6 +13884,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "68.3",
       "IntervalInSeconds" : "1,800",
@@ -13130,6 +13902,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "76.1",
       "IntervalInSeconds" : "1,800",
@@ -13147,6 +13920,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "70.733",
       "IntervalInSeconds" : "1,800",
@@ -13164,6 +13938,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.6",
       "RateReadsPerMinute" : "73.567",
       "IntervalInSeconds" : "1,800",
@@ -13181,6 +13956,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "76.533",
       "IntervalInSeconds" : "1,800",
@@ -13198,6 +13974,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "81.767",
       "IntervalInSeconds" : "1,800",
@@ -13215,6 +13992,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "74.333",
       "IntervalInSeconds" : "1,800",
@@ -13232,6 +14010,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "71.967",
       "IntervalInSeconds" : "1,800",
@@ -13249,6 +14028,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "67.3",
       "IntervalInSeconds" : "1,800",
@@ -13266,6 +14046,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "81.267",
       "IntervalInSeconds" : "1,800",
@@ -13283,6 +14064,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.5",
       "RateReadsPerMinute" : "70.067",
       "IntervalInSeconds" : "1,800",
@@ -13300,6 +14082,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "78.167",
       "IntervalInSeconds" : "1,800",
@@ -13317,6 +14100,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "73.8",
       "IntervalInSeconds" : "1,800",
@@ -13334,6 +14118,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "74.733",
       "IntervalInSeconds" : "1,800",
@@ -13351,6 +14136,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "76.667",
       "IntervalInSeconds" : "1,800",
@@ -13368,6 +14154,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.9",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -13385,6 +14172,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.933",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -13402,6 +14190,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.533",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -13419,6 +14208,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.8",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -13436,6 +14226,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.5",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -13453,6 +14244,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.5",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -13470,6 +14262,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.367",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -13487,6 +14280,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.833",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -13504,6 +14298,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "21.6",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -13521,6 +14316,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.1",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -13538,6 +14334,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.867",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -13555,6 +14352,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.467",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -13572,6 +14370,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -13589,6 +14388,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "66.967",
       "IntervalInSeconds" : "1,800",
@@ -13606,6 +14406,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "81.3",
       "IntervalInSeconds" : "1,800",
@@ -13623,6 +14424,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "67.667",
       "IntervalInSeconds" : "1,800",
@@ -13640,6 +14442,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "72.1",
       "IntervalInSeconds" : "1,800",
@@ -13657,6 +14460,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "75.933",
       "IntervalInSeconds" : "1,800",
@@ -13674,6 +14478,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "82.267",
       "IntervalInSeconds" : "1,800",
@@ -13691,6 +14496,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "68.567",
       "IntervalInSeconds" : "1,800",
@@ -13708,6 +14514,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "77.7",
       "IntervalInSeconds" : "1,800",
@@ -13725,6 +14532,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "69.4",
       "IntervalInSeconds" : "1,800",
@@ -13742,6 +14550,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "82.7",
       "IntervalInSeconds" : "1,800",
@@ -13759,6 +14568,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "79.533",
       "IntervalInSeconds" : "1,800",
@@ -13776,6 +14586,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "79.233",
       "IntervalInSeconds" : "1,800",
@@ -13793,6 +14604,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "77.167",
       "IntervalInSeconds" : "1,800",
@@ -13810,6 +14622,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "69.333",
       "IntervalInSeconds" : "1,800",
@@ -13827,6 +14640,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "79.7",
       "IntervalInSeconds" : "1,800",
@@ -13844,6 +14658,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "70.133",
       "IntervalInSeconds" : "1,800",
@@ -13861,6 +14676,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "80.533",
       "IntervalInSeconds" : "1,800",
@@ -13878,6 +14694,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.6",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -13895,6 +14712,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.767",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -13912,6 +14730,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.5",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -13929,6 +14748,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21.933",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -13946,6 +14766,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.067",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -13963,6 +14784,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.2",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -13980,6 +14802,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.133",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -13997,6 +14820,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "17.767",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -14014,6 +14838,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.5",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -14031,6 +14856,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.367",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -14048,6 +14874,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.733",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -14065,6 +14892,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.4",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -14082,6 +14910,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "73.067",
       "IntervalInSeconds" : "1,800",
@@ -14099,6 +14928,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "74.967",
       "IntervalInSeconds" : "1,800",
@@ -14116,6 +14946,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "69.833",
       "IntervalInSeconds" : "1,800",
@@ -14133,6 +14964,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.4",
       "RateReadsPerMinute" : "76.6",
       "IntervalInSeconds" : "1,800",
@@ -14150,6 +14982,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "79.433",
       "IntervalInSeconds" : "1,800",
@@ -14167,6 +15000,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "73.133",
       "IntervalInSeconds" : "1,800",
@@ -14184,6 +15018,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "82",
       "IntervalInSeconds" : "1,800",
@@ -14201,6 +15036,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "73.9",
       "IntervalInSeconds" : "1,800",
@@ -14218,6 +15054,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "76.8",
       "IntervalInSeconds" : "1,800",
@@ -14235,6 +15072,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "71.267",
       "IntervalInSeconds" : "1,800",
@@ -14252,6 +15090,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.533",
       "RateReadsPerMinute" : "68.533",
       "IntervalInSeconds" : "1,800",
@@ -14269,6 +15108,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "76.967",
       "IntervalInSeconds" : "1,800",
@@ -14286,6 +15126,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "78.267",
       "IntervalInSeconds" : "1,800",
@@ -14303,6 +15144,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "67.133",
       "IntervalInSeconds" : "1,800",
@@ -14320,6 +15162,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -14337,6 +15180,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.6",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -14354,6 +15198,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21.1",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -14371,6 +15216,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.733",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -14388,6 +15234,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.3",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -14405,6 +15252,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.067",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -14422,6 +15270,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.367",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -14439,6 +15288,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.1",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -14456,6 +15306,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.067",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -14473,6 +15324,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "68.3",
       "IntervalInSeconds" : "1,800",
@@ -14490,6 +15342,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "80.767",
       "IntervalInSeconds" : "1,800",
@@ -14507,6 +15360,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "67.133",
       "IntervalInSeconds" : "1,800",
@@ -14524,6 +15378,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "67",
       "IntervalInSeconds" : "1,800",
@@ -14541,6 +15396,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.6",
       "RateReadsPerMinute" : "82.2",
       "IntervalInSeconds" : "1,800",
@@ -14558,6 +15414,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "71.733",
       "IntervalInSeconds" : "1,800",
@@ -14575,6 +15432,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "76.1",
       "IntervalInSeconds" : "1,800",
@@ -14592,6 +15450,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "73.767",
       "IntervalInSeconds" : "1,800",
@@ -14609,6 +15468,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "79.333",
       "IntervalInSeconds" : "1,800",
@@ -14626,6 +15486,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.4",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -14643,6 +15504,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "23.2",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -14660,6 +15522,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.6",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -14677,6 +15540,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.433",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -14694,6 +15558,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.633",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -14711,6 +15576,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "22.433",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -14728,6 +15594,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.867",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -14745,6 +15612,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.433",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -14762,6 +15630,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -14779,6 +15648,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "77.8",
       "IntervalInSeconds" : "1,800",
@@ -14796,6 +15666,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "71.9",
       "IntervalInSeconds" : "1,800",
@@ -14813,6 +15684,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "74.733",
       "IntervalInSeconds" : "1,800",
@@ -14830,6 +15702,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "76.667",
       "IntervalInSeconds" : "1,800",
@@ -14847,6 +15720,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "81.933",
       "IntervalInSeconds" : "1,800",
@@ -14864,6 +15738,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "68.367",
       "IntervalInSeconds" : "1,800",
@@ -14881,6 +15756,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "72.5",
       "IntervalInSeconds" : "1,800",
@@ -14898,6 +15774,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "72.2",
       "IntervalInSeconds" : "1,800",
@@ -14915,6 +15792,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "68.8",
       "IntervalInSeconds" : "1,800",
@@ -14932,6 +15810,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "77.3",
       "IntervalInSeconds" : "1,800",
@@ -14949,6 +15828,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "67.1",
       "IntervalInSeconds" : "1,800",
@@ -14966,6 +15846,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "82.6",
       "IntervalInSeconds" : "1,800",
@@ -14983,6 +15864,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "67.2",
       "IntervalInSeconds" : "1,800",
@@ -15000,6 +15882,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "78.833",
       "IntervalInSeconds" : "1,800",
@@ -15017,6 +15900,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "81.233",
       "IntervalInSeconds" : "1,800",
@@ -15034,6 +15918,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "73.233",
       "IntervalInSeconds" : "1,800",
@@ -15051,6 +15936,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "77.7",
       "IntervalInSeconds" : "1,800",
@@ -15068,6 +15954,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "66.767",
       "IntervalInSeconds" : "1,800",
@@ -15085,6 +15972,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "68.367",
       "IntervalInSeconds" : "1,800",
@@ -15102,6 +15990,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.067",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -15119,6 +16008,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.167",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -15136,6 +16026,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.467",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -15153,6 +16044,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.033",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -15170,6 +16062,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.8",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -15187,6 +16080,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.367",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -15204,6 +16098,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.533",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -15221,6 +16116,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "17.067",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -15238,6 +16134,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.633",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -15255,6 +16152,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.8",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -15272,6 +16170,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.967",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -15289,6 +16188,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "75.167",
       "IntervalInSeconds" : "1,800",
@@ -15306,6 +16206,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "67.933",
       "IntervalInSeconds" : "1,800",
@@ -15323,6 +16224,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "71.1",
       "IntervalInSeconds" : "1,800",
@@ -15340,6 +16242,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "79.3",
       "IntervalInSeconds" : "1,800",
@@ -15357,6 +16260,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.467",
       "RateReadsPerMinute" : "73.067",
       "IntervalInSeconds" : "1,800",
@@ -15374,6 +16278,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "73.067",
       "IntervalInSeconds" : "1,800",
@@ -15391,6 +16296,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "82.767",
       "IntervalInSeconds" : "1,800",
@@ -15408,6 +16314,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "75.833",
       "IntervalInSeconds" : "1,800",
@@ -15425,6 +16332,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "69.633",
       "IntervalInSeconds" : "1,800",
@@ -15442,6 +16350,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "75.067",
       "IntervalInSeconds" : "1,800",
@@ -15459,6 +16368,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "74",
       "IntervalInSeconds" : "1,800",
@@ -15476,6 +16386,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "81.7",
       "IntervalInSeconds" : "1,800",
@@ -15493,6 +16404,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "68.1",
       "IntervalInSeconds" : "1,800",
@@ -15510,6 +16422,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "72.233",
       "IntervalInSeconds" : "1,800",
@@ -15527,6 +16440,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "23",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -15544,6 +16458,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "22.167",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -15561,6 +16476,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.333",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -15578,6 +16494,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.867",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -15595,6 +16512,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.6",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -15612,6 +16530,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "21.433",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -15629,6 +16548,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.367",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -15646,6 +16566,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "82.7",
       "IntervalInSeconds" : "1,800",
@@ -15663,6 +16584,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "83",
       "IntervalInSeconds" : "1,800",
@@ -15680,6 +16602,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "67.867",
       "IntervalInSeconds" : "1,800",
@@ -15697,6 +16620,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "69.433",
       "IntervalInSeconds" : "1,800",
@@ -15714,6 +16638,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "68.3",
       "IntervalInSeconds" : "1,800",
@@ -15731,6 +16656,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "70.6",
       "IntervalInSeconds" : "1,800",
@@ -15748,6 +16674,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.333",
       "RateReadsPerMinute" : "79.133",
       "IntervalInSeconds" : "1,800",
@@ -15765,6 +16692,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "78",
       "IntervalInSeconds" : "1,800",
@@ -15782,6 +16710,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "71.867",
       "IntervalInSeconds" : "1,800",
@@ -15799,6 +16728,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "78.5",
       "IntervalInSeconds" : "1,800",
@@ -15816,6 +16746,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "67.133",
       "IntervalInSeconds" : "1,800",
@@ -15833,6 +16764,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "76.033",
       "IntervalInSeconds" : "1,800",
@@ -15850,6 +16782,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "78.767",
       "IntervalInSeconds" : "1,800",
@@ -15867,6 +16800,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "70.467",
       "IntervalInSeconds" : "1,800",
@@ -15884,6 +16818,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -15901,6 +16836,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "3.966",
       "RateReadsPerMinute" : "85.275",
       "IntervalInSeconds" : "2,965",
@@ -15918,6 +16854,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.975",
       "RateReadsPerMinute" : "127.912",
       "IntervalInSeconds" : "2,965",
@@ -15935,6 +16872,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -15952,6 +16890,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -15969,6 +16908,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -15986,6 +16926,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -16003,6 +16944,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5",
       "RateReadsPerMinute" : "43",
       "IntervalInSeconds" : "1,800",
@@ -16020,6 +16962,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "0",
       "RateReadsPerMinute" : "0",
       "IntervalInSeconds" : "0",
@@ -16037,6 +16980,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "0",
       "RateReadsPerMinute" : "0",
       "IntervalInSeconds" : "0",
@@ -16054,6 +16998,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "0.083",
       "RateReadsPerMinute" : "3.583",
       "IntervalInSeconds" : "10,800",
@@ -16071,6 +17016,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -16088,6 +17034,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -16105,6 +17052,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4.113",
       "RateReadsPerMinute" : "85.39",
       "IntervalInSeconds" : "1,692",
@@ -16122,6 +17070,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "5.142",
       "RateReadsPerMinute" : "42.695",
       "IntervalInSeconds" : "1,692",
@@ -16139,6 +17088,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "66.933",
       "IntervalInSeconds" : "1,800",
@@ -16156,6 +17106,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "15.267",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -16173,6 +17124,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.667",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -16190,6 +17142,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.333",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -16207,6 +17160,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.8",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -16224,6 +17178,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "23.5",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -16241,6 +17196,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "23.767",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -16258,6 +17214,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.9",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -16275,6 +17232,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.867",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -16292,6 +17250,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.2",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -16309,6 +17268,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.567",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -16326,6 +17286,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "71.133",
       "IntervalInSeconds" : "1,800",
@@ -16343,6 +17304,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "71.967",
       "IntervalInSeconds" : "1,800",
@@ -16360,6 +17322,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "81.267",
       "IntervalInSeconds" : "1,800",
@@ -16377,6 +17340,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "75.8",
       "IntervalInSeconds" : "1,800",
@@ -16394,6 +17358,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "81.933",
       "IntervalInSeconds" : "1,800",
@@ -16411,6 +17376,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "80.567",
       "IntervalInSeconds" : "1,800",
@@ -16428,6 +17394,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "67.867",
       "IntervalInSeconds" : "1,800",
@@ -16445,6 +17412,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "68.067",
       "IntervalInSeconds" : "1,800",
@@ -16462,6 +17430,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "73.833",
       "IntervalInSeconds" : "1,800",
@@ -16479,6 +17448,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "81.333",
       "IntervalInSeconds" : "1,800",
@@ -16496,6 +17466,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "68.8",
       "IntervalInSeconds" : "1,800",
@@ -16513,6 +17484,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "82.667",
       "IntervalInSeconds" : "1,800",
@@ -16530,6 +17502,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "75.933",
       "IntervalInSeconds" : "1,800",
@@ -16547,6 +17520,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "80.533",
       "IntervalInSeconds" : "1,800",
@@ -16564,6 +17538,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "79.833",
       "IntervalInSeconds" : "1,800",
@@ -16581,6 +17556,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.8",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -16598,6 +17574,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.933",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -16615,6 +17592,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21.467",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -16632,6 +17610,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.667",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -16649,6 +17628,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.033",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -16666,6 +17646,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.733",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -16683,6 +17664,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "23.1",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -16700,6 +17682,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "76.633",
       "IntervalInSeconds" : "1,800",
@@ -16717,6 +17700,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.567",
       "RateReadsPerMinute" : "71.633",
       "IntervalInSeconds" : "1,800",
@@ -16734,6 +17718,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "70.8",
       "IntervalInSeconds" : "1,800",
@@ -16751,6 +17736,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "78.6",
       "IntervalInSeconds" : "1,800",
@@ -16768,6 +17754,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "74.733",
       "IntervalInSeconds" : "1,800",
@@ -16785,6 +17772,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "81.667",
       "IntervalInSeconds" : "1,800",
@@ -16802,6 +17790,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "80.133",
       "IntervalInSeconds" : "1,800",
@@ -16819,6 +17808,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "71.933",
       "IntervalInSeconds" : "1,800",
@@ -16836,6 +17826,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "79.433",
       "IntervalInSeconds" : "1,800",
@@ -16853,6 +17844,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "69.733",
       "IntervalInSeconds" : "1,800",
@@ -16870,6 +17862,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.467",
       "RateReadsPerMinute" : "73.067",
       "IntervalInSeconds" : "1,800",
@@ -16887,6 +17880,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "73.067",
       "IntervalInSeconds" : "1,800",
@@ -16904,6 +17898,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "69.833",
       "IntervalInSeconds" : "1,800",
@@ -16921,6 +17916,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.5",
       "RateReadsPerMinute" : "71.5",
       "IntervalInSeconds" : "1,800",
@@ -16938,6 +17934,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "82.767",
       "IntervalInSeconds" : "1,800",
@@ -16955,6 +17952,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "81.367",
       "IntervalInSeconds" : "1,800",
@@ -16972,6 +17970,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "78",
       "IntervalInSeconds" : "1,800",
@@ -16989,6 +17988,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "82.967",
       "IntervalInSeconds" : "1,800",
@@ -17006,6 +18006,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "75.833",
       "IntervalInSeconds" : "1,800",
@@ -17023,6 +18024,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "67.167",
       "IntervalInSeconds" : "1,800",
@@ -17040,6 +18042,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "79.433",
       "IntervalInSeconds" : "1,800",
@@ -17057,6 +18060,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "73.133",
       "IntervalInSeconds" : "1,800",
@@ -17074,6 +18078,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "75.967",
       "IntervalInSeconds" : "1,800",
@@ -17091,6 +18096,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "77.033",
       "IntervalInSeconds" : "1,800",
@@ -17108,6 +18114,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.6",
       "RateReadsPerMinute" : "81.733",
       "IntervalInSeconds" : "1,800",
@@ -17125,6 +18132,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.6",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -17142,6 +18150,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.067",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -17159,6 +18168,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.3",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -17176,6 +18186,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.867",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -17193,6 +18204,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.667",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -17210,6 +18222,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.867",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -17227,6 +18240,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.333",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -17244,6 +18258,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "73.633",
       "IntervalInSeconds" : "1,800",
@@ -17261,6 +18276,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "67.933",
       "IntervalInSeconds" : "1,800",
@@ -17278,6 +18294,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "76.133",
       "IntervalInSeconds" : "1,800",
@@ -17295,6 +18312,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "75.7",
       "IntervalInSeconds" : "1,800",
@@ -17312,6 +18330,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "74.8",
       "IntervalInSeconds" : "1,800",
@@ -17329,6 +18348,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "71.033",
       "IntervalInSeconds" : "1,800",
@@ -17346,6 +18366,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "71.667",
       "IntervalInSeconds" : "1,800",
@@ -17363,6 +18384,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "83.267",
       "IntervalInSeconds" : "1,800",
@@ -17380,6 +18402,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "69.433",
       "IntervalInSeconds" : "1,800",
@@ -17397,6 +18420,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.467",
       "RateReadsPerMinute" : "75.1",
       "IntervalInSeconds" : "1,800",
@@ -17414,6 +18438,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.333",
       "RateReadsPerMinute" : "79.133",
       "IntervalInSeconds" : "1,800",
@@ -17431,6 +18456,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "74.933",
       "IntervalInSeconds" : "1,800",
@@ -17448,6 +18474,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.567",
       "RateReadsPerMinute" : "75.433",
       "IntervalInSeconds" : "1,800",
@@ -17465,6 +18492,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "78",
       "IntervalInSeconds" : "1,800",
@@ -17482,6 +18510,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "70.467",
       "IntervalInSeconds" : "1,800",
@@ -17499,6 +18528,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "67.133",
       "IntervalInSeconds" : "1,800",
@@ -17516,6 +18546,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "66.867",
       "IntervalInSeconds" : "1,800",
@@ -17533,6 +18564,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "79",
       "IntervalInSeconds" : "1,800",
@@ -17550,6 +18582,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "68.3",
       "IntervalInSeconds" : "1,800",
@@ -17567,6 +18600,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "81.267",
       "IntervalInSeconds" : "1,800",
@@ -17584,6 +18618,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "76.1",
       "IntervalInSeconds" : "1,800",
@@ -17601,6 +18636,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "79.333",
       "IntervalInSeconds" : "1,800",
@@ -17618,6 +18654,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "73.767",
       "IntervalInSeconds" : "1,800",
@@ -17635,6 +18672,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.567",
       "RateReadsPerMinute" : "81.167",
       "IntervalInSeconds" : "1,800",
@@ -17652,6 +18690,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "75.633",
       "IntervalInSeconds" : "1,800",
@@ -17669,6 +18708,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "82.367",
       "IntervalInSeconds" : "1,800",
@@ -17686,6 +18726,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "76.867",
       "IntervalInSeconds" : "1,800",
@@ -17703,6 +18744,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.4",
       "RateReadsPerMinute" : "74.733",
       "IntervalInSeconds" : "1,800",
@@ -17720,6 +18762,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "14.533",
       "RateReadsPerMinute" : "1",
       "IntervalInSeconds" : "1,800",
@@ -17737,6 +18780,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.133",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -17754,6 +18798,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "22",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -17771,6 +18816,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -17788,6 +18834,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "14",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -17805,6 +18852,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.8",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -17822,6 +18870,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.433",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -17839,6 +18888,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.067",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -17856,6 +18906,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.433",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -17873,6 +18924,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.033",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -17890,6 +18942,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "82.667",
       "IntervalInSeconds" : "1,800",
@@ -17907,6 +18960,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "68.333",
       "IntervalInSeconds" : "1,800",
@@ -17924,6 +18978,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "79.933",
       "IntervalInSeconds" : "1,800",
@@ -17941,6 +18996,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "74.433",
       "IntervalInSeconds" : "1,800",
@@ -17958,6 +19014,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "68.567",
       "IntervalInSeconds" : "1,800",
@@ -17975,6 +19032,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "82.6",
       "IntervalInSeconds" : "1,800",
@@ -17992,6 +19050,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "68.567",
       "IntervalInSeconds" : "1,800",
@@ -18009,6 +19068,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "68.933",
       "IntervalInSeconds" : "1,800",
@@ -18026,6 +19086,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "78.833",
       "IntervalInSeconds" : "1,800",
@@ -18043,6 +19104,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "80.533",
       "IntervalInSeconds" : "1,800",
@@ -18060,6 +19122,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "79.833",
       "IntervalInSeconds" : "1,800",
@@ -18077,6 +19140,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "77.067",
       "IntervalInSeconds" : "1,800",
@@ -18094,6 +19158,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "73.233",
       "IntervalInSeconds" : "1,800",
@@ -18111,6 +19176,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "80.133",
       "IntervalInSeconds" : "1,800",
@@ -18128,6 +19194,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "69.1",
       "IntervalInSeconds" : "1,800",
@@ -18145,6 +19212,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "69.133",
       "IntervalInSeconds" : "1,800",
@@ -18162,6 +19230,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "72",
       "IntervalInSeconds" : "1,800",
@@ -18179,6 +19248,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.5",
       "RateReadsPerMinute" : "79.067",
       "IntervalInSeconds" : "1,800",
@@ -18196,6 +19266,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "75.667",
       "IntervalInSeconds" : "1,800",
@@ -18213,6 +19284,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "68.2",
       "IntervalInSeconds" : "1,800",
@@ -18230,6 +19302,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "79.8",
       "IntervalInSeconds" : "1,800",
@@ -18247,6 +19320,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "82.7",
       "IntervalInSeconds" : "1,800",
@@ -18264,6 +19338,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "67.9",
       "IntervalInSeconds" : "1,800",
@@ -18281,6 +19356,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "22.933",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -18298,6 +19374,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.633",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -18315,6 +19392,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "17.8",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -18332,6 +19410,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "15.7",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -18349,6 +19428,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "17.733",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -18366,6 +19446,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.7",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -18383,6 +19464,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.4",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -18400,6 +19482,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.5",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -18417,6 +19500,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "77.1",
       "IntervalInSeconds" : "1,800",
@@ -18434,6 +19518,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "67.167",
       "IntervalInSeconds" : "1,800",
@@ -18451,6 +19536,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "74",
       "IntervalInSeconds" : "1,800",
@@ -18468,6 +19554,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "75.2",
       "IntervalInSeconds" : "1,800",
@@ -18485,6 +19572,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "68.133",
       "IntervalInSeconds" : "1,800",
@@ -18502,6 +19590,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "82.8",
       "IntervalInSeconds" : "1,800",
@@ -18519,6 +19608,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "72.233",
       "IntervalInSeconds" : "1,800",
@@ -18536,6 +19626,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "73.3",
       "IntervalInSeconds" : "1,800",
@@ -18553,6 +19644,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "83.1",
       "IntervalInSeconds" : "1,800",
@@ -18570,6 +19662,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "70.267",
       "IntervalInSeconds" : "1,800",
@@ -18587,6 +19680,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "76.733",
       "IntervalInSeconds" : "1,800",
@@ -18604,6 +19698,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "74.667",
       "IntervalInSeconds" : "1,800",
@@ -18621,6 +19716,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "70.933",
       "IntervalInSeconds" : "1,800",
@@ -18638,6 +19734,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.333",
       "RateReadsPerMinute" : "83.233",
       "IntervalInSeconds" : "1,800",
@@ -18655,6 +19752,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "78.667",
       "IntervalInSeconds" : "1,800",
@@ -18672,6 +19770,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "80.667",
       "IntervalInSeconds" : "1,800",
@@ -18689,6 +19788,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "77.4",
       "IntervalInSeconds" : "1,800",
@@ -18706,6 +19806,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "67.8",
       "IntervalInSeconds" : "1,800",
@@ -18723,6 +19824,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "66.8",
       "IntervalInSeconds" : "1,800",
@@ -18740,6 +19842,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "69.067",
       "IntervalInSeconds" : "1,800",
@@ -18757,6 +19860,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "75.033",
       "IntervalInSeconds" : "1,800",
@@ -18774,6 +19878,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.033",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -18791,6 +19896,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.333",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -18808,6 +19914,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.3",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -18825,6 +19932,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.867",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -18842,6 +19950,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "15.567",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -18859,6 +19968,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.733",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -18876,6 +19986,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.267",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -18893,6 +20004,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.567",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -18910,6 +20022,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "74.967",
       "IntervalInSeconds" : "1,800",
@@ -18927,6 +20040,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "70.467",
       "IntervalInSeconds" : "1,800",
@@ -18944,6 +20058,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "66.867",
       "IntervalInSeconds" : "1,800",
@@ -18961,6 +20076,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "75.433",
       "IntervalInSeconds" : "1,800",
@@ -18978,6 +20094,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "76.033",
       "IntervalInSeconds" : "1,800",
@@ -18995,6 +20112,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "80.9",
       "IntervalInSeconds" : "1,800",
@@ -19012,6 +20130,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.4",
       "RateReadsPerMinute" : "80.633",
       "IntervalInSeconds" : "1,800",
@@ -19029,6 +20148,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "70.967",
       "IntervalInSeconds" : "1,800",
@@ -19046,6 +20166,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "82.267",
       "IntervalInSeconds" : "1,800",
@@ -19063,6 +20184,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.133",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -19080,6 +20202,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "16.467",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -19097,6 +20220,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.667",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -19114,6 +20238,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.833",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -19131,6 +20256,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.167",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -19148,6 +20274,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.3",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -19165,6 +20292,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.433",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -19182,6 +20310,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.367",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -19199,6 +20328,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.867",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -19216,6 +20346,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.633",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -19233,6 +20364,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.867",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -19250,6 +20382,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.8",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -19267,6 +20400,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.367",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -19284,6 +20418,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.5",
       "RateReadsPerMinute" : "70.067",
       "IntervalInSeconds" : "1,800",
@@ -19301,6 +20436,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "80.567",
       "IntervalInSeconds" : "1,800",
@@ -19318,6 +20454,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "76.167",
       "IntervalInSeconds" : "1,800",
@@ -19335,6 +20472,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "79.867",
       "IntervalInSeconds" : "1,800",
@@ -19352,6 +20490,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "80.967",
       "IntervalInSeconds" : "1,800",
@@ -19369,6 +20508,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "73.367",
       "IntervalInSeconds" : "1,800",
@@ -19386,6 +20526,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "75.933",
       "IntervalInSeconds" : "1,800",
@@ -19403,6 +20544,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "72.1",
       "IntervalInSeconds" : "1,800",
@@ -19420,6 +20562,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "83.133",
       "IntervalInSeconds" : "1,800",
@@ -19437,6 +20580,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "71.733",
       "IntervalInSeconds" : "1,800",
@@ -19454,6 +20598,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "68.933",
       "IntervalInSeconds" : "1,800",
@@ -19471,6 +20616,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.567",
       "RateReadsPerMinute" : "79.833",
       "IntervalInSeconds" : "1,800",
@@ -19488,6 +20634,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "77.067",
       "IntervalInSeconds" : "1,800",
@@ -19505,6 +20652,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "78.8",
       "IntervalInSeconds" : "1,800",
@@ -19522,6 +20670,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "69.133",
       "IntervalInSeconds" : "1,800",
@@ -19539,6 +20688,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.2",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -19556,6 +20706,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.233",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -19573,6 +20724,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.167",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -19590,6 +20742,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "22.733",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -19607,6 +20760,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.733",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -19624,6 +20778,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.3",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -19641,6 +20796,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.967",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -19658,6 +20814,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "17.733",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -19675,6 +20832,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "15.333",
       "RateReadsPerMinute" : "1.333",
       "IntervalInSeconds" : "1,800",
@@ -19692,6 +20850,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.233",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -19709,6 +20868,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.867",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -19726,6 +20886,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "15.667",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -19743,6 +20904,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.4",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -19760,6 +20922,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "73.567",
       "IntervalInSeconds" : "1,800",
@@ -19777,6 +20940,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.567",
       "RateReadsPerMinute" : "71.633",
       "IntervalInSeconds" : "1,800",
@@ -19794,6 +20958,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "76.633",
       "IntervalInSeconds" : "1,800",
@@ -19811,6 +20976,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "80.533",
       "IntervalInSeconds" : "1,800",
@@ -19828,6 +20994,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "78.6",
       "IntervalInSeconds" : "1,800",
@@ -19845,6 +21012,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "78.533",
       "IntervalInSeconds" : "1,800",
@@ -19862,6 +21030,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "75.233",
       "IntervalInSeconds" : "1,800",
@@ -19879,6 +21048,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "74.4",
       "IntervalInSeconds" : "1,800",
@@ -19896,6 +21066,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "71.1",
       "IntervalInSeconds" : "1,800",
@@ -19913,6 +21084,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "81.667",
       "IntervalInSeconds" : "1,800",
@@ -19930,6 +21102,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "73.967",
       "IntervalInSeconds" : "1,800",
@@ -19947,6 +21120,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "77.1",
       "IntervalInSeconds" : "1,800",
@@ -19964,6 +21138,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "70.533",
       "IntervalInSeconds" : "1,800",
@@ -19981,6 +21156,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "81.367",
       "IntervalInSeconds" : "1,800",
@@ -19998,6 +21174,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "78",
       "IntervalInSeconds" : "1,800",
@@ -20015,6 +21192,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "67.167",
       "IntervalInSeconds" : "1,800",
@@ -20032,6 +21210,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "69.567",
       "IntervalInSeconds" : "1,800",
@@ -20049,6 +21228,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "75.2",
       "IntervalInSeconds" : "1,800",
@@ -20066,6 +21246,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "81",
       "IntervalInSeconds" : "1,800",
@@ -20083,6 +21264,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.067",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -20100,6 +21282,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "15.833",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -20117,6 +21300,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -20134,6 +21318,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.233",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -20151,6 +21336,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.067",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -20168,6 +21354,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.9",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -20185,6 +21372,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "23.567",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -20202,6 +21390,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.7",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -20219,6 +21408,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.6",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -20236,6 +21426,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.6",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -20253,6 +21444,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.1",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -20270,6 +21462,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "75.7",
       "IntervalInSeconds" : "1,800",
@@ -20287,6 +21480,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "75.133",
       "IntervalInSeconds" : "1,800",
@@ -20304,6 +21498,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "67.133",
       "IntervalInSeconds" : "1,800",
@@ -20321,6 +21516,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "75.033",
       "IntervalInSeconds" : "1,800",
@@ -20338,6 +21534,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "74.733",
       "IntervalInSeconds" : "1,800",
@@ -20355,6 +21552,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "83.167",
       "IntervalInSeconds" : "1,800",
@@ -20372,6 +21570,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "74.8",
       "IntervalInSeconds" : "1,800",
@@ -20389,6 +21588,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "80.1",
       "IntervalInSeconds" : "1,800",
@@ -20406,6 +21606,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.733",
       "RateReadsPerMinute" : "78.467",
       "IntervalInSeconds" : "1,800",
@@ -20423,6 +21624,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "79.467",
       "IntervalInSeconds" : "1,800",
@@ -20440,6 +21642,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "74.967",
       "IntervalInSeconds" : "1,800",
@@ -20457,6 +21660,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "73.967",
       "IntervalInSeconds" : "1,800",
@@ -20474,6 +21678,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.567",
       "RateReadsPerMinute" : "75.433",
       "IntervalInSeconds" : "1,800",
@@ -20491,6 +21696,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "70.467",
       "IntervalInSeconds" : "1,800",
@@ -20508,6 +21714,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "67.133",
       "IntervalInSeconds" : "1,800",
@@ -20525,6 +21732,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "66.867",
       "IntervalInSeconds" : "1,800",
@@ -20542,6 +21750,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "76.1",
       "IntervalInSeconds" : "1,800",
@@ -20559,6 +21768,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "70.1",
       "IntervalInSeconds" : "1,800",
@@ -20576,6 +21786,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -20593,6 +21804,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -20610,6 +21822,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -20627,6 +21840,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4",
       "RateReadsPerMinute" : "86",
       "IntervalInSeconds" : "1,800",
@@ -20644,6 +21858,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -20661,6 +21876,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "0.333",
       "RateReadsPerMinute" : "4.3",
       "IntervalInSeconds" : "1,800",
@@ -20678,6 +21894,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "0.267",
       "RateReadsPerMinute" : "8.6",
       "IntervalInSeconds" : "1,800",
@@ -20695,6 +21912,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -20712,6 +21930,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -20729,6 +21948,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "3",
       "RateReadsPerMinute" : "129",
       "IntervalInSeconds" : "1,800",
@@ -20746,6 +21966,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "0.083",
       "RateReadsPerMinute" : "3.583",
       "IntervalInSeconds" : "10,800",
@@ -20763,6 +21984,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "-0.049",
       "RateReadsPerMinute" : "-25.325",
       "IntervalInSeconds" : "3,696",
@@ -20780,6 +22002,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "0",
       "RateReadsPerMinute" : "0",
       "IntervalInSeconds" : "0",
@@ -20797,6 +22020,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "4.113",
       "RateReadsPerMinute" : "85.39",
       "IntervalInSeconds" : "1,692",
@@ -20814,6 +22038,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "80.9",
       "IntervalInSeconds" : "1,800",
@@ -20831,6 +22056,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "81.133",
       "IntervalInSeconds" : "1,800",
@@ -20848,6 +22074,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "74.167",
       "IntervalInSeconds" : "1,800",
@@ -20865,6 +22092,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.6",
       "RateReadsPerMinute" : "82.2",
       "IntervalInSeconds" : "1,800",
@@ -20882,6 +22110,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.9",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -20899,6 +22128,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.667",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -20916,6 +22146,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "21.333",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -20933,6 +22164,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "23.2",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -20950,6 +22182,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.1",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -20967,6 +22200,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.433",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -20984,6 +22218,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "70.8",
       "IntervalInSeconds" : "1,800",
@@ -21001,6 +22236,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.367",
       "RateReadsPerMinute" : "67.3",
       "IntervalInSeconds" : "1,800",
@@ -21018,6 +22254,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "69.933",
       "IntervalInSeconds" : "1,800",
@@ -21035,6 +22272,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "67.333",
       "IntervalInSeconds" : "1,800",
@@ -21052,6 +22290,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.4",
       "RateReadsPerMinute" : "74.733",
       "IntervalInSeconds" : "1,800",
@@ -21069,6 +22308,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.5",
       "RateReadsPerMinute" : "70.067",
       "IntervalInSeconds" : "1,800",
@@ -21086,6 +22326,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "71.9",
       "IntervalInSeconds" : "1,800",
@@ -21103,6 +22344,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "70.067",
       "IntervalInSeconds" : "1,800",
@@ -21120,6 +22362,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "82.633",
       "IntervalInSeconds" : "1,800",
@@ -21137,6 +22380,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "76.667",
       "IntervalInSeconds" : "1,800",
@@ -21154,6 +22398,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "72.6",
       "IntervalInSeconds" : "1,800",
@@ -21171,6 +22416,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "78.933",
       "IntervalInSeconds" : "1,800",
@@ -21188,6 +22434,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "80.967",
       "IntervalInSeconds" : "1,800",
@@ -21205,6 +22452,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "77.3",
       "IntervalInSeconds" : "1,800",
@@ -21222,6 +22470,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "74.433",
       "IntervalInSeconds" : "1,800",
@@ -21239,6 +22488,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "71.733",
       "IntervalInSeconds" : "1,800",
@@ -21256,6 +22506,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "80.167",
       "IntervalInSeconds" : "1,800",
@@ -21273,6 +22524,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "82.267",
       "IntervalInSeconds" : "1,800",
@@ -21290,6 +22542,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "81",
       "IntervalInSeconds" : "1,800",
@@ -21307,6 +22560,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.567",
       "RateReadsPerMinute" : "79.833",
       "IntervalInSeconds" : "1,800",
@@ -21324,6 +22578,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "78.7",
       "IntervalInSeconds" : "1,800",
@@ -21341,6 +22596,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.567",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -21358,6 +22614,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "22.433",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -21375,6 +22632,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.033",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -21392,6 +22650,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.167",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -21409,6 +22668,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.633",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -21426,6 +22686,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "15.2",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -21443,6 +22704,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.9",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -21460,6 +22722,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21.867",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -21477,6 +22740,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "17.967",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -21494,6 +22758,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "17.733",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -21511,6 +22776,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "68.2",
       "IntervalInSeconds" : "1,800",
@@ -21528,6 +22794,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "68.5",
       "IntervalInSeconds" : "1,800",
@@ -21545,6 +22812,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "79.8",
       "IntervalInSeconds" : "1,800",
@@ -21562,6 +22830,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "79.1",
       "IntervalInSeconds" : "1,800",
@@ -21579,6 +22848,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "78.533",
       "IntervalInSeconds" : "1,800",
@@ -21596,6 +22866,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.7",
       "RateReadsPerMinute" : "71.1",
       "IntervalInSeconds" : "1,800",
@@ -21613,6 +22884,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "81.733",
       "IntervalInSeconds" : "1,800",
@@ -21630,6 +22902,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "77.7",
       "IntervalInSeconds" : "1,800",
@@ -21647,6 +22920,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "71.1",
       "IntervalInSeconds" : "1,800",
@@ -21664,6 +22938,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "68.267",
       "IntervalInSeconds" : "1,800",
@@ -21681,6 +22956,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "69.633",
       "IntervalInSeconds" : "1,800",
@@ -21698,6 +22974,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "73.9",
       "IntervalInSeconds" : "1,800",
@@ -21715,6 +22992,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "75.2",
       "IntervalInSeconds" : "1,800",
@@ -21732,6 +23010,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "81.7",
       "IntervalInSeconds" : "1,800",
@@ -21749,6 +23028,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "14.833",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -21766,6 +23046,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.533",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -21783,6 +23064,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "22",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -21800,6 +23082,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.167",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -21817,6 +23100,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.067",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -21834,6 +23118,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "17.567",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -21851,6 +23136,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "18.9",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -21868,6 +23154,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.9",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -21885,6 +23172,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "78.267",
       "IntervalInSeconds" : "1,800",
@@ -21902,6 +23190,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "76.4",
       "IntervalInSeconds" : "1,800",
@@ -21919,6 +23208,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "75.733",
       "IntervalInSeconds" : "1,800",
@@ -21936,6 +23226,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "83.1",
       "IntervalInSeconds" : "1,800",
@@ -21953,6 +23244,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "83",
       "IntervalInSeconds" : "1,800",
@@ -21970,6 +23262,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "67.133",
       "IntervalInSeconds" : "1,800",
@@ -21987,6 +23280,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "83.167",
       "IntervalInSeconds" : "1,800",
@@ -22004,6 +23298,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "79.567",
       "IntervalInSeconds" : "1,800",
@@ -22021,6 +23316,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "76.033",
       "IntervalInSeconds" : "1,800",
@@ -22038,6 +23334,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.4",
       "RateReadsPerMinute" : "71.667",
       "IntervalInSeconds" : "1,800",
@@ -22055,6 +23352,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.433",
       "RateReadsPerMinute" : "67.967",
       "IntervalInSeconds" : "1,800",
@@ -22072,6 +23370,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "70.533",
       "IntervalInSeconds" : "1,800",
@@ -22089,6 +23388,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "77.533",
       "IntervalInSeconds" : "1,800",
@@ -22106,6 +23406,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "80.1",
       "IntervalInSeconds" : "1,800",
@@ -22123,6 +23424,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "79.7",
       "IntervalInSeconds" : "1,800",
@@ -22140,6 +23442,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "67.867",
       "IntervalInSeconds" : "1,800",
@@ -22157,6 +23460,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "74",
       "IntervalInSeconds" : "1,800",
@@ -22174,6 +23478,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "78.333",
       "IntervalInSeconds" : "1,800",
@@ -22191,6 +23496,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "66.9",
       "IntervalInSeconds" : "1,800",
@@ -22208,6 +23514,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "74.967",
       "IntervalInSeconds" : "1,800",
@@ -22225,6 +23532,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "73.967",
       "IntervalInSeconds" : "1,800",
@@ -22242,6 +23550,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "69.4",
       "IntervalInSeconds" : "1,800",
@@ -22259,6 +23568,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "70.6",
       "IntervalInSeconds" : "1,800",
@@ -22276,6 +23586,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "78.767",
       "IntervalInSeconds" : "1,800",
@@ -22293,6 +23604,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "70.1",
       "IntervalInSeconds" : "1,800",
@@ -22310,6 +23622,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.667",
       "RateReadsPerMinute" : "80.9",
       "IntervalInSeconds" : "1,800",
@@ -22327,6 +23640,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.133",
       "RateReadsPerMinute" : "81.133",
       "IntervalInSeconds" : "1,800",
@@ -22344,6 +23658,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "67",
       "IntervalInSeconds" : "1,800",
@@ -22361,6 +23676,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "70.967",
       "IntervalInSeconds" : "1,800",
@@ -22378,6 +23694,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "82.267",
       "IntervalInSeconds" : "1,800",
@@ -22395,6 +23712,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "67.1",
       "IntervalInSeconds" : "1,800",
@@ -22412,6 +23730,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "69.367",
       "IntervalInSeconds" : "1,800",
@@ -22429,6 +23748,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "77.833",
       "IntervalInSeconds" : "1,800",
@@ -22446,6 +23766,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "71.133",
       "IntervalInSeconds" : "1,800",
@@ -22463,6 +23784,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "73.1",
       "IntervalInSeconds" : "1,800",
@@ -22480,6 +23802,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "77.8",
       "IntervalInSeconds" : "1,800",
@@ -22497,6 +23820,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.467",
       "RateReadsPerMinute" : "75.8",
       "IntervalInSeconds" : "1,800",
@@ -22514,6 +23838,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "77.767",
       "IntervalInSeconds" : "1,800",
@@ -22531,6 +23856,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "81.933",
       "IntervalInSeconds" : "1,800",
@@ -22548,6 +23874,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "82.633",
       "IntervalInSeconds" : "1,800",
@@ -22565,6 +23892,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "23.667",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -22582,6 +23910,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -22599,6 +23928,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.5",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -22616,6 +23946,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.067",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -22633,6 +23964,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -22650,6 +23982,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "21.567",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -22667,6 +24000,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.933",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -22684,6 +24018,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.767",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -22701,6 +24036,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "23.2",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -22718,6 +24054,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.767",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -22735,6 +24072,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.633",
       "RateReadsPerMinute" : "67.1",
       "IntervalInSeconds" : "1,800",
@@ -22752,6 +24090,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "78.633",
       "IntervalInSeconds" : "1,800",
@@ -22769,6 +24108,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "74.167",
       "IntervalInSeconds" : "1,800",
@@ -22786,6 +24126,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.933",
       "RateReadsPerMinute" : "80.167",
       "IntervalInSeconds" : "1,800",
@@ -22803,6 +24144,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.833",
       "RateReadsPerMinute" : "78.7",
       "IntervalInSeconds" : "1,800",
@@ -22820,6 +24162,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "69.033",
       "IntervalInSeconds" : "1,800",
@@ -22837,6 +24180,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "74.767",
       "IntervalInSeconds" : "1,800",
@@ -22854,6 +24198,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "68.367",
       "IntervalInSeconds" : "1,800",
@@ -22871,6 +24216,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.567",
       "RateReadsPerMinute" : "70.4",
       "IntervalInSeconds" : "1,800",
@@ -22888,6 +24234,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.867",
       "RateReadsPerMinute" : "70.167",
       "IntervalInSeconds" : "1,800",
@@ -22905,6 +24252,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.967",
       "RateReadsPerMinute" : "73.467",
       "IntervalInSeconds" : "1,800",
@@ -22922,6 +24270,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.567",
       "RateReadsPerMinute" : "71.633",
       "IntervalInSeconds" : "1,800",
@@ -22939,6 +24288,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2",
       "RateReadsPerMinute" : "77.2",
       "IntervalInSeconds" : "1,800",
@@ -22956,6 +24306,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "17.2",
       "RateReadsPerMinute" : "1.067",
       "IntervalInSeconds" : "1,800",
@@ -22973,6 +24324,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.567",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -22990,6 +24342,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.4",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -23007,6 +24360,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.033",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -23024,6 +24378,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "15.333",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -23041,6 +24396,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "20.1",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -23058,6 +24414,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.233",
       "RateReadsPerMinute" : "1.2",
       "IntervalInSeconds" : "1,800",
@@ -23075,6 +24432,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "16.4",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -23092,6 +24450,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.133",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -23109,6 +24468,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "21.233",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -23126,6 +24486,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "20.667",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -23143,6 +24504,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "21.767",
       "RateReadsPerMinute" : "1.3",
       "IntervalInSeconds" : "1,800",
@@ -23160,6 +24522,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.467",
       "RateReadsPerMinute" : "1.167",
       "IntervalInSeconds" : "1,800",
@@ -23177,6 +24540,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.7",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -23194,6 +24558,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "70.533",
       "IntervalInSeconds" : "1,800",
@@ -23211,6 +24576,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "82.767",
       "IntervalInSeconds" : "1,800",
@@ -23228,6 +24594,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.067",
       "RateReadsPerMinute" : "82.167",
       "IntervalInSeconds" : "1,800",
@@ -23245,6 +24612,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "75.967",
       "IntervalInSeconds" : "1,800",
@@ -23262,6 +24630,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.9",
       "RateReadsPerMinute" : "71.2",
       "IntervalInSeconds" : "1,800",
@@ -23279,6 +24648,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "69.567",
       "IntervalInSeconds" : "1,800",
@@ -23296,6 +24666,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "1.6",
       "RateReadsPerMinute" : "81.733",
       "IntervalInSeconds" : "1,800",
@@ -23313,6 +24684,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.533",
       "RateReadsPerMinute" : "71.267",
       "IntervalInSeconds" : "1,800",
@@ -23330,6 +24702,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "82.1",
       "IntervalInSeconds" : "1,800",
@@ -23347,6 +24720,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.567",
       "RateReadsPerMinute" : "66.7",
       "IntervalInSeconds" : "1,800",
@@ -23364,6 +24738,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "77.333",
       "IntervalInSeconds" : "1,800",
@@ -23381,6 +24756,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.1",
       "RateReadsPerMinute" : "71.233",
       "IntervalInSeconds" : "1,800",
@@ -23398,6 +24774,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.167",
       "RateReadsPerMinute" : "67.333",
       "IntervalInSeconds" : "1,800",
@@ -23415,6 +24792,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.2",
       "RateReadsPerMinute" : "76.1",
       "IntervalInSeconds" : "1,800",
@@ -23432,6 +24810,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "83.1",
       "IntervalInSeconds" : "1,800",
@@ -23449,6 +24828,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "82.7",
       "IntervalInSeconds" : "1,800",
@@ -23466,6 +24846,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.267",
       "RateReadsPerMinute" : "83",
       "IntervalInSeconds" : "1,800",
@@ -23483,6 +24864,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.033",
       "RateReadsPerMinute" : "75.133",
       "IntervalInSeconds" : "1,800",
@@ -23500,6 +24882,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "18.5",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -23517,6 +24900,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "22.7",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -23534,6 +24918,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "22.867",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -23551,6 +24936,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20",
       "RateReadsPerMinute" : "1.233",
       "IntervalInSeconds" : "1,800",
@@ -23568,6 +24954,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "19.067",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -23585,6 +24972,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "16.333",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -23602,6 +24990,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "17.233",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -23619,6 +25008,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "19.2",
       "RateReadsPerMinute" : "1.133",
       "IntervalInSeconds" : "1,800",
@@ -23636,6 +25026,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "20.733",
       "RateReadsPerMinute" : "1.1",
       "IntervalInSeconds" : "1,800",
@@ -23653,6 +25044,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "22.567",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -23670,6 +25062,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "18.5",
       "RateReadsPerMinute" : "1.033",
       "IntervalInSeconds" : "1,800",
@@ -23687,6 +25080,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "19.133",
       "RateReadsPerMinute" : "1.267",
       "IntervalInSeconds" : "1,800",
@@ -23704,6 +25098,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.767",
       "RateReadsPerMinute" : "66.9",
       "IntervalInSeconds" : "1,800",
@@ -23721,6 +25116,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP",
       "RateWritesPerMinute" : "2.233",
       "RateReadsPerMinute" : "69.433",
       "IntervalInSeconds" : "1,800",
@@ -23738,6 +25134,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "2.333",
       "RateReadsPerMinute" : "79.133",
       "IntervalInSeconds" : "1,800",
@@ -23755,6 +25152,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "78.533",
       "IntervalInSeconds" : "1,800",
@@ -23772,6 +25170,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP2",
       "RateWritesPerMinute" : "2.3",
       "RateReadsPerMinute" : "79",
       "IntervalInSeconds" : "1,800",
@@ -23789,6 +25188,7 @@ export const FAKE_DOCUMENTS = [
     "_score" : 1.0,
     "_source" : {
       "DB2SSID" : "DBBG",
+      "TableName" : "EMP3",
       "RateWritesPerMinute" : "1.8",
       "RateReadsPerMinute" : "72.767",
       "IntervalInSeconds" : "1,800",
