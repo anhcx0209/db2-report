@@ -1,6 +1,10 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { of } from 'rxjs';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { of, pipe } from 'rxjs';
+import { tap, map } from 'rxjs/operators';
+import { environment } from 'src/environments/environment';
+import { Client } from 'elasticsearch-browser';
+import * as elasticsearch from 'elasticsearch-browser';
 
 const DB2SERVERNAMES = [
   'DALLASB'
@@ -19,9 +23,42 @@ const DB2SCHEMAS = [
 })
 export class IbmService {
 
-  private baseUrl = 'http://35.243.224.36:9200/ibm2/_search';
+  private client: Client;
 
-  constructor(private http: HttpClient) { }
+  baseUrl = 'http://127.0.0.1:9200/ibm2/_search';
+
+  httpOptions = {
+    headers: new HttpHeaders({
+      'Content-Type': 'application/json',
+    })
+  }
+
+  constructor() {
+    if (!this.client) {
+      this._connect();
+    }
+  }
+
+  private connect() {
+    this.client = new Client({
+      host: 'http://localhost:9200',
+      log: 'trace'
+    });
+  }
+
+  private _connect() {
+    this.client = new elasticsearch.Client({
+      host: 'localhost:9200',
+      log: 'trace'
+    });
+  }
+
+  isAvailable(): any {
+    return this.client.ping({
+      requestTimeout: Infinity,
+      body: 'hello zy666!'
+    });
+  }
 
   getDB2ServerName() {
     return of(DB2SERVERNAMES);
@@ -36,7 +73,21 @@ export class IbmService {
   }
 
   search(jsonQuery: object) {
-    return this.http.get(this.baseUrl, jsonQuery);
+    console.log(jsonQuery);
+    // if (environment.production) {
+    //   return this.http.post<any>(this.baseUrl, jsonQuery, {
+    //     headers: this.httpOptions.headers,
+    //   }).pipe(
+    //     map(val => val.hits.hits),
+    //     tap(
+    //       next => console.log("hits ", next),
+    //       error => console.log(error.message),
+    //       () => console.log('ELK completed!')
+    //     )
+    //   );
+    // } else {
+    //   return this.fakeSearch();
+    // }    
   }
 
   fakeSearch() {

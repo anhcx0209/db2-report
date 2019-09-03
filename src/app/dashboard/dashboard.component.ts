@@ -108,7 +108,7 @@ export class DashboardComponent implements OnInit {
         y: value.rwRatio
       }
     });
-    
+
     const chartData: any = {
       labels: labels,
       datasets: [
@@ -154,7 +154,7 @@ export class DashboardComponent implements OnInit {
           pointRadius: 1,
           pointHitRadius: 10,
           data: lineRatio,
-        }    
+        }
       ]
     };
 
@@ -170,8 +170,10 @@ export class DashboardComponent implements OnInit {
   fetchData() {
     this.dataArray = [];
     var drp = $('#dtrange').data('daterangepicker');
-    const tstart = drp.startDate.format('YYYY-MM-DD-hh.mm.0000');
-    const tend = drp.endDate.format('YYYY-MM-DD-hh.mm.0000');
+    const tstart = drp.startDate.format('YYYY-MM-DD-hh.mm.000000');
+    const tend = drp.endDate.format('YYYY-MM-DD-hh.mm.000000');
+    console.log(tstart);
+    console.log(tend);
     const tablesFarmily = [];
     for (var i = 0; i < this.selectedServers.length; ++i) {
       for (var j = 0; j < this.selectedSsids.length; ++j) {
@@ -182,33 +184,70 @@ export class DashboardComponent implements OnInit {
         }
       }
     }
-    // assume that we call function for each indentified table (1 fullname)
-    this.imbService.fakeSearch().subscribe(
-      val => {
-        let tbName = '';
-        const tableLogs = val.map(item => {
-          tbName = item._source.FullName;
-          return new Document(item._source.FullName,
-            parseFloat(item._source.RateReadsPerMinute),
-            parseFloat(item._source.RateWritesPerMinute),
-            item._source.TimestampCurrent
-          );
-        });
-        this.drawRaw(tableLogs);
-
-        // cal
-
-        let sumRead = 0;
-        let sumWrite = 0;
-        tableLogs.forEach(element => {
-          sumRead += element.read_per_min;
-          sumWrite += element.write_per_min;
-        });
-        const tableSummary = new Document(tbName, sumRead, sumWrite);
-        this.dataArray.push(tableSummary);
-        this.table0.renderRows();
+    const testJsonData = {
+      "_source": [
+        "SMF127Time",
+        "RateReadsPerMinute",
+        "RateWritesPerMinute",
+        "FullName",
+        "IntervalInSeconds",
+        "TimestampCurrent"
+      ],
+      "query": {
+        "bool": {
+          "filter": [
+            {
+              "term": {
+                "FullName.keyword": "DALLASB.DBBG.DPTEST.EMP"
+              }
+            },
+            {
+              "range": {
+                "TimestampCurrent": {
+                  "gte": tstart,
+                  "lte": tend
+                }
+              }
+            }
+          ]
+        }
+      },
+      "size": 1000
+    };    
+    this.imbService.isAvailable().then(
+      () => {
+        console.log('OK, connected')
+      }, error => {        
+        console.error('Server is down', error);
       }
     );
+    // assume that we call function for each indentified table (1 fullname)
+    // this.imbService.search(testJsonData).subscribe(
+    //   val => {
+    //     let tbName = '';
+    //     const tableLogs = val.map(item => {
+    //       tbName = item._source.FullName;
+    //       return new Document(item._source.FullName,
+    //         parseFloat(item._source.RateReadsPerMinute),
+    //         parseFloat(item._source.RateWritesPerMinute),
+    //         item._source.TimestampCurrent
+    //       );
+    //     });
+    //     this.drawRaw(tableLogs);
+
+    //     // cal
+
+    //     let sumRead = 0;
+    //     let sumWrite = 0;
+    //     tableLogs.forEach(element => {
+    //       sumRead += element.read_per_min;
+    //       sumWrite += element.write_per_min;
+    //     });
+    //     const tableSummary = new Document(tbName, sumRead, sumWrite);
+    //     this.dataArray.push(tableSummary);
+    //     this.table0.renderRows();
+    //   }
+    // );
   }
 
 }
