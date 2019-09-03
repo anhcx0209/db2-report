@@ -25,15 +25,18 @@ export class Document {
     }
 
     get rps() {
-        return this.readPerMin / 60;
+        var num = this.readPerMin / 60;
+        return num.toFixed(6);
     }
 
     get wps() {
-        return this.writePerMin / 60;
+        var num = this.writePerMin / 60;
+        return num.toFixed(6);
     }
 
     get rwRatio() {
-        return this.readPerMin / this.writePerMin;
+        var num = this.readPerMin / this.writePerMin;
+        return num.toFixed(6);
     }
 
     get fullname() {
