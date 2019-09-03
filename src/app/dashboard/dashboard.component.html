@@ -57,7 +57,7 @@
                             <div fxFlex="70%" fxLayout="row">
                                 <h4 class="mr-5">Top table</h4>
                                 <mat-form-field fxFlex="80%">
-                                    <mat-select (selectionChange)="changeBucket($event)" placeholder="Database">
+                                    <mat-select (selectionChange)="changeBucket($event)" [(ngModel)]="selectedBucket" placeholder="Database">
                                         <mat-option *ngFor="let db of bucketArr; let i = index" [value]="i">{{db.name}}</mat-option>
                                     </mat-select>
                                 </mat-form-field>

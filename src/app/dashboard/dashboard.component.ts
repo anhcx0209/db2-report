@@ -89,6 +89,7 @@ export class DashboardComponent implements OnInit {
   }
 
   drawRaw(docs: Array<Document>) {
+    this.clearCanvas0();
     const labels = docs.sort((a, b) => {
       return a.timeCurrent.localeCompare(b.timeCurrent);
     }).map(value => value.timeCurrent);
@@ -260,6 +261,7 @@ export class DashboardComponent implements OnInit {
         }
 
         if (this.bucketArr.length > 0) {
+          this.selectedBucket = 0;
           this.drawRaw(this.bucketArr[0].docs);
           this.bucketArr.forEach(item => {
             let sumRead = 0;
@@ -273,10 +275,7 @@ export class DashboardComponent implements OnInit {
             this.dataArray.push(tableSummary);
           });
           this.table0.renderRows();
-        } else {
-          this.chart.destroy();
-          const ctx0 = this.canvas0.nativeElement.getContext('2d');
-          ctx0.clearRect(0, 0, this.canvas0.nativeElement.width, this.canvas0.nativeElement.height);
+        } else {          
           this.dataArray = [];
           this.table0.renderRows();
         }
@@ -285,10 +284,15 @@ export class DashboardComponent implements OnInit {
     );
   }
 
-  changeBucket($event) {
-    this.chart.destroy();
+  clearCanvas0() {
+    if (this.chart) {
+      this.chart.destroy();
+    }
     const ctx0 = this.canvas0.nativeElement.getContext('2d');
     ctx0.clearRect(0, 0, this.canvas0.nativeElement.width, this.canvas0.nativeElement.height);
+  }
+
+  changeBucket($event) {    
     this.drawRaw(this.bucketArr[$event.value].docs);
   }
 }
