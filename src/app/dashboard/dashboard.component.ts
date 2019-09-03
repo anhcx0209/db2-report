@@ -44,6 +44,8 @@ export class DashboardComponent implements OnInit {
   selectedSchemas = [];
 
   bucketArr: Array<Bucket> = [];
+  selectedBucket = 0;
+  chart: any;
 
   @ViewChild(MatTable, { static: true }) table0: MatTable<any>;
   @ViewChild('canvas0', { static: true }) canvas0: ElementRef;
@@ -161,12 +163,12 @@ export class DashboardComponent implements OnInit {
     };
 
     const ctx = this.canvas0.nativeElement.getContext('2d');
-    let chart = new Chart(ctx, {
+    this.chart = new Chart(ctx, {
       type: 'line',
       data: chartData,
       options: this.defaultOpts
     });
-    return chart;
+    return this.chart;
   }
 
 
@@ -250,21 +252,27 @@ export class DashboardComponent implements OnInit {
             this.bucketArr.push(bck);
           }
         }
-        console.log(this.bucketArr);
-        this.drawRaw(this.bucketArr[1].docs);
-
-        // cal
-        // let sumRead = 0;
-        // let sumWrite = 0;
-        // tableLogs.forEach(element => {
-        //   sumRead += element.readPerMin;
-        //   sumWrite += element.writePerMin;
-        // });
-        // const tableSummary = new Document(tbName, sumRead, sumWrite);
-        // this.dataArray.push(tableSummary);
-        // this.table0.renderRows();
+        this.drawRaw(this.bucketArr[0].docs);
+        this.bucketArr.forEach(item => {
+          let sumRead = 0;
+          let sumWrite = 0;
+          item.docs.forEach(element => {
+            sumRead += element.readPerMin;
+            sumWrite += element.writePerMin;
+          });
+          const splited = item.name.split('.');
+          const tableSummary = new Document(splited[0], splited[1], splited[2], splited[3], sumRead, sumWrite);
+          this.dataArray.push(tableSummary);
+        });
+        this.table0.renderRows();
       }
     );
   }
 
+  changeBucket($event) {
+    this.chart.destroy();
+    const ctx0 = this.canvas0.nativeElement.getContext('2d');
+    ctx0.clearRect(0, 0, this.canvas0.nativeElement.width, this.canvas0.nativeElement.height);
+    this.drawRaw(this.bucketArr[$event.value].docs);
+  }
 }

@@ -52,13 +52,24 @@
                 </div>
                 <div fxLayout="row" fxLayoutGap="24px">
                     <mat-card class="mat-elevation-z3" fxFlex="50%" fxLayout="column">
-                        <h3>Graph</h3>
+                        <div fxLayout="row">
+                            <h3 fxFlex="30%">Graph</h3>
+                            <div fxFlex="70%" fxLayout="row">
+                                <h4 class="mr-5">Top table</h4>
+                                <mat-form-field fxFlex="80%">
+                                    <mat-select (selectionChange)="changeBucket($event)" placeholder="Database">
+                                        <mat-option *ngFor="let db of bucketArr; let i = index" [value]="i">{{db.name}}</mat-option>
+                                    </mat-select>
+                                </mat-form-field>
+                            </div>
+                        </div>
+
                         <canvas width="100%" #canvas0></canvas>
                     </mat-card>
 
                     <mat-card class="mat-elevation-z3" fxFlex="50%" fxLayout="column" #table0>
                         <h3>Table</h3>
-                        <table mat-table [dataSource]="dataArray">                            
+                        <table mat-table [dataSource]="dataArray">
 
                             <ng-container matColumnDef="server">
                                 <th mat-header-cell *matHeaderCellDef> System </th>
