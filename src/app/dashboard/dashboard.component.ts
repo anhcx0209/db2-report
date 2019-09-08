@@ -6,6 +6,7 @@ import { Document } from '../document';
 import { MatTable } from '@angular/material/table';
 import * as _ from 'lodash';
 import Chart from 'chart.js';
+import { MAT_LABEL_GLOBAL_OPTIONS, _countGroupLabelsBeforeOption } from '@angular/material/core';
 declare var $: any;
 declare var daterangepicker: any;
 
@@ -24,6 +25,7 @@ export class DashboardComponent implements OnInit {
   dataArray: Array<Document> = [];
 
   columnsToDisplay = [
+    'select',
     'server',
     'ssid',
     'schema',
@@ -47,13 +49,21 @@ export class DashboardComponent implements OnInit {
   selectedBucket = 0;
   chart: any;
 
+  lineColor = [
+    '#c70d3a',
+    '#01d28e',
+    '#434982',
+    '#730068',
+    '#c70d3a',
+  ];
+
   @ViewChild(MatTable, { static: true }) table0: MatTable<any>;
   @ViewChild('canvas0', { static: true }) canvas0: ElementRef;
 
   defaultOpts: any = {
     cutoutPercentage: 70,
     legend: {
-      display: false
+      display: true
     },
     scales: {
       xAxes: [{
@@ -88,6 +98,45 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  drawBucket(buckets: Array<Bucket>) {
+    this.clearCanvas0(); 
+    let lineDataSets = [];
+    let labelSets = [];
+    const lineColor = this.lineColor;
+    buckets.forEach((item, index) => {
+      const labels = item.docs.sort((a, b) => {
+        return a.timeCurrent.localeCompare(b.timeCurrent);
+      }).map(value => value.timeCurrent);
+      labelSets.push(labels);
+
+      // push read line
+      const lineRead = item.docs.map(value => {
+        return {
+          x: value.xTime,
+          y: value.rps
+        };
+      });
+
+      lineDataSets.push({
+        label: item.name,
+        fill: false,
+        borderColor: lineColor[index],
+        lineTension: 0,
+        data: lineRead,
+      });
+    });
+    
+    const ctx = this.canvas0.nativeElement.getContext('2d');
+    return new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labelSets[0],
+        datasets: lineDataSets,
+      },
+      options: this.defaultOpts
+    });
+  }
+
   drawRaw(docs: Array<Document>) {
     this.clearCanvas0();
     const labels = docs.sort((a, b) => {
@@ -97,22 +146,22 @@ export class DashboardComponent implements OnInit {
     const lineRead = docs.map((value, index) => {
       return {
         x: value.xTime,
-        y: value.readPerMin
+        y: value.rps
       };
     });
-    const lineWrite = docs.map((value, index) => {
-      return {
-        x: value.xTime,
-        y: value.writePerMin
-      };
-    });
+    // const lineWrite = docs.map((value, index) => {
+    //   return {
+    //     x: value.xTime,
+    //     y: value.wps
+    //   };
+    // });
 
-    const lineRatio = docs.map((value, index) => {
-      return {
-        x: value.xTime,
-        y: value.rwRatio
-      };
-    });
+    // const lineRatio = docs.map((value, index) => {
+    //   return {
+    //     x: value.xTime,
+    //     y: value.rwRatio
+    //   };
+    // });
 
     const chartData: any = {
       labels: labels,
@@ -132,44 +181,43 @@ export class DashboardComponent implements OnInit {
           pointHitRadius: 10,
           data: lineRead,
         },
-        {
-          label: 'Avg. Writes/min',
-          fill: false,
-          lineTension: 0,
-          borderColor: '#fc0400',
-          pointBorderWidth: 1,
-          pointHoverRadius: 5,
-          pointHoverBackgroundColor: 'rgba(75,192,192,1)',
-          pointHoverBorderColor: 'rgba(220,220,220,1)',
-          pointHoverBorderWidth: 2,
-          pointRadius: 1,
-          pointHitRadius: 10,
-          data: lineWrite,
-        },
-        {
-          label: 'Reads/Write Ratio',
-          fill: false,
-          lineTension: 0,
-          borderColor: '#ffea00',
-          pointBorderWidth: 1,
-          pointHoverRadius: 5,
-          pointHoverBackgroundColor: 'rgba(75,192,192,1)',
-          pointHoverBorderColor: 'rgba(220,220,220,1)',
-          pointHoverBorderWidth: 2,
-          pointRadius: 1,
-          pointHitRadius: 10,
-          data: lineRatio,
-        }
+        // {
+        //   label: 'Avg. Writes/min',
+        //   fill: false,
+        //   lineTension: 0,
+        //   borderColor: '#fc0400',
+        //   pointBorderWidth: 1,
+        //   pointHoverRadius: 5,
+        //   pointHoverBackgroundColor: 'rgba(75,192,192,1)',
+        //   pointHoverBorderColor: 'rgba(220,220,220,1)',
+        //   pointHoverBorderWidth: 2,
+        //   pointRadius: 1,
+        //   pointHitRadius: 10,
+        //   data: lineWrite,
+        // },
+        // {
+        //   label: 'Reads/Write Ratio',
+        //   fill: false,
+        //   lineTension: 0,
+        //   borderColor: '#ffea00',
+        //   pointBorderWidth: 1,
+        //   pointHoverRadius: 5,
+        //   pointHoverBackgroundColor: 'rgba(75,192,192,1)',
+        //   pointHoverBorderColor: 'rgba(220,220,220,1)',
+        //   pointHoverBorderWidth: 2,
+        //   pointRadius: 1,
+        //   pointHitRadius: 10,
+        //   data: lineRatio,
+        // }
       ]
     };
 
     const ctx = this.canvas0.nativeElement.getContext('2d');
-    this.chart = new Chart(ctx, {
+    return new Chart(ctx, {
       type: 'line',
       data: chartData,
       options: this.defaultOpts
     });
-    return this.chart;
   }
 
 
@@ -262,7 +310,7 @@ export class DashboardComponent implements OnInit {
 
         if (this.bucketArr.length > 0) {
           this.selectedBucket = 0;
-          this.drawRaw(this.bucketArr[0].docs);
+          this.drawBucket(this.bucketArr);
           this.bucketArr.forEach(item => {
             let sumRead = 0;
             let sumWrite = 0;
@@ -275,7 +323,7 @@ export class DashboardComponent implements OnInit {
             this.dataArray.push(tableSummary);
           });
           this.table0.renderRows();
-        } else {          
+        } else {
           this.dataArray = [];
           this.table0.renderRows();
         }
@@ -292,7 +340,7 @@ export class DashboardComponent implements OnInit {
     ctx0.clearRect(0, 0, this.canvas0.nativeElement.width, this.canvas0.nativeElement.height);
   }
 
-  changeBucket($event) {    
+  changeBucket($event) {
     this.drawRaw(this.bucketArr[$event.value].docs);
   }
 }
