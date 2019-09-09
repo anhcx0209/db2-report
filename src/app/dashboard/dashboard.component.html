@@ -60,7 +60,10 @@
                     </mat-card>
 
                     <mat-card class="mat-elevation-z3" fxFlex="50%" fxLayout="column" #table0>
-                        <h3>Top DB2 table Candidates</h3>
+                        <div fxLayout="row" fxLayoutAlign="space-between baseline">
+                            <h3>Top DB2 table Candidates</h3>
+                            <button mat-button (click)="downloadCSV()">Download as CSV</button>
+                        </div>
                         <table mat-table [dataSource]="dataArray">
 
                             <ng-container matColumnDef="select">
@@ -78,7 +81,7 @@
                                         [aria-label]="checkboxLabel(row)">
                                     </mat-checkbox>
                                 </td>
-                            </ng-container>k
+                            </ng-container>
 
                             <ng-container matColumnDef="server">
                                 <th mat-header-cell *matHeaderCellDef> System </th>

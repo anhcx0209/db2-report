@@ -169,6 +169,24 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  downloadCSV() {
+    let lineArray = [];
+    this.dataArray.forEach((record, index) => {
+      const line = record.server + ', ' + record.ssid + ', ' + record.schema + ', ' + record.tablename + ', '
+        + record.rps + ', ' + record.wps + ', ' + record.rwRatio;
+      lineArray.push(index === 0 ? 'data:text/csv;charset=utf-8,' + line : line);
+    });
+    const csvContent = lineArray.join('\n');
+    console.log(csvContent);
+    let encodedUri = encodeURI(csvContent);
+    let link = document.createElement('a');
+    link.setAttribute('href', encodedUri);
+    link.setAttribute('download', 'db2_report_' + moment().unix() + '.csv');
+    document.body.appendChild(link); // Required for FF
+    link.click();
+    document.body.removeChild(link);
+  }
+
   drawRaw(docs: Array<Document>) {
     this.clearCanvas0();
     const labels = docs.sort((a, b) => {
@@ -273,34 +291,34 @@ export class DashboardComponent implements OnInit {
     }
 
     const testJsonData = {
-      "_source": [
-        "SMF127Time",
-        "RateReadsPerMinute",
-        "RateWritesPerMinute",
-        "FullName",
-        "IntervalInSeconds",
-        "TimestampCurrent"
+      '_source': [
+        'SMF127Time',
+        'RateReadsPerMinute',
+        'RateWritesPerMinute',
+        'FullName',
+        'IntervalInSeconds',
+        'TimestampCurrent'
       ],
-      "query": {
-        "bool": {
-          "filter": [
+      'query': {
+        'bool': {
+          'filter': [
             {
-              "term": {
-                "FullName.keyword": "DALLASB.DBBG.DPTEST.EMP"
+              'term': {
+                'FullName.keyword': 'DALLASB.DBBG.DPTEST.EMP'
               }
             },
             {
-              "range": {
-                "TimestampCurrent": {
-                  "gte": tstart,
-                  "lte": tend
+              'range': {
+                'TimestampCurrent': {
+                  'gte': tstart,
+                  'lte': tend
                 }
               }
             }
           ]
         }
       },
-      "size": 1000
+      'size': 1000
     };
     // assume that we call function for each indentified table (1 fullname)
     this.imbService.search(testJsonData).subscribe(
