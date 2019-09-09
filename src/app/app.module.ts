@@ -18,15 +18,18 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { SuperDatePickerComponent } from './super-date-picker/super-date-picker.component';
 import { FormsModule } from '@angular/forms';
+import { MoreInfoComponent } from './more-info/more-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     DashboardComponent,
-    SuperDatePickerComponent
+    SuperDatePickerComponent,
+    MoreInfoComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +40,7 @@ import { FormsModule } from '@angular/forms';
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
+    MatExpansionModule,
     MatTabsModule,
     MatCardModule,
     MatSelectModule,
