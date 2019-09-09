@@ -130,6 +130,10 @@ export class DashboardComponent implements OnInit {
     this.chart.update();
   }
 
+  haveNoData() {
+    return this.dataArray.length === 0;
+  }
+
   drawBucket(buckets: Array<Bucket>) {
     this.clearCanvas0();
     let lineDataSets = [];
@@ -358,7 +362,6 @@ export class DashboardComponent implements OnInit {
             this.bucketArr.push(bck);
           }
         }
-        console.log(this.bucketArr);
 
         if (this.bucketArr.length > 0) {
           this.selectedBucket = 0;
@@ -375,11 +378,9 @@ export class DashboardComponent implements OnInit {
             this.selection.push(true);
             this.dataArray.push(tableSummary);
           });
-          console.log(this.selection);
-          this.table0.renderRows();
         } else {
+          this.clearCanvas0();
           this.dataArray = [];
-          this.table0.renderRows();
         }
 
       }

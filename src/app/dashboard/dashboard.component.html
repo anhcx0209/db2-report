@@ -53,10 +53,13 @@
                 <div fxLayout="row" fxLayoutGap="24px">
                     <mat-card class="mat-elevation-z3" fxFlex="50%" fxLayout="column">
                         <div fxLayout="row">
-                            <h3 fxFlex="30%">Graph</h3>                            
+                            <h3 fxFlex="30%">Graph</h3>
+                        </div>
+                        <div fxLayout="column">
+                            <div *ngIf="haveNoData()" class="text-center">No data for selected timeframe. Please select another timeframe.</div>
+                            <canvas width="100%" #canvas0></canvas>
                         </div>
 
-                        <canvas width="100%" #canvas0></canvas>
                     </mat-card>
 
                     <mat-card class="mat-elevation-z3" fxFlex="50%" fxLayout="column" #table0>
@@ -64,11 +67,11 @@
                             <h3>Top DB2 table Candidates</h3>
                             <button mat-button (click)="downloadCSV()">Download as CSV</button>
                         </div>
-                        <table mat-table [dataSource]="dataArray">
-
+                        <div *ngIf="haveNoData()" class="text-center">No data for selected timeframe. Please select another timeframe.</div>
+                        <table mat-table [dataSource]="dataArray" *ngIf="!haveNoData()">                                            
                             <ng-container matColumnDef="select">
                                 <th mat-header-cell *matHeaderCellDef>
-                                    <mat-checkbox color="warn" (change)="$event ? masterToggle() : null"                                        
+                                    <mat-checkbox color="warn" (change)="$event ? masterToggle() : null"
                                         [checked]="selectionHasValue() && isAllSelected()"
                                         [indeterminate]="selectionHasValue() && !isAllSelected()"
                                         [aria-label]="checkboxLabel()">
@@ -76,8 +79,7 @@
                                 </th>
                                 <td mat-cell *matCellDef="let row">
                                     <mat-checkbox color="warn" (click)="$event.stopPropagation()"
-                                        (change)="$event ? chartToggle(row) : null"
-                                        [checked]="isSelected(row)"
+                                        (change)="$event ? chartToggle(row) : null" [checked]="isSelected(row)"
                                         [aria-label]="checkboxLabel(row)">
                                     </mat-checkbox>
                                 </td>
