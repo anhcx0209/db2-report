@@ -6,7 +6,7 @@ import { Document } from '../document';
 import { MatTable } from '@angular/material/table';
 import * as _ from 'lodash';
 import Chart from 'chart.js';
-import { MAT_LABEL_GLOBAL_OPTIONS, _countGroupLabelsBeforeOption } from '@angular/material/core';
+import { _countGroupLabelsBeforeOption } from '@angular/material/core';
 declare var $: any;
 declare var daterangepicker: any;
 
@@ -36,6 +36,7 @@ export class DashboardComponent implements OnInit {
   ];
   showRwRatio: false;
   modTimeFrame: false;
+  selection: Array<boolean> = [];
 
   $servernames: Observable<string[]>;
   $ssids: Observable<string[]>;
@@ -98,8 +99,39 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  checkboxLabel() {
+    return 1;
+  }
+
+  masterToggle() {
+    this.bucketArr.forEach((item, idx) => {
+      this.selection[idx] = !this.selection[idx];
+      this.chart.getDatasetMeta(idx).hidden = !(this.chart.getDatasetMeta(idx).hidden);
+      this.chart.update();
+    });
+  }
+
+  isSelected(row) {
+    return this.selection[row.tableId];
+  }
+
+  selectionHasValue() {
+    return this.selection.length > 0;
+  }
+
+  isAllSelected() {
+    const notSelected = this.selection.find(item => item === false);
+    return notSelected === undefined;
+  }
+
+  chartToggle(param) {
+    this.selection[param.tableId] = !this.selection[param.tableId];
+    this.chart.getDatasetMeta(param.tableId).hidden = !(this.chart.getDatasetMeta(param.tableId).hidden);
+    this.chart.update();
+  }
+
   drawBucket(buckets: Array<Bucket>) {
-    this.clearCanvas0(); 
+    this.clearCanvas0();
     let lineDataSets = [];
     let labelSets = [];
     const lineColor = this.lineColor;
@@ -125,7 +157,7 @@ export class DashboardComponent implements OnInit {
         data: lineRead,
       });
     });
-    
+
     const ctx = this.canvas0.nativeElement.getContext('2d');
     return new Chart(ctx, {
       type: 'line',
@@ -279,6 +311,7 @@ export class DashboardComponent implements OnInit {
           return t1.isSameOrAfter(drp.startDate) && t1.isSameOrBefore(drp.endDate);
         }).map(item => {
           const newItem = new Document(
+            0,
             item._source.DB2ServerName,
             item._source.DB2SSID,
             item._source.DataBaseName,
@@ -307,11 +340,12 @@ export class DashboardComponent implements OnInit {
             this.bucketArr.push(bck);
           }
         }
+        console.log(this.bucketArr);
 
         if (this.bucketArr.length > 0) {
           this.selectedBucket = 0;
-          this.drawBucket(this.bucketArr);
-          this.bucketArr.forEach(item => {
+          this.chart = this.drawBucket(this.bucketArr);
+          this.bucketArr.forEach((item, idx) => {
             let sumRead = 0;
             let sumWrite = 0;
             item.docs.forEach(element => {
@@ -319,9 +353,11 @@ export class DashboardComponent implements OnInit {
               sumWrite += element.writePerMin;
             });
             const splited = item.name.split('.');
-            const tableSummary = new Document(splited[0], splited[1], splited[2], splited[3], sumRead, sumWrite);
+            const tableSummary = new Document(idx, splited[0], splited[1], splited[2], splited[3], sumRead, sumWrite);
+            this.selection.push(true);
             this.dataArray.push(tableSummary);
           });
+          console.log(this.selection);
           this.table0.renderRows();
         } else {
           this.dataArray = [];

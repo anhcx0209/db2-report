@@ -1,6 +1,8 @@
 import * as moment from 'moment';
 
 export class Document {
+    tableId: number;
+
     timeCurrent?: string;
     xTime?: number;
     server: string;
@@ -11,7 +13,9 @@ export class Document {
     readPerMin: number;
     writePerMin: number;
 
-    constructor(server: string, ssid: string, schema: string, tableName: string, rpm: number, wpm: number, ts: string = '') {
+    // tslint:disable-next-line: max-line-length
+    constructor(tableId: number, server: string, ssid: string, schema: string, tableName: string, rpm: number, wpm: number, ts: string = '') {
+        this.tableId = tableId;
         this.readPerMin = rpm;
         this.writePerMin = wpm;
         this.server = server.trim();
