@@ -1,36 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 .flex-spacer {
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
 .dashboard {
-  padding: 0px 10px;
+    padding: 0px 10px;
 }
 
 .navbar-header {
-  padding: 8px 16px;
-  background-color: #000;
+    padding: 8px 16px;
+    background-color: #000;
 }
 
 .navbar-logo {
-  height: 18px;
-  margin-right: 10px;
+    height: 18px;
+    margin-right: 10px;
 }
 
 .ml-5 {
-  margin-left: 15px;
+    margin-left: 15px;
 }
 
 .mr-5 {
-  margin-right: 15px; 
+    margin-right: 15px;
 }
 
 .p-10 {
-  padding: 10px 0;  
+    padding: 10px 0;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
+}
+
+.overlay {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 56px;
+    left: 0;
+    background-color: rgba(74, 74, 74, .8);
+    z-index: 99999;
 }

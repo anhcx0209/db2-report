@@ -14,6 +14,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatTableModule } from '@angular/material/table';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatInputModule } from '@angular/material/input';
@@ -22,14 +23,19 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { SuperDatePickerComponent } from './super-date-picker/super-date-picker.component';
 import { FormsModule } from '@angular/forms';
 import { MoreInfoComponent } from './more-info/more-info.component';
+import { MessagerComponent } from './messager/messager.component';
+import { LoaderService } from './loader.service';
+import { LoaderComponent } from './loader/loader.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     DashboardComponent,
+    MessagerComponent,
     SuperDatePickerComponent,
-    MoreInfoComponent
+    MoreInfoComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,
@@ -38,6 +44,7 @@ import { MoreInfoComponent } from './more-info/more-info.component';
     FlexLayoutModule,
     MatCheckboxModule,
     MatButtonModule,
+    MatProgressBarModule,
     MatFormFieldModule,
     MatInputModule,
     MatExpansionModule,
@@ -49,7 +56,7 @@ import { MoreInfoComponent } from './more-info/more-info.component';
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [LoaderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

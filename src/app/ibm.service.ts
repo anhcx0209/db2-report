@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { of, pipe } from 'rxjs';
-import { tap, map } from 'rxjs/operators';
+import { tap, map, delay } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
 import { FAKE_DOCUMENTS } from './dummy';
 
@@ -49,7 +49,9 @@ export class IbmService {
   }
 
   search(jsonQuery: object) {
-    return of(FAKE_DOCUMENTS);
+    return of(FAKE_DOCUMENTS).pipe(
+      delay(1000)
+    );
     // Define the search parameters
     // const searchParams: RequestParams.Search<any> = {
     //   index: 'ibm2',
