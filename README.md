@@ -1,27 +1,28 @@
-# ZioUi
+# IBM DB2 Dashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+Dashboard for SMF127 records.
 
-## Development server
+## How to run
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Download source code from [github](https://github.com/anhcx0209/db2-report.git)
+- `npm install`
+- `ng serve --port {yourport}` to run local
+- `ng build` to build and serve by `nginx` or `apache`
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Select time range (selector will be placed at top-right)
+2. Select database, then SSID, then table
+3. Press "Get Result"
 
-## Build
+## Changelogs
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### 0.1 Sep, 23 2019
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Initial release
+- Worked on statics data from elastic search
+- Supported:
+    - Simple timerange selector
+    - Graph (by [chart.js](https://www.chartjs.org))
+    - Table
+    - Additional filter: show rate of read/write
