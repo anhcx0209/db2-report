@@ -56,10 +56,9 @@
                             <h3 fxFlex="30%">Graph</h3>
                         </div>
                         <div fxLayout="column">
-                            <div *ngIf="haveNoData()" class="text-center">No data for selected timeframe. Please select another timeframe.</div>
+                            <div *ngIf="haveNoData()" class="text-center">There is no data available. <a href="#">How to loaded it?</a></div>
                             <canvas width="100%" #canvas0></canvas>
                         </div>
-
                     </mat-card>
 
                     <mat-card class="mat-elevation-z3" fxFlex="50%" fxLayout="column" #table0>
@@ -67,8 +66,8 @@
                             <h3>Top DB2 table Candidates</h3>
                             <button mat-button (click)="downloadCSV()">Download as CSV</button>
                         </div>
-                        <div *ngIf="haveNoData()" class="text-center">No data for selected timeframe. Please select another timeframe.</div>
-                        <table mat-table [dataSource]="dataArray" *ngIf="!haveNoData()">                                            
+                        <div *ngIf="haveNoData()" class="text-center">There is no data available</div>
+                        <table mat-table [dataSource]="dataArray" *ngIf="!haveNoData()">
                             <ng-container matColumnDef="select">
                                 <th mat-header-cell *matHeaderCellDef>
                                     <mat-checkbox color="warn" (change)="$event ? masterToggle() : null"
