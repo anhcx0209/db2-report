@@ -56,7 +56,7 @@
                             <h3 fxFlex="30%">Graph</h3>
                         </div>
                         <div fxLayout="column">
-                            <div *ngIf="haveNoData()" class="text-center">There is no data available. <a href="#">How to loaded it?</a></div>
+                            <app-messager [show]="haveNoData()"></app-messager>
                             <canvas width="100%" #canvas0></canvas>
                         </div>
                     </mat-card>
@@ -66,7 +66,7 @@
                             <h3>Top DB2 table Candidates</h3>
                             <button mat-button (click)="downloadCSV()">Download as CSV</button>
                         </div>
-                        <div *ngIf="haveNoData()" class="text-center">There is no data available</div>
+                        <app-messager [show]="haveNoData()"></app-messager>
                         <table mat-table [dataSource]="dataArray" *ngIf="!haveNoData()">
                             <ng-container matColumnDef="select">
                                 <th mat-header-cell *matHeaderCellDef>
