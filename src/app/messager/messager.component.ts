@@ -11,10 +11,10 @@ export class MessagerComponent implements OnInit {
   @Input() message: string;
 
   constructor() {
-    this.message = 'There is no data available. <a href="#">How to loaded it?</a>';
+    this.message = 'unknown';
   }
 
-  ngOnInit() {    
+  ngOnInit() {
   }
 
 }

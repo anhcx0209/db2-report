@@ -7,6 +7,7 @@ import { MatTable } from '@angular/material/table';
 import * as _ from 'lodash';
 import Chart from 'chart.js';
 import { _countGroupLabelsBeforeOption } from '@angular/material/core';
+import { LoaderService } from '../loader.service';
 declare var $: any;
 declare var daterangepicker: any;
 
@@ -50,6 +51,8 @@ export class DashboardComponent implements OnInit {
   selectedBucket = 0;
   chart: any;
 
+  queryMessage: string;
+
   lineColor = [
     '#c70d3a',
     '#01d28e',
@@ -78,12 +81,13 @@ export class DashboardComponent implements OnInit {
     }
   };
 
-  constructor(private imbService: IbmService) { }
+  constructor(private imbService: IbmService, private loaderService: LoaderService) { }
 
   ngOnInit() {
     this.$servernames = this.imbService.getDB2ServerName();
     this.$ssids = this.imbService.getDB2SSIDS();
     this.$schemas = this.imbService.getDB2Schemas();
+    this.queryMessage = 'There is no data available. <a href="#">How to loaded it?</a>';
     $(document).ready(() => {
       $('input[name="dates"]').daterangepicker({
         timePicker: true,
@@ -277,6 +281,9 @@ export class DashboardComponent implements OnInit {
 
 
   fetchData() {
+    // start loading
+    this.loaderService.show();
+
     this.dataArray = [];
     const drp = $('#dtrange').data('daterangepicker');
     const tstart = drp.startDate.format('YYYY-MM-DD-hh.mm.ss0000');
@@ -379,10 +386,17 @@ export class DashboardComponent implements OnInit {
             this.dataArray.push(tableSummary);
           });
         } else {
+          this.queryMessage = 'No data for selected timeframe.  Please select another timeframe.';
           this.clearCanvas0();
           this.dataArray = [];
         }
 
+      }, // end of then()
+      (errr) => {
+        this.queryMessage = 'Cant not send request to ELK. Please try again.';
+      }, // end of error()
+      () => {
+        this.loaderService.hide();
       }
     );
   }

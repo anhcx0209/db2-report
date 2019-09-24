@@ -22,20 +22,17 @@
                         <div fxLayout="row" fxLayoutGap="20px">
                             <mat-form-field fxFlex="30%">
                                 <mat-select [(ngModel)]="selectedServers" placeholder="Server Name" multiple>
-                                    <mat-option *ngFor="let sn of $servernames | async" [value]="sn">{{sn}}
-                                    </mat-option>
+                                    <mat-option *ngFor="let sn of $servernames | async" [value]="sn">{{sn}}</mat-option>
                                 </mat-select>
                             </mat-form-field>
                             <mat-form-field fxFlex="30%">
                                 <mat-select [(ngModel)]="selectedSsids" placeholder="SSID" multiple>
-                                    <mat-option *ngFor="let ssid of $ssids | async" [value]="ssid">{{ssid}}
-                                    </mat-option>
+                                    <mat-option *ngFor="let ssid of $ssids | async" [value]="ssid">{{ssid}}</mat-option>
                                 </mat-select>
                             </mat-form-field>
                             <mat-form-field fxFlex="30%">
                                 <mat-select [(ngModel)]="selectedSchemas" placeholder="Database" multiple>
-                                    <mat-option *ngFor="let db of $schemas | async" [value]="db">{{db}}
-                                    </mat-option>
+                                    <mat-option *ngFor="let db of $schemas | async" [value]="db">{{db}}</mat-option>
                                 </mat-select>
                             </mat-form-field>
                         </div>
@@ -56,7 +53,7 @@
                             <h3 fxFlex="30%">Graph</h3>
                         </div>
                         <div fxLayout="column">
-                            <app-messager [show]="haveNoData()"></app-messager>
+                            <app-messager [show]="haveNoData()" [message]="queryMessage"></app-messager>
                             <canvas width="100%" #canvas0></canvas>
                         </div>
                     </mat-card>
@@ -66,7 +63,7 @@
                             <h3>Top DB2 table Candidates</h3>
                             <button mat-button (click)="downloadCSV()">Download as CSV</button>
                         </div>
-                        <app-messager [show]="haveNoData()"></app-messager>
+                        <app-messager [show]="haveNoData()" [message]="queryMessage"></app-messager>
                         <table mat-table [dataSource]="dataArray" *ngIf="!haveNoData()">
                             <ng-container matColumnDef="select">
                                 <th mat-header-cell *matHeaderCellDef>
