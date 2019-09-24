@@ -23,6 +23,7 @@ Dashboard for SMF127 records.
 - Worked on statics data from elastic search
 - Supported:
     - Simple timerange selector
+    - Simple loader when loading data
     - Graph (by [chart.js](https://www.chartjs.org))
-    - Table
+    - Table (interactive with graphs)
     - Additional filter: show rate of read/write
