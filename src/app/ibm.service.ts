@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Client } from 'elasticsearch-browser';
+import * as elasticsearch from 'elasticsearch-browser';
 import { of, pipe } from 'rxjs';
 import { tap, map, delay } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
@@ -22,18 +23,21 @@ const DB2SCHEMAS = [
 })
 export class IbmService {
 
-  baseUrl = 'http://35.243.224.36:9200/ibm2/_search';
+  baseUrl = 'http://35.243.224.36:9200/ibm2/_search';  
 
-  httpOptions = {
-    headers: new HttpHeaders({
-      'Content-Type': 'application/json',
+  private client: Client;
+
+  constructor() {
+    if (!this.client) {
+      this._connect();
+    }
+  }
+
+  private _connect() {
+    this.client = new elasticsearch.Client({
+      host: 'http://35.243.224.36:9200',
+      log: 'trace'
     })
-  };
-
-  client;
-
-  constructor(private http: HttpClient) {
-    // this.client = new Client({ node: 'http://localhost:9200' });
   }
 
   getDB2ServerName() {
@@ -48,31 +52,24 @@ export class IbmService {
     return of(DB2SCHEMAS);
   }
 
-  search(jsonQuery: object) {
-    return of(FAKE_DOCUMENTS).pipe(
-      delay(1000)
-    );
-    // Define the search parameters
-    // const searchParams: RequestParams.Search<any> = {
-    //   index: 'ibm2',
-    //   body: jsonQuery
-    // };
-
-    // // Craft the final type definition
-    // const { body } = await this.client.search({
-    //   index: 'ibm2',
-    //   body: jsonQuery
-    // });
-
-    // return this.http.post<any>(this.baseUrl, jsonQuery, {
-    //   headers: this.httpOptions.headers,
-    // }).pipe(
-    //   map(val => val.hits.hits),
-    //   tap(
-    //     next => console.log('hits ', next),
-    //     error => console.log(error.message),
-    //     () => console.log('ELK completed!')
-    //   )
-    // );
+  doSearch(searchQuery): any {
+    const searchParams = {
+      index: 'ibm2',
+      _source: [
+        'SMF127Time',
+        'RateReadsPerMinute',
+        'RateWritesPerMinute',
+        'FullName',
+        'DB2ServerName',
+        'DB2SSID',
+        'DataBaseName',
+        'DataBaseName',
+        'IntervalInSeconds',
+        'TimestampCurrent'
+      ],
+      size: 1000,
+      body: searchQuery,      
+    }
+    return this.client.search(searchParams)    
   }
 }

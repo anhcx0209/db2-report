@@ -35,7 +35,7 @@ import { LoaderComponent } from './loader/loader.component';
     MessagerComponent,
     SuperDatePickerComponent,
     MoreInfoComponent,
-    LoaderComponent
+    LoaderComponent,    
   ],
   imports: [
     BrowserModule,

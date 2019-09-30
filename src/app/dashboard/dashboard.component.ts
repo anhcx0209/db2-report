@@ -286,10 +286,9 @@ export class DashboardComponent implements OnInit {
 
     this.dataArray = [];
     const drp = $('#dtrange').data('daterangepicker');
-    const tstart = drp.startDate.format('YYYY-MM-DD-hh.mm.ss0000');
-    const tend = drp.endDate.format('YYYY-MM-DD-hh.mm.ss0000');
-    console.log(tstart);
-    console.log(tend);
+    const tstart = drp.startDate.format('YYYY-MM-DD-hh.mm.ss.000000');
+    const tend = drp.endDate.format('YYYY-MM-DD-hh.mm.ss.000000');
+
     let tablesFarmily = [];
     for (const server of this.selectedServers) {
       for (const ssid of this.selectedSsids) {
@@ -302,25 +301,17 @@ export class DashboardComponent implements OnInit {
     }
 
     const testJsonData = {
-      '_source': [
-        'SMF127Time',
-        'RateReadsPerMinute',
-        'RateWritesPerMinute',
-        'FullName',
-        'IntervalInSeconds',
-        'TimestampCurrent'
-      ],
-      'query': {
-        'bool': {
-          'filter': [
+      query: {
+        bool: {
+          filter: [
             {
-              'term': {
+              term: {
                 'FullName.keyword': 'DALLASB.DBBG.DPTEST.EMP'
               }
             },
             {
-              'range': {
-                'TimestampCurrent': {
+              range: {
+                TimestampCurrent: {
                   'gte': tstart,
                   'lte': tend
                 }
@@ -329,76 +320,77 @@ export class DashboardComponent implements OnInit {
           ]
         }
       },
-      'size': 1000
+
     };
-    // assume that we call function for each indentified table (1 fullname)
-    this.imbService.search(testJsonData).subscribe(
-      val => {
-        this.bucketArr = [];
-        const tableLogs = val.filter((item) => {
-          const t1 = moment(item._source.TimestampCurrent, 'YYYY-MM-DD-hh.mm.ss0000');
-          return t1.isSameOrAfter(drp.startDate) && t1.isSameOrBefore(drp.endDate);
-        }).map(item => {
-          const newItem = new Document(
-            0,
-            item._source.DB2ServerName,
-            item._source.DB2SSID,
-            item._source.DataBaseName,
-            item._source.TableName,
-            parseFloat(item._source.RateReadsPerMinute),
-            parseFloat(item._source.RateWritesPerMinute),
-            item._source.TimestampCurrent
-          );
-          return newItem;
-        }).filter(item2 => {
-          const ix1 = this.selectedServers.findIndex(item3 => item3 === item2.server);
-          const ix2 = this.selectedSsids.findIndex(item3 => item3 === item2.ssid);
-          const ix3 = this.selectedSchemas.findIndex(item3 => item3 === item2.schema);
-          return ix1 !== -1 && ix2 !== -1 && ix3 !== -1;
-        });
+    // assume that we call function for each indentified table (1 fullname)    
+    this.imbService.doSearch(testJsonData).then((resp) => {
+      const val = resp.hits.hits
+      console.log(val)
+      this.bucketArr = [];
+      const tableLogs = val.map(item => {
+        return new Document(
+          0,
+          item._source.DB2ServerName,
+          item._source.DB2SSID,
+          item._source.DataBaseName,
+          item._source.DataBaseName,
+          parseFloat(item._source.RateReadsPerMinute),
+          parseFloat(item._source.RateWritesPerMinute),
+          item._source.TimestampCurrent
+        );
+      }).filter(item2 => {
+        const ix1 = this.selectedServers.findIndex(item3 => item3 === item2.server);
+        const ix2 = this.selectedSsids.findIndex(item3 => item3 === item2.ssid);
+        const ix3 = this.selectedSchemas.findIndex(item3 => item3 === item2.schema);
+        return ix1 !== -1 && ix2 !== -1 && ix3 !== -1;
+      });
 
-        for (const tableLog of tableLogs) {
-          const idx = this.bucketArr.findIndex((item) => item.name === tableLog.fullname);
-          if (idx !== -1) {
-            this.bucketArr[idx].docs.push(tableLog);
-          } else {
-            const bck = {
-              name: tableLog.fullname,
-              docs: [tableLog]
-            };
-            this.bucketArr.push(bck);
-          }
-        }
-
-        if (this.bucketArr.length > 0) {
-          this.selectedBucket = 0;
-          this.chart = this.drawBucket(this.bucketArr);
-          this.bucketArr.forEach((item, idx) => {
-            let sumRead = 0;
-            let sumWrite = 0;
-            item.docs.forEach(element => {
-              sumRead += element.readPerMin;
-              sumWrite += element.writePerMin;
-            });
-            const splited = item.name.split('.');
-            const tableSummary = new Document(idx, splited[0], splited[1], splited[2], splited[3], sumRead, sumWrite);
-            this.selection.push(true);
-            this.dataArray.push(tableSummary);
-          });
+      for (const tableLog of tableLogs) {
+        const idx = this.bucketArr.findIndex((item) => item.name === tableLog.fullname);
+        if (idx !== -1) {
+          this.bucketArr[idx].docs.push(tableLog);
         } else {
-          this.queryMessage = 'No data for selected timeframe.  Please select another timeframe.';
-          this.clearCanvas0();
-          this.dataArray = [];
+          const bck = {
+            name: tableLog.fullname,
+            docs: [tableLog]
+          };
+          this.bucketArr.push(bck);
         }
-
-      }, // end of then()
-      (errr) => {
-        this.queryMessage = 'Cant not send request to ELK. Please try again.';
-      }, // end of error()
-      () => {
-        this.loaderService.hide();
       }
-    );
+
+      if (this.bucketArr.length > 0) {
+        this.selectedBucket = 0;
+        this.chart = this.drawBucket(this.bucketArr);
+        this.bucketArr.forEach((item, idx) => {
+          let sumRead = 0;
+          let sumWrite = 0;
+          item.docs.forEach(element => {
+            sumRead += element.readPerMin;
+            sumWrite += element.writePerMin;
+          });
+          const splited = item.name.split('.');
+          const tableSummary = new Document(idx, splited[0], splited[1], splited[2], splited[3], sumRead, sumWrite);
+          this.selection.push(true);
+          this.dataArray.push(tableSummary);
+        });
+      } else {
+        this.queryMessage = 'No data for selected timeframe.  Please select another timeframe.';
+        this.clearCanvas0();
+        this.dataArray = [];
+      }
+    }).finally(() => {
+      this.loaderService.hide();
+    });
+
+
+    // }, // end of then()
+    //   (errr) => {
+    //     this.queryMessage = 'Cant not send request to ELK. Please try again.';
+    //   }, // end of error()
+    //   () => {
+    //     this.loaderService.hide();
+    //   }
+    // );
   }
 
   clearCanvas0() {
