@@ -15,7 +15,7 @@ const DB2SSIDS = [
 ];
 
 const DB2SCHEMAS = [
-  'DPTESTDB', 'CLTTBDB'
+  'DPTEST', 'CLTTBDB'
 ];
 
 @Injectable({
@@ -23,7 +23,7 @@ const DB2SCHEMAS = [
 })
 export class IbmService {
 
-  baseUrl = 'http://35.243.224.36:9200/ibm2/_search';  
+  baseUrl = 'http://35.243.224.36:9200/ibm2/_search';
 
   private client: Client;
 
@@ -37,7 +37,7 @@ export class IbmService {
     this.client = new elasticsearch.Client({
       host: 'http://35.243.224.36:9200',
       log: 'trace'
-    })
+    });
   }
 
   getDB2ServerName() {
@@ -56,20 +56,22 @@ export class IbmService {
     const searchParams = {
       index: 'ibm2',
       _source: [
+        'DB2ServerName',
+        'DB2Version',
+        'DataBaseName',
+        'DB2SSID',
+        'TableName',
+        'SchemaName',
         'SMF127Time',
         'RateReadsPerMinute',
         'RateWritesPerMinute',
         'FullName',
-        'DB2ServerName',
-        'DB2SSID',
-        'DataBaseName',
-        'DataBaseName',
         'IntervalInSeconds',
         'TimestampCurrent'
       ],
       size: 1000,
-      body: searchQuery,      
-    }
-    return this.client.search(searchParams)    
+      body: searchQuery,
+    };
+    return this.client.search(searchParams);
   }
 }

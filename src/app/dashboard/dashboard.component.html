@@ -54,7 +54,12 @@
                         </div>
                         <div fxLayout="column">
                             <app-messager [show]="haveNoData()" [message]="queryMessage"></app-messager>
-                            <canvas width="100%" #canvas0></canvas>
+                            <!-- <canvas width="100%" #canvas0></canvas> -->
+                            <div class="row">
+                                <ngx-charts-line-chart [results]="ngxChartLines" [legend]="true" [animations]="false"
+                                    [xAxis]="true" [yAxis]="true" [timeline]="true" (select)="onClickSeries($event)">
+                                </ngx-charts-line-chart>
+                            </div>
                         </div>
                     </mat-card>
 
@@ -67,11 +72,16 @@
                         <table mat-table [dataSource]="dataArray" *ngIf="!haveNoData()">
                             <ng-container matColumnDef="select">
                                 <th mat-header-cell *matHeaderCellDef>
-                                    <mat-checkbox color="warn" (change)="$event ? masterToggle() : null" [checked]="selectionHasValue() && isAllSelected()" [indeterminate]="selectionHasValue() && !isAllSelected()" [aria-label]="checkboxLabel()">
+                                    <mat-checkbox color="warn" (change)="$event ? masterToggle() : null"
+                                        [checked]="selectionHasValue() && isAllSelected()"
+                                        [indeterminate]="selectionHasValue() && !isAllSelected()"
+                                        [aria-label]="checkboxLabel()">
                                     </mat-checkbox>
                                 </th>
                                 <td mat-cell *matCellDef="let row">
-                                    <mat-checkbox color="warn" (click)="$event.stopPropagation()" (change)="$event ? chartToggle(row) : null" [checked]="isSelected(row)" [aria-label]="checkboxLabel()">
+                                    <mat-checkbox color="warn" (click)="$event.stopPropagation()"
+                                        (change)="$event ? chartToggle(row) : null" [checked]="isSelected(row)"
+                                        [aria-label]="checkboxLabel()">
                                     </mat-checkbox>
                                 </td>
                             </ng-container>

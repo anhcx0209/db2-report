@@ -5,6 +5,8 @@ export class Document {
 
     timeCurrent?: string;
     xTime?: number;
+    tTime?: Date;
+    mTime?: any;
     server: string;
     ssid: string;
     schema: string;
@@ -24,7 +26,9 @@ export class Document {
         this.tablename = tableName.trim();
         if (ts.length > 0) {
             this.timeCurrent = ts;
-            this.xTime = moment(ts, 'YYYY-MM-DD-hh.mm.0000').unix();
+            this.mTime = moment(ts, 'YYYY-MM-DD-hh.mm.ss.SSSSSS');
+            this.xTime = moment(ts, 'YYYY-MM-DD-hh.mm.ss.SSSSSS').unix();
+            this.tTime = moment(ts, 'YYYY-MM-DD-hh.mm.ss.SSSSSS').toDate();
         }
     }
 

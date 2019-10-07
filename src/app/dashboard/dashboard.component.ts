@@ -16,6 +16,16 @@ interface Bucket {
   docs: Array<Document>;
 }
 
+interface NgxChartPoint {
+  name: Date;
+  value: number;
+}
+
+interface NgxChartLine {
+  name: string;
+  series: Array<NgxChartPoint>;
+}
+
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -50,6 +60,8 @@ export class DashboardComponent implements OnInit {
   bucketArr: Array<Bucket> = [];
   selectedBucket = 0;
   chart: any;
+
+  ngxChartLines: Array<any> = [];
 
   queryMessage: string;
 
@@ -110,8 +122,8 @@ export class DashboardComponent implements OnInit {
   masterToggle() {
     this.bucketArr.forEach((item, idx) => {
       this.selection[idx] = !this.selection[idx];
-      this.chart.getDatasetMeta(idx).hidden = !(this.chart.getDatasetMeta(idx).hidden);
-      this.chart.update();
+      // this.chart.getDatasetMeta(idx).hidden = !(this.chart.getDatasetMeta(idx).hidden);
+      // this.chart.update();
     });
   }
 
@@ -136,6 +148,27 @@ export class DashboardComponent implements OnInit {
 
   haveNoData() {
     return this.dataArray.length === 0;
+  }
+
+  ngxDrawBucket(buckets: Array<Bucket>) {
+    // clear data
+    this.ngxChartLines = [];
+
+    // get data from bucket
+    buckets.forEach((item, index) => {
+      const line = item.docs.map(value => {
+        return {
+          name: value.tTime,
+          value: value.rps
+        };
+      });
+
+      this.ngxChartLines.push({
+        name: item.name,
+        series: line,
+        show: false,
+      });
+    });
   }
 
   drawBucket(buckets: Array<Bucket>) {
@@ -286,15 +319,16 @@ export class DashboardComponent implements OnInit {
 
     this.dataArray = [];
     const drp = $('#dtrange').data('daterangepicker');
-    const tstart = drp.startDate.format('YYYY-MM-DD-hh.mm.ss.000000');
-    const tend = drp.endDate.format('YYYY-MM-DD-hh.mm.ss.000000');
+    const tstart = drp.startDate.format('YYYY-MM-DD-hh.mm.ss.SSSSSS');
+    const tend = drp.endDate.format('YYYY-MM-DD-hh.mm.ss.SSSSSS');
+    console.log(tstart);
+    console.log(tend);
 
     let tablesFarmily = [];
     for (const server of this.selectedServers) {
       for (const ssid of this.selectedSsids) {
         for (const schema of this.selectedSchemas) {
           const family = server + '.' + ssid + '.' + schema;
-          console.log(family);
           tablesFarmily.push(family);
         }
       }
@@ -305,15 +339,10 @@ export class DashboardComponent implements OnInit {
         bool: {
           filter: [
             {
-              term: {
-                'FullName.keyword': 'DALLASB.DBBG.DPTEST.EMP'
-              }
-            },
-            {
               range: {
                 TimestampCurrent: {
-                  'gte': tstart,
-                  'lte': tend
+                  gte: tstart,
+                  lte: tend
                 }
               }
             }
@@ -322,22 +351,24 @@ export class DashboardComponent implements OnInit {
       },
 
     };
-    // assume that we call function for each indentified table (1 fullname)    
+    // assume that we call function for each indentified table (1 fullname)
     this.imbService.doSearch(testJsonData).then((resp) => {
-      const val = resp.hits.hits
-      console.log(val)
+      const val = resp.hits.hits;
       this.bucketArr = [];
       const tableLogs = val.map(item => {
-        return new Document(
+        const d = new Document(
           0,
           item._source.DB2ServerName,
           item._source.DB2SSID,
-          item._source.DataBaseName,
-          item._source.DataBaseName,
+          item._source.SchemaName,
+          item._source.TableName,
           parseFloat(item._source.RateReadsPerMinute),
           parseFloat(item._source.RateWritesPerMinute),
           item._source.TimestampCurrent
         );
+        return d;
+      }).filter(item1 => {
+        return item1.mTime.isBetween(drp.startDate, drp.endDate);
       }).filter(item2 => {
         const ix1 = this.selectedServers.findIndex(item3 => item3 === item2.server);
         const ix2 = this.selectedSsids.findIndex(item3 => item3 === item2.ssid);
@@ -360,7 +391,8 @@ export class DashboardComponent implements OnInit {
 
       if (this.bucketArr.length > 0) {
         this.selectedBucket = 0;
-        this.chart = this.drawBucket(this.bucketArr);
+        // this.chart = this.drawBucket(this.bucketArr);
+        this.ngxDrawBucket(this.bucketArr);
         this.bucketArr.forEach((item, idx) => {
           let sumRead = 0;
           let sumWrite = 0;
@@ -403,5 +435,12 @@ export class DashboardComponent implements OnInit {
 
   changeBucket($event) {
     this.drawRaw(this.bucketArr[$event.value].docs);
+  }
+
+  onClickSeries(event) {
+    console.log(event);
+    // this.ngxChartLines = this.ngxChartLines.filter(item => {
+    //   return item.name !== event;
+    // });
   }
 }

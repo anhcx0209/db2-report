@@ -26,6 +26,7 @@ import { MoreInfoComponent } from './more-info/more-info.component';
 import { MessagerComponent } from './messager/messager.component';
 import { LoaderService } from './loader.service';
 import { LoaderComponent } from './loader/loader.component';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 @NgModule({
   declarations: [
@@ -35,13 +36,14 @@ import { LoaderComponent } from './loader/loader.component';
     MessagerComponent,
     SuperDatePickerComponent,
     MoreInfoComponent,
-    LoaderComponent,    
+    LoaderComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
     FlexLayoutModule,
+    NgxChartsModule,
     MatCheckboxModule,
     MatButtonModule,
     MatProgressBarModule,
