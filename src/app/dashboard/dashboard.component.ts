@@ -140,10 +140,32 @@ export class DashboardComponent implements OnInit {
     return notSelected === undefined;
   }
 
+  filterResultBySelection() {
+    let ret = [];
+    this.bucketArr.forEach((item, index) => {
+      const line = item.docs.map(value => {
+        return {
+          name: value.tTime,
+          value: value.rps
+        };
+      });
+      if (this.selection)
+      ret.push({
+        name: item.name,
+        series: line
+      });
+    });
+
+    return ret.filter((item, index) => {
+      return this.selection[index];
+    });
+  }
+
   chartToggle(param) {
     this.selection[param.tableId] = !this.selection[param.tableId];
-    this.chart.getDatasetMeta(param.tableId).hidden = !(this.chart.getDatasetMeta(param.tableId).hidden);
-    this.chart.update();
+    this.ngxChartLines = this.filterResultBySelection();
+    // this.chart.getDatasetMeta(param.tableId).hidden = !(this.chart.getDatasetMeta(param.tableId).hidden);
+    // this.chart.update();
   }
 
   haveNoData() {
@@ -165,8 +187,7 @@ export class DashboardComponent implements OnInit {
 
       this.ngxChartLines.push({
         name: item.name,
-        series: line,
-        show: false,
+        series: line
       });
     });
   }
