@@ -56,9 +56,11 @@
                             <div class="row" *ngIf="!haveNoData()">
                                 <div class="ngx-chart-wrapper">
                                     <ngx-charts-line-chart #lineChart0 [results]="ngxChartLines" [legend]="true"
-                                        [animations]="false" [xAxis]="true" [yAxis]="true" [timeline]="true"
-                                        [xAxisTickFormatting]="formatXAsisDate" legendTitle="Top tables"
-                                        [rotateXAxisTicks]="false" [trimXAxisTicks]="false">
+                                        [animations]="false" [xAxis]="true" [yAxis]="true" [xScaleMin]="minX"
+                                        [xScaleMax]="maxX" [timeline]="true" [xAxisTickFormatting]="formatXAsisDate"
+                                        legendTitle="Top tables" [rotateXAxisTicks]="false" [trimXAxisTicks]="false"
+                                        legendPosition="below" [showYAxisLabel]="true" [yAxisLabel]="yLabel"
+                                        [rotateXAxisTicks]="true">
                                     </ngx-charts-line-chart>
                                 </div>
                             </div>
@@ -89,11 +91,11 @@
                             </ng-container>
 
                             <ng-container *ngFor="let column of columns">
-                                <ng-container [matColumnDef]="column.property">
+                                <ng-container *ngIf="column.isProperty" [matColumnDef]="column.property">
                                     <th mat-header-cell *matHeaderCellDef>{{ column.title }}</th>
                                     <td mat-cell *matCellDef="let row"> {{ row[column.property] }}</td>
                                 </ng-container>
-                            </ng-container>                            
+                            </ng-container>
 
                             <tr mat-header-row *matHeaderRowDef="visibleColumns"></tr>
                             <tr mat-row *matRowDef="let row; columns: visibleColumns"></tr>

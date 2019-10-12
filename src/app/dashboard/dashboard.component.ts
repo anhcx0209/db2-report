@@ -37,16 +37,21 @@ export class DashboardComponent implements OnInit {
   dataArray: Array<Document> = [];
 
   columns = [
-    { title: 'System', property: 'server', hidden: false },
-    { title: 'SSID', property: 'ssid', hidden: false },
-    { title: 'Table name', property: 'tablename', hidden: false },
-    { title: 'Av Reads / Sec', property: 'rps', hidden: false },
-    { title: 'Av Writes / Sec', property: 'wps', hidden: false },
-    { title: 'Av Reads/Writes Ratio', property: 'rwRatio', hidden: true },
+    { isProperty: false, title: 'Col', property: 'select', hidden: false },
+    { isProperty: true, title: 'System', property: 'server', hidden: false },
+    { isProperty: true, title: 'SSID', property: 'ssid', hidden: false },
+    { isProperty: true, title: 'Table name', property: 'tablename', hidden: false },
+    { isProperty: true, title: 'Av Reads / Sec', property: 'rps', hidden: false },
+    { isProperty: true, title: 'Av Writes / Sec', property: 'wps', hidden: false },
+    { isProperty: true, title: 'Av Reads/Writes Ratio', property: 'rwRatio', hidden: true },
   ];
 
   get visibleColumns() {
     return this.columns.filter(column => column.hidden === false).map(column => column.property);
+  }
+
+  get yLabel() {
+    return this.showRwRatio ? 'Ratio r/w' : 'Read per second';
   }
 
   columnsToDisplay = [
@@ -473,7 +478,7 @@ export class DashboardComponent implements OnInit {
   }
 
   formatXAsisDate(val) {
-    return moment(val).format('MM-DD-hh.mm.ss');
+    return moment(val).format('YY-MM-DD hh:mm:ss');
   }
 
   toggleReadWrite(event) {
