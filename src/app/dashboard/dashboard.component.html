@@ -39,12 +39,11 @@
                     </mat-card>
                     <!-- End of Text Filtering Area -->
 
-                    <!-- Additional filtering
-                    - Ratio of reads/writes -->
+                    <!-- Additional filtering - Ratio of reads/writes -->
                     <mat-card class="mat-elevation-z3" fxFlex="50%" fxLayout="column">
                         <h3>Additional filtering</h3>
-                        <mat-checkbox color="warn" [(ngModel)]="showRwRatio">Ratio of reads/writes</mat-checkbox>
-                        <mat-checkbox color="warn" [(ngModel)]="modTimeFrame">Modify time frame</mat-checkbox>
+                        <mat-checkbox color="warn" [(ngModel)]="showRwRatio" (change)="toggleReadWrite($event)">Ratio of
+                            reads/writes</mat-checkbox>
                     </mat-card>
                 </div>
                 <div fxLayout="row" fxLayoutGap="24px">
@@ -54,11 +53,16 @@
                         </div>
                         <div fxLayout="column">
                             <app-messager [show]="haveNoData()" [message]="queryMessage"></app-messager>
-                            <!-- <canvas width="100%" #canvas0></canvas> -->
-                            <div class="row">
-                                <ngx-charts-line-chart [results]="ngxChartLines" [legend]="true" [animations]="false"
-                                    [xAxis]="true" [yAxis]="true" [timeline]="true" (select)="onClickSeries($event)">
-                                </ngx-charts-line-chart>
+                            <div class="row" *ngIf="!haveNoData()">
+                                <div class="ngx-chart-wrapper">
+                                    <ngx-charts-line-chart #lineChart0 [results]="ngxChartLines" [legend]="true"
+                                        [animations]="false" [xAxis]="true" [yAxis]="true" [xScaleMin]="minX"
+                                        [xScaleMax]="maxX" [timeline]="true" [xAxisTickFormatting]="formatXAsisDate"
+                                        legendTitle="Top tables" [rotateXAxisTicks]="false" [trimXAxisTicks]="false"
+                                        legendPosition="below" [showYAxisLabel]="true" [yAxisLabel]="yLabel"
+                                        [rotateXAxisTicks]="true">
+                                    </ngx-charts-line-chart>
+                                </div>
                             </div>
                         </div>
                     </mat-card>
@@ -86,43 +90,15 @@
                                 </td>
                             </ng-container>
 
-                            <ng-container matColumnDef="server">
-                                <th mat-header-cell *matHeaderCellDef> System </th>
-                                <td mat-cell *matCellDef="let obj"> {{ obj.server }} </td>
+                            <ng-container *ngFor="let column of columns">
+                                <ng-container *ngIf="column.isProperty" [matColumnDef]="column.property">
+                                    <th mat-header-cell *matHeaderCellDef>{{ column.title }}</th>
+                                    <td mat-cell *matCellDef="let row"> {{ row[column.property] }}</td>
+                                </ng-container>
                             </ng-container>
 
-                            <ng-container matColumnDef="ssid">
-                                <th mat-header-cell *matHeaderCellDef> SSID </th>
-                                <td mat-cell *matCellDef="let obj"> {{ obj.ssid }} </td>
-                            </ng-container>
-
-                            <ng-container matColumnDef="schema">
-                                <th mat-header-cell *matHeaderCellDef> Schema </th>
-                                <td mat-cell *matCellDef="let obj"> {{ obj.schema }} </td>
-                            </ng-container>
-
-                            <ng-container matColumnDef="tablename">
-                                <th mat-header-cell *matHeaderCellDef> Table name </th>
-                                <td mat-cell *matCellDef="let obj"> {{ obj.tablename }} </td>
-                            </ng-container>
-
-                            <ng-container matColumnDef="rps">
-                                <th mat-header-cell *matHeaderCellDef> Av Reads / Sec </th>
-                                <td mat-cell *matCellDef="let obj"> {{ obj.rps }} </td>
-                            </ng-container>
-
-                            <ng-container matColumnDef="wps">
-                                <th mat-header-cell *matHeaderCellDef> Av Writes / Sec </th>
-                                <td mat-cell *matCellDef="let obj"> {{ obj.wps }} </td>
-                            </ng-container>
-
-                            <ng-container matColumnDef="rwRatio">
-                                <th mat-header-cell *matHeaderCellDef> Av Reads/Writes Ratio </th>
-                                <td mat-cell *matCellDef="let obj"> {{ obj.rwRatio }} </td>
-                            </ng-container>
-
-                            <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
-                            <tr mat-row *matRowDef="let row; columns: columnsToDisplay"></tr>
+                            <tr mat-header-row *matHeaderRowDef="visibleColumns"></tr>
+                            <tr mat-row *matRowDef="let row; columns: visibleColumns"></tr>
                         </table>
                     </mat-card>
                 </div>

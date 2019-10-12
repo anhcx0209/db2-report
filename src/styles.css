@@ -45,3 +45,7 @@
     background-color: rgba(74, 74, 74, .8);
     z-index: 99999;
 }
+
+.chart-legend {
+    display: block !important;
+}
