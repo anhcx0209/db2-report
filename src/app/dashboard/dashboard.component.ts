@@ -150,10 +150,10 @@ export class DashboardComponent implements OnInit {
         };
       });
       if (this.selection)
-      ret.push({
-        name: item.name,
-        series: line
-      });
+        ret.push({
+          name: item.name,
+          series: line
+        });
     });
 
     return ret.filter((item, index) => {
@@ -180,7 +180,7 @@ export class DashboardComponent implements OnInit {
     buckets.forEach((item, index) => {
       const line = item.docs.map(value => {
         return {
-          name: value.tTime,
+          name: moment(value.tTime).valueOf(),
           value: value.rps
         };
       });
@@ -434,16 +434,6 @@ export class DashboardComponent implements OnInit {
     }).finally(() => {
       this.loaderService.hide();
     });
-
-
-    // }, // end of then()
-    //   (errr) => {
-    //     this.queryMessage = 'Cant not send request to ELK. Please try again.';
-    //   }, // end of error()
-    //   () => {
-    //     this.loaderService.hide();
-    //   }
-    // );
   }
 
   clearCanvas0() {
@@ -460,8 +450,9 @@ export class DashboardComponent implements OnInit {
 
   onClickSeries(event) {
     console.log(event);
-    // this.ngxChartLines = this.ngxChartLines.filter(item => {
-    //   return item.name !== event;
-    // });
+  }
+
+  formatXAsisDate(val) {
+    return moment(val).format('YYYY-MM-DD-hh.mm.ss');
   }
 }

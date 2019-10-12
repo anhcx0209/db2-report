@@ -39,12 +39,10 @@
                     </mat-card>
                     <!-- End of Text Filtering Area -->
 
-                    <!-- Additional filtering
-                    - Ratio of reads/writes -->
+                    <!-- Additional filtering - Ratio of reads/writes -->
                     <mat-card class="mat-elevation-z3" fxFlex="50%" fxLayout="column">
                         <h3>Additional filtering</h3>
                         <mat-checkbox color="warn" [(ngModel)]="showRwRatio">Ratio of reads/writes</mat-checkbox>
-                        <mat-checkbox color="warn" [(ngModel)]="modTimeFrame">Modify time frame</mat-checkbox>
                     </mat-card>
                 </div>
                 <div fxLayout="row" fxLayoutGap="24px">
@@ -54,11 +52,15 @@
                         </div>
                         <div fxLayout="column">
                             <app-messager [show]="haveNoData()" [message]="queryMessage"></app-messager>
-                            <!-- <canvas width="100%" #canvas0></canvas> -->
                             <div class="row">
-                                <ngx-charts-line-chart [results]="ngxChartLines" [legend]="true" [animations]="false"
-                                    [xAxis]="true" [yAxis]="true" [timeline]="true" (select)="onClickSeries($event)">
-                                </ngx-charts-line-chart>
+                                <div class="ngx-chart-wrapper">
+                                    <ngx-charts-line-chart [results]="ngxChartLines" [legend]="true"
+                                        [animations]="false" [xAxis]="true" [yAxis]="true" [timeline]="true"
+                                        (select)="onClickSeries($event)" [xAxisTickFormatting]="formatXAsisDate"
+                                        [maxXAxisTickLength]="5" [legendPosition]="below" legendTitle="Top tables"
+                                        [trimXAxisTicks]="false">
+                                    </ngx-charts-line-chart>
+                                </div>
                             </div>
                         </div>
                     </mat-card>

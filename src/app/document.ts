@@ -29,6 +29,7 @@ export class Document {
             this.mTime = moment(ts, 'YYYY-MM-DD-hh.mm.ss.SSSSSS');
             this.xTime = moment(ts, 'YYYY-MM-DD-hh.mm.ss.SSSSSS').unix();
             this.tTime = moment(ts, 'YYYY-MM-DD-hh.mm.ss.SSSSSS').toDate();
+            console.log(this.tTime);
         }
     }
 
