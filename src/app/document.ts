@@ -15,7 +15,6 @@ export class Document {
     readPerMin: number;
     writePerMin: number;
 
-    // tslint:disable-next-line: max-line-length
     constructor(tableId: number, server: string, ssid: string, schema: string, tableName: string, rpm: number, wpm: number, ts: string = '') {
         this.tableId = tableId;
         this.readPerMin = rpm;
@@ -29,7 +28,6 @@ export class Document {
             this.mTime = moment(ts, 'YYYY-MM-DD-hh.mm.ss.SSSSSS');
             this.xTime = moment(ts, 'YYYY-MM-DD-hh.mm.ss.SSSSSS').unix();
             this.tTime = moment(ts, 'YYYY-MM-DD-hh.mm.ss.SSSSSS').toDate();
-            console.log(this.tTime);
         }
     }
 

@@ -8,6 +8,7 @@ import * as _ from 'lodash';
 import Chart from 'chart.js';
 import { _countGroupLabelsBeforeOption } from '@angular/material/core';
 import { LoaderService } from '../loader.service';
+import { NgxChartsModule, LineChartComponent } from '@swimlane/ngx-charts';
 declare var $: any;
 declare var daterangepicker: any;
 
@@ -34,6 +35,19 @@ interface NgxChartLine {
 export class DashboardComponent implements OnInit {
 
   dataArray: Array<Document> = [];
+
+  columns = [
+    { title: 'System', property: 'server', hidden: false },
+    { title: 'SSID', property: 'ssid', hidden: false },
+    { title: 'Table name', property: 'tablename', hidden: false },
+    { title: 'Av Reads / Sec', property: 'rps', hidden: false },
+    { title: 'Av Writes / Sec', property: 'wps', hidden: false },
+    { title: 'Av Reads/Writes Ratio', property: 'rwRatio', hidden: true },
+  ];
+
+  get visibleColumns() {
+    return this.columns.filter(column => column.hidden === false).map(column => column.property);
+  }
 
   columnsToDisplay = [
     'select',
@@ -74,6 +88,7 @@ export class DashboardComponent implements OnInit {
   ];
 
   @ViewChild(MatTable, { static: true }) table0: MatTable<any>;
+  @ViewChild('lineChart0', { static: true }) lineChart0: LineChartComponent;
   @ViewChild('canvas0', { static: true }) canvas0: ElementRef;
 
   defaultOpts: any = {
@@ -172,13 +187,14 @@ export class DashboardComponent implements OnInit {
     return this.dataArray.length === 0;
   }
 
-  ngxDrawBucket(buckets: Array<Bucket>) {
+  ngxDrawBucket() {
+    // this.lineChart0.legend = false;
     // clear data
     this.ngxChartLines = [];
 
     // get data from bucket
-    buckets.forEach((item, index) => {
-      const line = item.docs.map(value => {
+    this.bucketArr.forEach((item, index) => {
+      let line = item.docs.map(value => {
         return {
           name: moment(value.tTime).valueOf(),
           value: value.rps
@@ -332,6 +348,8 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  minX: number;
+  maxX: number;
 
 
   fetchData() {
@@ -342,6 +360,8 @@ export class DashboardComponent implements OnInit {
     const drp = $('#dtrange').data('daterangepicker');
     const tstart = drp.startDate.format('YYYY-MM-DD-hh.mm.ss.SSSSSS');
     const tend = drp.endDate.format('YYYY-MM-DD-hh.mm.ss.SSSSSS');
+    this.minX = drp.startDate.valueOf();
+    this.maxX = drp.endDate.valueOf();
     console.log(tstart);
     console.log(tend);
 
@@ -413,7 +433,7 @@ export class DashboardComponent implements OnInit {
       if (this.bucketArr.length > 0) {
         this.selectedBucket = 0;
         // this.chart = this.drawBucket(this.bucketArr);
-        this.ngxDrawBucket(this.bucketArr);
+        this.ngxDrawBucket();
         this.bucketArr.forEach((item, idx) => {
           let sumRead = 0;
           let sumWrite = 0;
@@ -453,6 +473,31 @@ export class DashboardComponent implements OnInit {
   }
 
   formatXAsisDate(val) {
-    return moment(val).format('YYYY-MM-DD-hh.mm.ss');
+    return moment(val).format('MM-DD-hh.mm.ss');
+  }
+
+  toggleReadWrite(event) {
+    if (event.checked === true) {
+      this.columns[5].hidden = false;
+      this.ngxChartLines = [];
+      // get data from bucket
+      this.bucketArr.forEach((item, index) => {
+        let line = item.docs.map(value => {
+          return {
+            name: moment(value.tTime).valueOf(),
+            value: value.rwRatio
+          };
+        });
+        if (line.length > 0) {
+          this.ngxChartLines.push({
+            name: item.name,
+            series: line
+          });
+        }
+      });
+    } else {
+      this.columns[5].hidden = true;
+      this.ngxDrawBucket();
+    }
   }
 }
