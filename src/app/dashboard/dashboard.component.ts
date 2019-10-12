@@ -8,6 +8,7 @@ import * as _ from 'lodash';
 import Chart from 'chart.js';
 import { _countGroupLabelsBeforeOption } from '@angular/material/core';
 import { LoaderService } from '../loader.service';
+import { NgxChartsModule, LineChartComponent } from '@swimlane/ngx-charts';
 declare var $: any;
 declare var daterangepicker: any;
 
@@ -34,6 +35,24 @@ interface NgxChartLine {
 export class DashboardComponent implements OnInit {
 
   dataArray: Array<Document> = [];
+
+  columns = [
+    { isProperty: false, title: 'Col', property: 'select', hidden: false },
+    { isProperty: true, title: 'System', property: 'server', hidden: false },
+    { isProperty: true, title: 'SSID', property: 'ssid', hidden: false },
+    { isProperty: true, title: 'Table name', property: 'tablename', hidden: false },
+    { isProperty: true, title: 'Av Reads / Sec', property: 'rps', hidden: false },
+    { isProperty: true, title: 'Av Writes / Sec', property: 'wps', hidden: false },
+    { isProperty: true, title: 'Av Reads/Writes Ratio', property: 'rwRatio', hidden: true },
+  ];
+
+  get visibleColumns() {
+    return this.columns.filter(column => column.hidden === false).map(column => column.property);
+  }
+
+  get yLabel() {
+    return this.showRwRatio ? 'Ratio r/w' : 'Read per second';
+  }
 
   columnsToDisplay = [
     'select',
@@ -74,6 +93,7 @@ export class DashboardComponent implements OnInit {
   ];
 
   @ViewChild(MatTable, { static: true }) table0: MatTable<any>;
+  @ViewChild('lineChart0', { static: true }) lineChart0: LineChartComponent;
   @ViewChild('canvas0', { static: true }) canvas0: ElementRef;
 
   defaultOpts: any = {
@@ -150,10 +170,10 @@ export class DashboardComponent implements OnInit {
         };
       });
       if (this.selection)
-      ret.push({
-        name: item.name,
-        series: line
-      });
+        ret.push({
+          name: item.name,
+          series: line
+        });
     });
 
     return ret.filter((item, index) => {
@@ -172,15 +192,16 @@ export class DashboardComponent implements OnInit {
     return this.dataArray.length === 0;
   }
 
-  ngxDrawBucket(buckets: Array<Bucket>) {
+  ngxDrawBucket() {
+    // this.lineChart0.legend = false;
     // clear data
     this.ngxChartLines = [];
 
     // get data from bucket
-    buckets.forEach((item, index) => {
-      const line = item.docs.map(value => {
+    this.bucketArr.forEach((item, index) => {
+      let line = item.docs.map(value => {
         return {
-          name: value.tTime,
+          name: moment(value.tTime).valueOf(),
           value: value.rps
         };
       });
@@ -332,6 +353,8 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  minX: number;
+  maxX: number;
 
 
   fetchData() {
@@ -342,6 +365,8 @@ export class DashboardComponent implements OnInit {
     const drp = $('#dtrange').data('daterangepicker');
     const tstart = drp.startDate.format('YYYY-MM-DD-hh.mm.ss.SSSSSS');
     const tend = drp.endDate.format('YYYY-MM-DD-hh.mm.ss.SSSSSS');
+    this.minX = drp.startDate.valueOf();
+    this.maxX = drp.endDate.valueOf();
     console.log(tstart);
     console.log(tend);
 
@@ -413,7 +438,7 @@ export class DashboardComponent implements OnInit {
       if (this.bucketArr.length > 0) {
         this.selectedBucket = 0;
         // this.chart = this.drawBucket(this.bucketArr);
-        this.ngxDrawBucket(this.bucketArr);
+        this.ngxDrawBucket();
         this.bucketArr.forEach((item, idx) => {
           let sumRead = 0;
           let sumWrite = 0;
@@ -434,16 +459,6 @@ export class DashboardComponent implements OnInit {
     }).finally(() => {
       this.loaderService.hide();
     });
-
-
-    // }, // end of then()
-    //   (errr) => {
-    //     this.queryMessage = 'Cant not send request to ELK. Please try again.';
-    //   }, // end of error()
-    //   () => {
-    //     this.loaderService.hide();
-    //   }
-    // );
   }
 
   clearCanvas0() {
@@ -460,8 +475,34 @@ export class DashboardComponent implements OnInit {
 
   onClickSeries(event) {
     console.log(event);
-    // this.ngxChartLines = this.ngxChartLines.filter(item => {
-    //   return item.name !== event;
-    // });
+  }
+
+  formatXAsisDate(val) {
+    return moment(val).format('YY-MM-DD hh:mm:ss');
+  }
+
+  toggleReadWrite(event) {
+    if (event.checked === true) {
+      this.columns[5].hidden = false;
+      this.ngxChartLines = [];
+      // get data from bucket
+      this.bucketArr.forEach((item, index) => {
+        let line = item.docs.map(value => {
+          return {
+            name: moment(value.tTime).valueOf(),
+            value: value.rwRatio
+          };
+        });
+        if (line.length > 0) {
+          this.ngxChartLines.push({
+            name: item.name,
+            series: line
+          });
+        }
+      });
+    } else {
+      this.columns[5].hidden = true;
+      this.ngxDrawBucket();
+    }
   }
 }
