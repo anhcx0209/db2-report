@@ -126,9 +126,7 @@ export class Timeline implements OnChanges {
       domain = [min, max];
     } else {
       domain = values;
-    }
-    console.log('domain timeline');
-    console.log(this.scaleType);
+    }    
     return domain;
   }
 

@@ -26,7 +26,7 @@ export class Document {
         if (ts.length > 0) {
             this.timeCurrent = ts;
             this.mTime = moment(ts, 'YYYY-MM-DD-hh.mm.ss.SSSSSS');
-            this.xTime = moment(ts, 'YYYY-MM-DD-hh.mm.ss.SSSSSS').unix();
+            this.xTime = moment(ts, 'YYYY-MM-DD-hh.mm.ss.SSSSSS').valueOf();
             this.tTime = moment(ts, 'YYYY-MM-DD-hh.mm.ss.SSSSSS').toDate();
         }
     }

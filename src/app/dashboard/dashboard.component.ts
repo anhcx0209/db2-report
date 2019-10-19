@@ -1,14 +1,12 @@
-import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { IbmService } from '../ibm.service';
 import { Observable } from 'rxjs';
 import * as moment from 'moment';
 import { Document } from '../document';
 import { MatTable } from '@angular/material/table';
 import * as _ from 'lodash';
-import Chart from 'chart.js';
 import { _countGroupLabelsBeforeOption } from '@angular/material/core';
 import { LoaderService } from '../loader.service';
-import { NgxChartsModule, LineChartComponent } from '@swimlane/ngx-charts';
 declare var $: any;
 declare var daterangepicker: any;
 
@@ -92,26 +90,10 @@ export class DashboardComponent implements OnInit {
     '#c70d3a',
   ];
 
-  @ViewChild(MatTable, { static: true }) table0: MatTable<any>;
-  @ViewChild('lineChart0', { static: true }) lineChart0: LineChartComponent;
-  @ViewChild('canvas0', { static: true }) canvas0: ElementRef;
+  minX: number;
+  maxX: number;
 
-  defaultOpts: any = {
-    cutoutPercentage: 70,
-    legend: {
-      display: true
-    },
-    scales: {
-      xAxes: [{
-        // type: 'linear',
-        ticks: {
-          callback(tick, index, array) {
-            return (index % 3) ? '' : tick;
-          }
-        }
-      }]
-    }
-  };
+  @ViewChild(MatTable, { static: true }) table0: MatTable<any>;  
 
   constructor(private imbService: IbmService, private loaderService: LoaderService) { }
 
@@ -133,17 +115,11 @@ export class DashboardComponent implements OnInit {
         }
       });
     });
-  }
-
-  checkboxLabel() {
-    return 1;
-  }
+  }  
 
   masterToggle() {
     this.bucketArr.forEach((item, idx) => {
-      this.selection[idx] = !this.selection[idx];
-      // this.chart.getDatasetMeta(idx).hidden = !(this.chart.getDatasetMeta(idx).hidden);
-      // this.chart.update();
+      this.selection[idx] = !this.selection[idx];      
     });
   }
 
@@ -183,9 +159,7 @@ export class DashboardComponent implements OnInit {
 
   chartToggle(param) {
     this.selection[param.tableId] = !this.selection[param.tableId];
-    this.ngxChartLines = this.filterResultBySelection();
-    // this.chart.getDatasetMeta(param.tableId).hidden = !(this.chart.getDatasetMeta(param.tableId).hidden);
-    // this.chart.update();
+    this.ngxChartLines = this.filterResultBySelection();    
   }
 
   haveNoData() {
@@ -213,45 +187,6 @@ export class DashboardComponent implements OnInit {
     });
   }
 
-  drawBucket(buckets: Array<Bucket>) {
-    this.clearCanvas0();
-    let lineDataSets = [];
-    let labelSets = [];
-    const lineColor = this.lineColor;
-    buckets.forEach((item, index) => {
-      const labels = item.docs.sort((a, b) => {
-        return a.timeCurrent.localeCompare(b.timeCurrent);
-      }).map(value => value.timeCurrent);
-      labelSets.push(labels);
-
-      // push read line
-      const lineRead = item.docs.map(value => {
-        return {
-          x: value.xTime,
-          y: value.rps
-        };
-      });
-
-      lineDataSets.push({
-        label: item.name,
-        fill: false,
-        borderColor: lineColor[index],
-        lineTension: 0,
-        data: lineRead,
-      });
-    });
-
-    const ctx = this.canvas0.nativeElement.getContext('2d');
-    return new Chart(ctx, {
-      type: 'line',
-      data: {
-        labels: labelSets[0],
-        datasets: lineDataSets,
-      },
-      options: this.defaultOpts
-    });
-  }
-
   downloadCSV() {
     let lineArray = [];
     this.dataArray.forEach((record, index) => {
@@ -260,7 +195,6 @@ export class DashboardComponent implements OnInit {
       lineArray.push(index === 0 ? 'data:text/csv;charset=utf-8,' + line : line);
     });
     const csvContent = lineArray.join('\n');
-    console.log(csvContent);
     let encodedUri = encodeURI(csvContent);
     let link = document.createElement('a');
     link.setAttribute('href', encodedUri);
@@ -268,93 +202,7 @@ export class DashboardComponent implements OnInit {
     document.body.appendChild(link); // Required for FF
     link.click();
     document.body.removeChild(link);
-  }
-
-  drawRaw(docs: Array<Document>) {
-    this.clearCanvas0();
-    const labels = docs.sort((a, b) => {
-      return a.timeCurrent.localeCompare(b.timeCurrent);
-    }).map(value => value.timeCurrent);
-
-    const lineRead = docs.map((value, index) => {
-      return {
-        x: value.xTime,
-        y: value.rps
-      };
-    });
-    // const lineWrite = docs.map((value, index) => {
-    //   return {
-    //     x: value.xTime,
-    //     y: value.wps
-    //   };
-    // });
-
-    // const lineRatio = docs.map((value, index) => {
-    //   return {
-    //     x: value.xTime,
-    //     y: value.rwRatio
-    //   };
-    // });
-
-    const chartData: any = {
-      labels: labels,
-      datasets: [
-        // raw data
-        {
-          label: 'Avg. Reads/min',
-          fill: false,
-          lineTension: 0,
-          borderColor: '#2424c9',
-          pointBorderWidth: 1,
-          pointHoverRadius: 5,
-          pointHoverBackgroundColor: 'rgba(75,192,192,1)',
-          pointHoverBorderColor: 'rgba(220,220,220,1)',
-          pointHoverBorderWidth: 2,
-          pointRadius: 1,
-          pointHitRadius: 10,
-          data: lineRead,
-        },
-        // {
-        //   label: 'Avg. Writes/min',
-        //   fill: false,
-        //   lineTension: 0,
-        //   borderColor: '#fc0400',
-        //   pointBorderWidth: 1,
-        //   pointHoverRadius: 5,
-        //   pointHoverBackgroundColor: 'rgba(75,192,192,1)',
-        //   pointHoverBorderColor: 'rgba(220,220,220,1)',
-        //   pointHoverBorderWidth: 2,
-        //   pointRadius: 1,
-        //   pointHitRadius: 10,
-        //   data: lineWrite,
-        // },
-        // {
-        //   label: 'Reads/Write Ratio',
-        //   fill: false,
-        //   lineTension: 0,
-        //   borderColor: '#ffea00',
-        //   pointBorderWidth: 1,
-        //   pointHoverRadius: 5,
-        //   pointHoverBackgroundColor: 'rgba(75,192,192,1)',
-        //   pointHoverBorderColor: 'rgba(220,220,220,1)',
-        //   pointHoverBorderWidth: 2,
-        //   pointRadius: 1,
-        //   pointHitRadius: 10,
-        //   data: lineRatio,
-        // }
-      ]
-    };
-
-    const ctx = this.canvas0.nativeElement.getContext('2d');
-    return new Chart(ctx, {
-      type: 'line',
-      data: chartData,
-      options: this.defaultOpts
-    });
-  }
-
-  minX: number;
-  maxX: number;
+  }  
 
 
   fetchData() {
@@ -367,8 +215,6 @@ export class DashboardComponent implements OnInit {
     const tend = drp.endDate.format('YYYY-MM-DD-hh.mm.ss.SSSSSS');
     this.minX = drp.startDate.valueOf();
     this.maxX = drp.endDate.valueOf();
-    console.log(tstart);
-    console.log(tend);
 
     let tablesFarmily = [];
     for (const server of this.selectedServers) {
@@ -436,8 +282,7 @@ export class DashboardComponent implements OnInit {
       }
 
       if (this.bucketArr.length > 0) {
-        this.selectedBucket = 0;
-        // this.chart = this.drawBucket(this.bucketArr);
+        this.selectedBucket = 0;        
         this.ngxDrawBucket();
         this.bucketArr.forEach((item, idx) => {
           let sumRead = 0;
@@ -452,30 +297,13 @@ export class DashboardComponent implements OnInit {
           this.dataArray.push(tableSummary);
         });
       } else {
-        this.queryMessage = 'No data for selected timeframe.  Please select another timeframe.';
-        this.clearCanvas0();
+        this.queryMessage = 'No data for selected timeframe.  Please select another timeframe.';        
         this.dataArray = [];
       }
     }).finally(() => {
       this.loaderService.hide();
     });
-  }
-
-  clearCanvas0() {
-    if (this.chart) {
-      this.chart.destroy();
-    }
-    const ctx0 = this.canvas0.nativeElement.getContext('2d');
-    ctx0.clearRect(0, 0, this.canvas0.nativeElement.width, this.canvas0.nativeElement.height);
-  }
-
-  changeBucket($event) {
-    this.drawRaw(this.bucketArr[$event.value].docs);
-  }
-
-  onClickSeries(event) {
-    console.log(event);
-  }
+  }      
 
   formatXAsisDate(val) {
     return moment(val).format('YY-MM-DD hh:mm:ss');
@@ -483,7 +311,7 @@ export class DashboardComponent implements OnInit {
 
   toggleReadWrite(event) {
     if (event.checked === true) {
-      this.columns[5].hidden = false;
+      this.columns[6].hidden = false;
       this.ngxChartLines = [];
       // get data from bucket
       this.bucketArr.forEach((item, index) => {
@@ -501,8 +329,27 @@ export class DashboardComponent implements OnInit {
         }
       });
     } else {
-      this.columns[5].hidden = true;
+      this.columns[6].hidden = true;
       this.ngxDrawBucket();
     }
+  }
+
+  onTimelineChange(domain) {
+    const filterBegin = moment(domain[0]).format('YY-MM-DD hh:mm:ss');
+    const filterEnd = moment(domain[1]).format('YY-MM-DD hh:mm:ss');
+    this.dataArray = [];
+    this.bucketArr.forEach((item, idx) => {
+      let sumRead = 0;
+      let sumWrite = 0;
+      item.docs.filter(e => {
+        return e.xTime >= domain[0] && e.xTime <= domain[1];
+      }).forEach(element => {
+        sumRead += element.readPerMin;
+        sumWrite += element.writePerMin;
+      });
+      const splited = item.name.split('.');
+      const tableSummary = new Document(idx, splited[0], splited[1], splited[2], splited[3], sumRead, sumWrite);
+      this.dataArray.push(tableSummary);
+    });
   }
 }

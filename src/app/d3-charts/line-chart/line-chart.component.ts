@@ -212,6 +212,7 @@ export class LineChartComponent extends BaseChartComponent {
   @Input() yScaleMin: number;
   @Input() yScaleMax: number;
 
+  @Output() timelineChange: EventEmitter<any> = new EventEmitter();
   @Output() activate: EventEmitter<any> = new EventEmitter();
   @Output() deactivate: EventEmitter<any> = new EventEmitter();
 
@@ -336,8 +337,6 @@ export class LineChartComponent extends BaseChartComponent {
       domain = values;
       this.xSet = values;
     }
-    console.log('domain');
-    console.log(domain);
 
     return domain;
   }
@@ -417,6 +416,8 @@ export class LineChartComponent extends BaseChartComponent {
     this.filteredDomain = domain;
     this.xDomain = this.filteredDomain;
     this.xScale = this.getXScale(this.xDomain, this.dims.width);
+    this.timelineChange.emit(this.filteredDomain);
+    this.cd.markForCheck();
   }
 
   updateHoveredVertical(item): void {
