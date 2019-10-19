@@ -26,7 +26,7 @@ import { MoreInfoComponent } from './more-info/more-info.component';
 import { MessagerComponent } from './messager/messager.component';
 import { LoaderService } from './loader.service';
 import { LoaderComponent } from './loader/loader.component';
-import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { LineChartModule } from './d3-charts/line-chart';
 
 @NgModule({
   declarations: [
@@ -43,7 +43,7 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
     BrowserAnimationsModule,
     FormsModule,
     FlexLayoutModule,
-    NgxChartsModule,
+    LineChartModule,
     MatCheckboxModule,
     MatButtonModule,
     MatProgressBarModule,
