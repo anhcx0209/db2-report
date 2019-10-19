@@ -17,7 +17,7 @@ Dashboard for SMF127 records.
 
 ## Changelogs
 
-### 0.1 Sep, 23 2019
+### 0.0.1 Sep, 23 2019
 
 - Initial release
 - Worked on statics data from elastic search
@@ -27,3 +27,12 @@ Dashboard for SMF127 records.
     - Graph (by [chart.js](https://www.chartjs.org))
     - Table (interactive with graphs)
     - Additional filter: show rate of read/write
+
+### 1.0.0 Otc, 20 2019
+
+- Use d3.js to render graph
+- Graph timeline
+    - user can select additional smaller timerange
+    - data in graph will be zoom in/out depended on selected timerange
+    - data in table will calculated by selected smaller timerange
+- Worked with realtime data from EKL
