@@ -14,6 +14,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatTableModule } from '@angular/material/table';
+import { MatMenuModule } from '@angular/material/menu';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -26,6 +27,7 @@ import { MoreInfoComponent } from './more-info/more-info.component';
 import { MessagerComponent } from './messager/messager.component';
 import { LoaderService } from './loader.service';
 import { LoaderComponent } from './loader/loader.component';
+import { MatIconModule } from '@angular/material/icon';
 import { LineChartModule } from './d3-charts/line-chart';
 
 @NgModule({
@@ -45,6 +47,7 @@ import { LineChartModule } from './d3-charts/line-chart';
     FlexLayoutModule,
     LineChartModule,
     MatCheckboxModule,
+    MatMenuModule,
     MatButtonModule,
     MatProgressBarModule,
     MatFormFieldModule,
@@ -52,6 +55,7 @@ import { LineChartModule } from './d3-charts/line-chart';
     MatExpansionModule,
     MatTabsModule,
     MatCardModule,
+    MatIconModule,
     MatSelectModule,
     MatRadioModule,
     MatTableModule,
