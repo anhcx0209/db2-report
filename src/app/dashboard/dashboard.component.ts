@@ -93,7 +93,7 @@ export class DashboardComponent implements OnInit {
   minX: number;
   maxX: number;
 
-  @ViewChild(MatTable, { static: true }) table0: MatTable<any>;  
+  @ViewChild(MatTable, { static: true }) table0: MatTable<any>;
 
   constructor(private imbService: IbmService, private loaderService: LoaderService) { }
 
@@ -115,11 +115,11 @@ export class DashboardComponent implements OnInit {
         }
       });
     });
-  }  
+  }
 
   masterToggle() {
     this.bucketArr.forEach((item, idx) => {
-      this.selection[idx] = !this.selection[idx];      
+      this.selection[idx] = !this.selection[idx];
     });
   }
 
@@ -159,7 +159,7 @@ export class DashboardComponent implements OnInit {
 
   chartToggle(param) {
     this.selection[param.tableId] = !this.selection[param.tableId];
-    this.ngxChartLines = this.filterResultBySelection();    
+    this.ngxChartLines = this.filterResultBySelection();
   }
 
   haveNoData() {
@@ -170,7 +170,6 @@ export class DashboardComponent implements OnInit {
     // this.lineChart0.legend = false;
     // clear data
     this.ngxChartLines = [];
-
     // get data from bucket
     this.bucketArr.forEach((item, index) => {
       let line = item.docs.map(value => {
@@ -202,7 +201,7 @@ export class DashboardComponent implements OnInit {
     document.body.appendChild(link); // Required for FF
     link.click();
     document.body.removeChild(link);
-  }  
+  }
 
 
   fetchData() {
@@ -278,11 +277,14 @@ export class DashboardComponent implements OnInit {
             docs: [tableLog]
           };
           this.bucketArr.push(bck);
+          if (this.bucketArr.length > 4) break;
         }
       }
 
+
+
       if (this.bucketArr.length > 0) {
-        this.selectedBucket = 0;        
+        this.selectedBucket = 0;
         this.ngxDrawBucket();
         this.bucketArr.forEach((item, idx) => {
           let sumRead = 0;
@@ -297,13 +299,13 @@ export class DashboardComponent implements OnInit {
           this.dataArray.push(tableSummary);
         });
       } else {
-        this.queryMessage = 'No data for selected timeframe.  Please select another timeframe.';        
+        this.queryMessage = 'No data for selected timeframe.  Please select another timeframe.';
         this.dataArray = [];
       }
     }).finally(() => {
       this.loaderService.hide();
     });
-  }      
+  }
 
   formatXAsisDate(val) {
     return moment(val).format('YY-MM-DD hh:mm:ss');

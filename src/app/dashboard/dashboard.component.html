@@ -57,10 +57,10 @@
                                 <div class="ngx-chart-wrapper">
                                     <ngx-charts-line-chart #lineChart0 [results]="ngxChartLines" [legend]="true"
                                         [animations]="false" [xAxis]="true" [yAxis]="true" [xScaleMin]="minX"
-                                        [xScaleMax]="maxX" [timeline]="true" [xAxisTickFormatting]="formatXAsisDate"
-                                        legendTitle="Top tables" [rotateXAxisTicks]="false" [trimXAxisTicks]="false"
+                                        [xScaleMax]="maxX" [timeline]="true" [maxXAxisTickLength]="18" [xAxisTickFormatting]="formatXAsisDate"
+                                        legendTitle="Top tables" [rotateXAxisTicks]="true" [trimXAxisTicks]="true"
                                         legendPosition="below" [showYAxisLabel]="true" [yAxisLabel]="yLabel"
-                                        [rotateXAxisTicks]="true" (timelineChange)="onTimelineChange($event)">
+                                        (timelineChange)="onTimelineChange($event)">
                                     </ngx-charts-line-chart>
                                 </div>
                             </div>

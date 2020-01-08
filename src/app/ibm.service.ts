@@ -11,11 +11,11 @@ const DB2SERVERNAMES = [
 ];
 
 const DB2SSIDS = [
-  'DBBG'
+  'DBBG', 'DBBG1', 'DBBG2', 'DBBG3'
 ];
 
 const DB2SCHEMAS = [
-  'DPTEST', 'CLTTBDB'
+  'DPTEST', 'CLTTBDB', 'DPTEST1', 'DPTEST2', 'DPTEST3', 'DPTEST4'
 ];
 
 @Injectable({
@@ -23,7 +23,6 @@ const DB2SCHEMAS = [
 })
 export class IbmService {
 
-  baseUrl = 'http://35.243.224.36:9200/ibm2/_search';
 
   private client: Client;
 
@@ -35,7 +34,7 @@ export class IbmService {
 
   private _connect() {
     this.client = new elasticsearch.Client({
-      host: 'http://35.243.224.36:9200',
+      host: 'http://35.229.81.112:9200',
       log: 'trace'
     });
   }
@@ -54,7 +53,7 @@ export class IbmService {
 
   doSearch(searchQuery): any {
     const searchParams = {
-      index: 'ibm2',
+      index: 'ibm3',
       _source: [
         'DB2ServerName',
         'DB2Version',
