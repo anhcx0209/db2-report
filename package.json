@@ -31,7 +31,7 @@
     "elasticsearch-browser": "^15.1.1",
     "hammerjs": "^2.0.8",
     "jquery": "^3.4.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "popper.js": "^1.15.0",
     "rxjs": "~6.4.0",
